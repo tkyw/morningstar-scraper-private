@@ -250,3 +250,7 @@ AHAM Wld Ser Lng Trm Glb Gr MYR
 AHAM Wld Ser Lng Trm Glb Gr MYR H
 AHAM Wld Ser Lng Trm Glb Gr SGD H
 AHAM Wld Ser Lng Trm Glb Gr USD
+AHAM Single Bond Series 2 MYR Cl
+AHAM Single Bond Series 4 MYR Cl
+AHAM Single Bond Series 4 MYR Cl
+AHAM Single Bond Series 2 MYR Cl

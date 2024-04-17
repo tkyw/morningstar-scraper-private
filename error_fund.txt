@@ -1397,3 +1397,5 @@ United Bharat Fixed Income SGD H Acc
 United Bharat Fixed Income USD Acc
 United Bharat Fixed Income SGD H Inc
 United Bharat Fixed Income USD Inc
+A-DALI Equity
+A-DALI Equity
