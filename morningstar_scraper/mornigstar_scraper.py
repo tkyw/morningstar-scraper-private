@@ -151,6 +151,53 @@ def get_fund_data(res):
 def data_cleaning(df):
     return df.astype(float)
 
+def get_res_data(response):
+    global results
+    try:
+        url = response.url
+        if "snChartData?" in url:
+            results.append(response.url)
+    except:
+        pass
+
+
+def trigger_page(page, i):
+    if i == True:
+        page.get_by_role("button", name="I’m an individual investor").click()
+    page.locator("sal-components-chart-iframe div").nth(3).click()
+    page.get_by_role("button", name="MAX").click()
+
+
+def get_api_link(playwright: Playwright, ticker):
+    global results
+    print(ticker)
+    chromium = playwright.chromium
+    browser = chromium.launch(headless=False)
+    page = browser.new_page()
+    # Subscribe to "request" and "response" events.
+    results = []
+    page.on("response", lambda response: get_res_data(response))
+    page.goto(f"https://my.morningstar.com/my/report/fund/performance.aspx?t={ticker}&fundservcode=&lang=en-MY")
+    page_loaded = False
+    pop_up = True
+    while page_loaded == False:
+        try:
+            trigger_page(page, pop_up)
+            page_loaded = True
+        except Exception as e:
+            print(e)
+            print("Failed to trigger page before timeout")
+            print("Reloading...")
+            page.reload()
+            pop_up = False
+    return results[0]
+    browser.close()
+
+def automate_api(ticker):
+    with sync_playwright() as p:
+        api_link = get_api_link(p, ticker)
+        return api_link
+
 def get_nav(link):
     headers = {
         'user-agent': user_agent
@@ -172,14 +219,13 @@ def export_error_fund(fund_name):
     with open("error_fund.txt", "a") as wf:
         wf.write(fund_name + "\n")
 
-def create_link(ticker, start_date, end_date):
-    link = f"https://quotespeed.morningstar.com/ra/snChartData?instid=MSSAL&sdkver=2.56.0&productType=quikr&cdt=2&country=MYS&ed=20240415&f=d&fields=HS793&hasPreviousClose=true&ipoDates=20130108&pids=0P0001ICDR&sd=19000101&tickers=F00001443C&qs_wsid=87954B66C7D6C96FB0CD7CF77A4BA66A&_=1713285753344"
+def create_link(ticker, start_date, end_date, api_link):
     patterns = [r"(?<=ed=)\d+", r"(?<=sd=)\d+", "(?<=tickers=)\w+"]
     for pattern, item in zip(patterns, [end_date, start_date, ticker]):
-        link = re.sub(pattern, item, link)
-    return link
+        api_link = re.sub(pattern, item, api_link)
+    return api_link
 
-def compute_fund_info(scraped_fund , fund, start_date, end_date):
+def compute_fund_info(scraped_fund , fund, start_date, end_date, api_link):
     global df
     try:
         print("Now Requesting to {}".format(fund['SecId']))
@@ -187,7 +233,7 @@ def compute_fund_info(scraped_fund , fund, start_date, end_date):
             print(f"{fund['Name']} has been scraped")
             print("Skipping...")
             return
-        fund_res = get_nav(create_link(fund['SecId'], start_date, end_date))
+        fund_res = get_nav(create_link(fund['SecId'], start_date, end_date, api_link))
         temp_df = data_cleaning(get_fund_data(fund_res))
         # display(temp_df)
         temp_df.to_csv("testing.csv")
@@ -201,17 +247,26 @@ def compute_fund_info(scraped_fund , fund, start_date, end_date):
         combined_df = combined_df.T; combined_df.columns = [fund['Name']]
         df = pd.concat([df, combined_df], axis=1)
         pprint.pprint(df)
-        return
+        return False
     except Exception as e:
         export_error_fund(fund["Name"])
         print("Exception Trigger")
         print(e)
-        return
+        return True
+
+def test_api_link_state(sample_fund):
+    if not os.path.exists(api_link_file):
+        with open(api_link_file, 'w') as wf:
+            pass
+    with open(api_link_file, 'r') as rf:
+        api_link = rf.readlines()
+    state = compute_fund_info(scraped_fund, sample_fund, start_date, end_date, api_link[0]) if api_link != [] else "No API Link Found"
+    return state, api_link[0]
 
 def main(scraped_fund: pd.DataFrame, file: str, start_date, end_date):
     global df
     try:
-        for i in range(page, max_page + 1):
+        for i in range(page, max_page + 1)[:]:
             res = get_res_from_screener(i, page_size)
             print(f"Request to page {i} was successfull")
             info = res['rows']
@@ -222,10 +277,25 @@ def main(scraped_fund: pd.DataFrame, file: str, start_date, end_date):
                 info_df = info_df.loc[:, ["SecId", "Name", "PriceCurrency", "CategoryName"]]
                 info_df.loc[:, "StarRatingM255"] = np.nan
 
+            sample_fund = info_df.iloc[0]
+            api_expired, api_link = test_api_link_state(sample_fund)
+            if api_expired == True or api_expired == "No API Link Found": # automate scraping of API link
+                error_text = "API Link Expired" if api_expired == True else api_expired
+                print(error_text)
+                print("Getting new API Link...")
+                try:
+                    api_link = automate_api(sample_fund["SecId"])
+                except:
+                    print("Encounter an error in getting the api link")
+                finally:
+                    print("Successfully get new API Link!")
+                with open(api_link_file, "w") as wf:
+                    wf.write(api_link)
+
             with concurrent.futures.ThreadPoolExecutor(4) as executor:
                 for idx in range(info_df.shape[0])[:]:
                     fund = info_df.iloc[idx,:]
-                    results = executor.submit(compute_fund_info, scraped_fund, fund, start_date, end_date)
+                    results = executor.submit(compute_fund_info, scraped_fund, fund, start_date, end_date, api_link)
 
         export_to_csv(scraped_fund, df, file)
     except KeyboardInterrupt:
@@ -242,7 +312,8 @@ if __name__ == "__main__":
 
     start_date = "19000101"
     end_date = "20240329"
-    file = "Malaysia Fund Universe.csv"
+    file = "Malaysia Fund Universe (Automated).csv"
+    api_link_file ="api_link.txt"
     if os.path.exists(file):
         scraped_fund = pd.read_csv(file, index_col=0)
     else:

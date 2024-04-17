@@ -1,0 +1,252 @@
+A-DALI Equity
+A-DALI Equity
+A-DALI Equity
+A-Dana Balanced
+A-Dana Equity
+A-Dana Income
+Aberdeen Std Islmc World Eq A
+Advantage Glbl Eq Volatility Focus AUD H
+Advantage Asia Pacific ex Japan Div
+Advantage Glb High Income Bond RM-Hdg
+Advantage Glbl Eq Volatility Focus MYR H
+Advantage Glb High Income Bond USD
+AHAM Absolute Return II-GBP
+AHAM Absolute Return II-AUD
+AHAM Absolute Return II-MYR
+AHAM Absolute Return II-USD
+AHAM Absolute Return III
+AHAM Absolute Return II-SGD
+AHAM Aiiman Bal
+AHAM Aiiman Enhncd i-Profit A Inc
+AHAM Aiiman Asia(Ex Jpn)Gr MYR
+AHAM Aiiman Enhncd i-Profit B Acc
+AHAM Aiiman ESG Income Plus
+AHAM Aiiman Glb Mlt Thmtc AUD Hdg
+AHAM Aiiman Glb Mlt Thmtc MYR Hdg
+AHAM Aiiman Glb Mlt Thmtc SGD Hdg
+AHAM Aiiman Glb Mlt Thmtc USD
+AHAM Aiiman Glbl Sukuk MYR Hdg
+AHAM Aiiman Glbl Sukuk USD
+AHAM Aiiman Glbl Sukuk MYR
+AHAM Aiiman Glb Thm Mxd Ast MYRH
+AHAM Aiiman Glb Thm Mxd Ast SGDH
+AHAM Aiiman Glb Thm Mxd Ast AUDH
+AHAM Aiiman Gb Thm Mx Ast USD Ins
+AHAM Aiiman Glb Thmtc Mxd Ast USD
+AHAM Aiiman Growth
+AHAM Aiiman Income MYR Inc
+AHAM Aiiman Quantum
+AHAM Aiiman Money Market
+AHAM Aiiman Select Income
+AHAM Bond
+AHAM ASEAN Flexi
+AHAM EduGrowth & Income Fd
+AHAM Equity
+AHAM Enhanced Deposit Fund
+AHAM ESG SGD Bond MYR
+AHAM ESG SGD Bond SGD
+AHAM Flexi 6
+AHAM Flexi Fund 7 SGD
+AHAM Flexi Fund 7 MYR
+AHAM Flexi Fund 7 USD
+AHAM Flexi 8 MYR
+AHAM Flexi 8 SGD
+AHAM Flexi 8 USD
+AHAM Flexi III MYR
+AHAM Growth
+AHAM Hard Ccis Fixed Inc USD
+AHAM Flexi III USD
+AHAM Income Extra
+AHAM Income 6
+AHAM Income Fund 7 MYR Cl
+AHAM INR Flexi
+AHAM Multi-Asset Fund 2 MYR
+AHAM Malaysia Government Bond MYR
+AHAM Multi-Asset Fund 2 SGD
+AHAM Multi-Asset Fund 2 USD
+AHAM Multi-Asset 3 USD
+AHAM Multi-Asset Fund 5
+AHAM Multi-Asset 3 MYR
+AHAM Perwira
+AHAM Principled Growth
+AHAM New China Tracker
+AHAM RMB Bond MYR
+AHAM RMB Bond RMB
+AHAM Select Asia (ex Japan) Opp
+AHAM Select Asia (ex Japan) Opp AUD
+AHAM Select Asia (ex Japan) Opp GBP
+AHAM Select Asia (ex Japan) Opp SGD
+AHAM Select Asia (ex Japan) Opp USD
+AHAM Select Asia (ex Jpn) Qtm Fd
+AHAM Select Asia (ex Jpn) Qtm AUD
+AHAM Select Asia (ex Jpn) Qtm GBP
+AHAM Select Asia (ex Jpn) Qtm SGD
+AHAM Select Asia (ex Jpn) Qtm USD
+AHAM Select ASPC ex Jpn Bal
+AHAM Select ASPC ex Jpn Bal AUD H
+AHAM Select ASPC ex Jpn Bal USD H
+AHAM Select Asia Pacific (ex Jpn) Div
+AHAM Select ASPC ex Jpn Bal RMB H
+AHAM Select ASPC ex Jpn Bal EUR H
+AHAM Select Asia Pacific (ex Jpn) DivAUD
+AHAM Select Asia Pacific (ex Jpn) DivGBP
+AHAM Select Asia Pacific (ex Jpn) DivRMB
+AHAM Select Asia Pacific (ex Jpn) DivEUR
+AHAM Select Asia Pacific (ex Jpn) DivSGD
+AHAM Select Asia Pacific (ex Jpn) DivUSD
+AHAM Sel AsaPac exJpn REITs Fd
+AHAM Select AUD Income - AUD
+AHAM Select AUD Income - MYR
+AHAM Select Bal
+AHAM Select Bond (RM)
+AHAM Select Bond (USD hedged)
+AHAM Select Cash
+AHAM Select Income
+AHAM Select Opportunity Fund
+AHAM Select Dividend Fund
+AHAM Select SGD Income - MYR
+AHAM Select SGD Income - SGD
+AHAM Shariah Gold Tracker MYR
+AHAM Single Bond Series 2 MYR Cl
+AHAM Single Bond Series 1 MYR Cl
+AHAM Single Bond Series 4 MYR Cl
+AHAM Single Bond Series 3 MYR Cl
+AHAM Single Bond Series 5 MYR Cl
+AHAM Strategic Opportunity 4
+AHAM Smart Invest Portfolio - Growth
+AHAM Smart Invest Port - Inc A
+AHAM Tactical
+AHAM USD Cash USD
+AHAM Total Return USD
+AHAM TWD Flexi
+AHAM Versa Portfolio Growth
+AHAM WHOLESALE EQUITY 2
+AHAM Wholesale I
+AHAM Versa Portfolio Moderate
+AHAM Wholesale Income
+AHAM Wld Sers America Equity AUDH
+AHAM Wld Sers America Equity MYR
+AHAM Wld Sers America Equity MYRH
+AHAM Wld Sers America Equity SGDH
+AHAM Wld Sers America Equity USD
+AHAM Wld Sers Asian HY AUD Hdg
+AHAM Wld Sers Asian HY MYR Hdg
+AHAM Wld Sers Asian HY MYR
+AHAM Wld Sers Asian HY SGD Hdg
+AHAM Wld Sers Asian HY USD
+AHAM Wld Ser China A Opp AUD H
+AHAM Wld Ser China A Opp MYR
+AHAM Wld Ser China A Opp SGD H
+AHAM Wld Ser China A Opp USD
+AHAM Wld Ser China A Opp MYR H
+AHAM Wld Ser CHN Allc Opp AUD Hdg
+AHAM Wld Ser CHN Allc Opp MYR Hdg
+AHAM Wld Ser CHN Allc Opp MYR
+AHAM Wld Ser CHN Allc Opp SGD Hdg
+AHAM Wld Ser CHN Allc Opp USD
+AHAM Wld Ser China Growth
+AHAM Wld Ser China Growth USD
+AHAM Wld Ser China Growth MYR H
+AHAM Wld Ser Div Val AUD
+AHAM Wld Ser Div Val MYR
+AHAM Wld Ser Div Val SGD
+AHAM Wld Ser Div Val USD
+AHAM Wld Ser EM Shrt Dur AUD Hdg
+AHAM Wld Ser EM Shrt Dur MYR
+AHAM Wld Ser EM Shrt Dur MYR Hdg
+AHAM Wld Ser EM Shrt Dur RMB Hdg
+AHAM Wld Ser EM Shrt Dur SGD Hdg
+AHAM Wld Ser EM Shrt Dur USD
+AHAM Wld Ser Eurp Uncons AUD H
+AHAM Wld Ser Eurp Uncons EUR
+AHAM Wld Ser Eurp Uncons MYR H
+AHAM Wld Ser Eurp Uncons USD H
+AHAM World Series Global Bal AUD H
+AHAM Wld Ser Eurp Uncons SGD H
+AHAM World Series Global Bal EUR H
+AHAM World Series Global Bal MYR H
+AHAM World Series Global Bal SGD H
+AHAM World Series Global Bal GBP H
+AHAM World Series Global Bal USD
+AHAM Wld Ser Global Brands AUD H
+AHAM Wld Ser Global Brands MYR H
+AHAM Wld Ser Global Brands USD
+AHAM Wld Ser Global Brands SGD H
+AHAM World Ser Glbl Clmt Chg AUDH
+AHAM World Ser Glbl Clmt Chg MYR
+AHAM World Ser Glbl Clmt Chg MYRH
+AHAM World Ser Glbl Clmt Chg SGDH
+AHAM World Ser Glbl Clmt Chg USD
+AHAM World Series - Global Corp Bd MYR
+AHAM World Series - Global Corp Bd MYR H
+AHAM World Series - Global Corp Bd SGD H
+AHAM World Series - Global Corp Bd USD
+AHAM Wld Ser Glb Dsrpt InnovtAUDH
+AHAM Wld Ser Glb Dsrpt InnovtMYRH
+AHAM Wld Ser Glb Dsrpt InnovtSGDH
+AHAM Wld Ser Glb Dsrpt Innovt USD
+AHAM Wld Ser Glb Dsrpt Innovt MYR
+AHAM World Ser Glbl Div Gr AUDH
+AHAM World Ser Glbl Div Grr MYR
+AHAM World Ser Glbl Div Gr MYRH
+AHAM World Ser Glbl Div Gr SGDH
+AHAM Wld Ser Glb Equity MYR
+AHAM World Ser Glbl Div Gr USD
+AHAM Wld Ser Glb Equity SGD
+AHAM Wld Ser Glb Equity USD
+AHAM Wld Ser Glb Hlthsci AUD Hdg
+AHAM Wld Ser Glb Hlthsci MYR
+AHAM Wld Ser Glb Hlthsci MYR Hdg
+AHAM Wld Ser Glb Hlthsci SGD Hdg
+AHAM Wld Ser Glb Hlthsci USD
+AHAM Wld Ser Glb High Inc AUD Hdg
+AHAM Wld Ser Glb High Inc GBP Hdg
+AHAM Wld Ser Glb High Inc MYR Hdg
+AHAM Wld Ser Glb High Inc MYR
+AHAM Wld Ser Glb High Inc SGD Hdg
+AHAM Wld Ser Glb Inc AUD Hdg
+AHAM Wld Ser Glb High Inc USD
+AHAM Wld Ser Glb Inc EUR Hdg
+AHAM Wld Ser Glb Inc GBP Hdg
+AHAM Wld Ser Glb Inc MYR Hdg
+AHAM Wld Ser Glb Inc SGD Hdg
+AHAM Wld Ser Glb Inc USD
+AHAM Wld Ser Glb Inc MYR
+AHAM Wld Ser Glb Infras Inc AUDH
+AHAM Wld Ser Glb Infras Inc MYRH
+AHAM Wld Ser Glb Infras Inc MYR
+AHAM Wld Ser Glb Infras Inc SGDH
+AHAM Wld Ser Glb Infras Inc USD
+AHAM Wld Ser Glbl Qtm AUD
+AHAM Wld Ser Glbl Qtm GBP
+AHAM Wld Ser Glbl Qtm MYR
+AHAM Wld Ser Glbl Qtm MYR H
+AHAM Wld Ser Glbl Qtm SGD
+AHAM Wld Sers Global Sust AUD Hdg
+AHAM Wld Ser Glbl Qtm USD
+AHAM Wld Sers Global Sust MYR Hdg
+AHAM Wld Sers Global Sust MYR
+AHAM Wld Sers Global Sust SGD Hdg
+AHAM Wld Sers Global Sust USD
+AHAM Wld Ser Glb Trgt Ret AUD-H
+AHAM Wld Ser Glb Trgt Ret EUR-H
+AHAM Wld Ser Glb Trgt Ret GBP-H
+AHAM Wld Ser Glb Trgt Ret HKD-H
+AHAM Wld Ser Glb Trgt Ret MYR-H
+AHAM Wld Ser Glb Trgt Ret RMB-H
+AHAM Wld Ser Glb Trgt Ret SGD-H
+AHAM World Series Inc & Gr AUD H
+AHAM World Series Inc & Gr MYR H
+AHAM Wld Ser Glb Trgt Ret USD
+AHAM World Series Inc & Gr SGD H
+AHAM World Series Income MYR
+AHAM World Series Income MYR H
+AHAM World Series Inc & Gr USD
+AHAM Wld Ser Jpn Growth MYR
+AHAM World Series Income USD
+AHAM Wld Ser Jpn Growth MYR H
+AHAM Wld Ser Lng Trm Glb Gr AUD H
+AHAM Wld Ser Lng Trm Glb Gr MYR
+AHAM Wld Ser Lng Trm Glb Gr MYR H
+AHAM Wld Ser Lng Trm Glb Gr SGD H
+AHAM Wld Ser Lng Trm Glb Gr USD
