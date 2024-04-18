@@ -1,1 +1,0 @@
-https://quotespeed.morningstar.com/ra/snChartData?instid=MSSAL&sdkver=2.56.0&productType=quikr&cdt=2&country=MYS&ed=20240415&f=d&fields=HS793&hasPreviousClose=true&ipoDates=20130108&pids=0P0001ICDR&sd=20240315&tickers=F00001443C&qs_wsid=51BF2C32B445823952420A44E6CF552B&_=1713324836268
