@@ -18,10 +18,6 @@ def combined_data(exposures, fund):
         if (name := fund["Name"]) in scraped_fund.columns or (name := fund["Name"]) in df.columns:
             print("Skipping " + name)
             return
-        # sector_exposures = exposures.sector_exposure_scraper().reset_index(drop=True).T
-        # sector_exposures.columns = [fund["Name"]]
-        # countries_exposures = exposures.countries_exposure_scraper().reset_index(drop=True).T
-        # countries_exposures.columns = [fund["Name"]]
         top_holdings = exposures.top_holdings_scraper(fund["Name"])
         if top_holdings is not None:
             top_holdings = top_holdings.reset_index(drop=True).T.reset_index()
@@ -30,17 +26,7 @@ def combined_data(exposures, fund):
             top_holdings.rename(str.strip, axis=0, inplace=True)
         else:
             return
-        # liquidity = exposures.liquidity_exposure_scraper().reset_index(drop=True).T
-        # liquidity.columns = [fund["Name"]]
-        # combined_df = pd.concat([sector_exposures, countries_exposures, top_holdings, liquidity], axis=1).T
-        # combined_df.columns = [fund["Name"]]
-        #
-        # print("this is combined")
-        # display(combined_df)
-        # print("this is df")
-        # display(df)
         df = df.merge(top_holdings, left_index=True, right_index=True, how="outer")
-        # df = df.merge(combined_df, left_index=True, right_index=True, how="outer").drop_duplicates()
         display(df)
     except Exception as e:
         print(e)
