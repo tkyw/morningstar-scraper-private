@@ -69,7 +69,7 @@ def scrape_funds(page, max_page, page_size, user_agent, scraped_fund, file, shee
 if __name__ == "__main__":
     user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
     page = 1
-    max_page = 1
+    max_page = 40
     page_size = 50
     file = "top_holdings.xlsx"
     sheet_name = "top_holdings"
