@@ -1,369 +1,370 @@
 
+AHAM ASEAN Flexi
+AHAM ESG SGD Bond MYR
+AHAM ESG SGD Bond SGD
 AHAM RMB Bond MYR
 AHAM RMB Bond RMB
-AHAM ASEAN Flexi
-AHAM ESG SGD Bond SGD
-AHAM ESG SGD Bond MYR
-AHAM Select AUD Income - MYR
 AHAM Select AUD Income - AUD
+AHAM Select AUD Income - MYR
 AHAM Select SGD Income - MYR
-AHAM Single Bond Series 1 MYR Cl
-AHAM Single Bond Series 2 MYR Cl
-AHAM Shariah Gold Tracker MYR
 AHAM Select SGD Income - SGD
+AHAM Single Bond Series 1 MYR Cl
+AHAM Shariah Gold Tracker MYR
+AHAM Single Bond Series 2 MYR Cl
+AHAM Single Bond Series 3 MYR Cl
 AHAM Single Bond Series 4 MYR Cl
 AHAM Single Bond Series 5 MYR Cl
 AHAM Total Return USD
 AHAM Strategic Opportunity 4
-AHAM Single Bond Series 3 MYR Cl
-AHAM Wld Sers America Equity MYRH
 AHAM Wld Sers America Equity AUDH
-AHAM Wld Sers America Equity SGDH
 AHAM Wld Sers America Equity MYR
+AHAM Wld Sers America Equity MYRH
+AHAM Wld Sers America Equity SGDH
 AHAM Wld Sers America Equity USD
 AHAM Wld Ser Eurp Uncons EUR
 AHAM Wld Ser Eurp Uncons MYR H
 AHAM Wld Ser Eurp Uncons AUD H
+AHAM Wld Ser Eurp Uncons SGD H
+AHAM Wld Ser Eurp Uncons USD H
 AHAM World Ser Glbl Clmt Chg AUDH
 AHAM World Ser Glbl Clmt Chg MYRH
-AHAM Wld Ser Eurp Uncons USD H
-AHAM World Ser Glbl Clmt Chg MYR
-AHAM Wld Ser Eurp Uncons SGD H
-AHAM Wld Ser Glb Hlthsci MYR
-AHAM World Ser Glbl Clmt Chg USD
-AHAM Wld Ser Glb Hlthsci AUD Hdg
-AHAM Wld Ser Glb Hlthsci SGD Hdg
 AHAM World Ser Glbl Clmt Chg SGDH
+AHAM World Ser Glbl Clmt Chg USD
+AHAM World Ser Glbl Clmt Chg MYR
+AHAM Wld Ser Glb Hlthsci AUD Hdg
+AHAM Wld Ser Glb Hlthsci MYR
 AHAM Wld Ser Glb Hlthsci MYR Hdg
+AHAM Wld Ser Glb Hlthsci SGD Hdg
 AHAM Wld Ser Glb Hlthsci USD
-AHAM Wld Ser Glb Infras Inc MYRH
-AHAM Wld Ser Glb Infras Inc SGDH
 AHAM Wld Ser Glb Infras Inc AUDH
+AHAM Wld Ser Glb Infras Inc MYRH
 AHAM Wld Ser Glb Infras Inc MYR
-AHAM Wld Ser Jpn Growth MYR H
-AHAM Wld Ser Jpn Growth MYR
-AHAM Wld Sers Next Gen Tech AUD H
+AHAM Wld Ser Glb Infras Inc SGDH
 AHAM Wld Ser Glb Infras Inc USD
-AHAM Wld Ser US ShrtDurHiInc AUDH
-AHAM Wld Sers Next Gen Tech USD
-AHAM Wld Sers Next Gen Tech MYR
-AHAM Wld Ser US ShrtDurHiInc EURH
+AHAM Wld Ser Jpn Growth MYR
+AHAM Wld Ser Jpn Growth MYR H
+AHAM Wld Sers Next Gen Tech AUD H
 AHAM Wld Sers Next Gen Tech SGD H
 AHAM Wld Sers Next Gen Tech MYR H
+AHAM Wld Sers Next Gen Tech MYR
+AHAM Wld Sers Next Gen Tech USD
+AHAM Wld Ser US ShrtDurHiInc AUDH
+AHAM Wld Ser US ShrtDurHiInc EURH
+AHAM Wld Ser US ShrtDurHiInc GBPH
+AHAM Wld Ser US ShrtDurHiInc MYR
 AHAM Wld Ser US ShrtDurHiInc MYRH
 AHAM Wld Ser US ShrtDurHiInc USD
-AHAM Wld Ser US ShrtDurHiInc MYR
-AHAM Wld Ser US ShrtDurHiInc GBPH
 AHAM Wld Ser US ShrtDurHiInc SGDH
-AHAM World Series - World TechnologyMYRH
 AHAM World Series - World Technology MYR
+AHAM World Series - World TechnologyMYRH
 AHAM World Series - World Technology USD
 AmIncome USD
-AmSingle Bond Series 1 SGD
 AmSingle Bond Series 1 RM
 AmSingle Bond Series 1 RM Hedged
+AmSingle Bond Series 1 SGD
 AmSingle Bond Series 1 USD
 BOSWM Core European Equities MYR BOS
-BOSWM Core US Equities MYR BOS
-BOSWM Core European Equities MYRH BOS
 BOSWM Core European Equities MYR I BOS
-BOSWM Core US Equities MYRH BOS
+BOSWM Core European Equities MYRH BOS
+BOSWM Core US Equities MYR BOS
 BOSWM Core US Equities MYR I BOS
-Europe Eq Growth
+BOSWM Core US Equities MYRH BOS
 Eastspring Invest Japan Dyn MY RM H
-Franklin US Opportunities USD
-Franklin US Opportunities MYR
+Europe Eq Growth
 European Equity Alpha
+Franklin US Opportunities MYR
 Glb Agribusiness
-Hong Kong Tech Index HKD
-Halogen Shariah Bitcoin MYR Acc
-Hong Kong Tech Index MYR Hdg
-Hong Kong Tech Index MYR
-Hong Leong Consumer Product Sector
+Franklin US Opportunities USD
 Halogen Shariah Ethereum MYR Acc
-InterPac Dana Saadi
+Halogen Shariah Bitcoin MYR Acc
+Hong Kong Tech Index HKD
+Hong Kong Tech Index MYR
+Hong Kong Tech Index MYR Hdg
+Hong Leong Consumer Product Sector
 InterPac Dana Abadi
-Kenanga AUD Alternative Income 3 MYR
+InterPac Dana Saadi
 Kenanga AUD Alternative Income 3 AUD
-Kenanga Global Growth Fund
+Kenanga AUD Alternative Income 3 MYR
 Kenanga Global Multi Asset MYR
 Kenanga Global Multi Asset USD
-Kenanga-ICBC China Focus Income USD
+Kenanga Global Growth Fund
 Kenanga i-Enhanced Cash
 Kenanga-ICBC China Focus Income RMB
+Kenanga-ICBC China Focus Income USD
 Kenanga Sukuk Wholesale Ser 1
 Kenanga Sustainability Series Frntr MYR
+Kenanga Sustainability Series Frntr USD
 Kenanga US Dollar
-MAMG Global Environment AUD Hedged
 MAMG Global Environment MYR Hedged
 MAMG Global Environment MYR
-Kenanga Sustainability Series Frntr USD
+MAMG Global Environment AUD Hedged
 MAMG Global Environment SGD Hedged
-MAMG Gold MYR
 MAMG Global Environment USD
+MAMG Gold MYR
 MAMG Gold MYR Hdg
-MAMG Green Tigers MYR Hdg
 MAMG Gold USD
+MAMG Green Tigers AUD Hdg
+MAMG Green Tigers MYR Hdg
 MAMG Green Tigers MYR
 MAMG Green Tigers SGD Hdg
-MAMG Green Tigers AUD Hdg
 MAMG Green Tigers USD
-MAMG Systematic AsiaPac Eq Ab R AUD H
-MAMG Liquid Alternative USD
 MAMG Liquid Alternative MYR
+MAMG Liquid Alternative USD
+MAMG Systematic AsiaPac Eq Ab R AUD H
+MAMG Systematic AsiaPac Eq Ab R MYR
 MAMG Liquid Alternative MYR H
 MAMG Systematic AsiaPac Eq Ab Rt MYR H
-MAMG Systematic AsiaPac Eq Ab R USD
-MAMG Systematic AsiaPac Eq Ab R MYR
 MAMG Systematic AsiaPac Eq Ab R SGD H
-Manulife Dragon Gr MYR Hedged
-Manulife Dragon Gr USD
-Manulife Global Aqua A AUDH
-Manulife Global Aqua A SGDH
-Manulife Global Energy Transition A MYRH
+MAMG Systematic AsiaPac Eq Ab R USD
 Manulife Global Aqua A RMH
+Manulife Global Aqua A AUDH
+Manulife Dragon Gr USD
+Manulife Dragon Gr MYR Hedged
+Manulife Global Aqua A SGDH
 Manulife Global Aqua A USDH
+Manulife Global Energy Transition A MYRH
 Manulife Global Energy Transition A USDH
 Manulife Global Healthcare A MYR Hdg
-Manulife India Equity RM
 Manulife Global Resources
+Manulife India Equity RM
 Manulife India Equity RM-Hedged
-Manulife Preferred Securities Inc A USD
-Manulife Investment US Equity RM-Hedged
-Manulife Investment US Equity USD
 Manulife Investment US Equity
+Manulife Investment US Equity RM-Hedged
+Manulife Preferred Securities Inc A USD
+Manulife Investment US Equity USD
 Manulife Preferred Securities Inc A RM H
-Manulife SGD Income MYR
-Manulife SGD Income EUR Hdg
-Manulife SGD Income GBP Hdg
 Manulife SGD Income CNH Hdg
+Manulife SGD Income EUR Hdg
+Manulife SGD Income MYR
+Manulife SGD Income MYR Hdg
+Manulife SGD Income GBP Hdg
 Manulife SGD Income SGD
 Manulife Shariah India Equity A USD
-Manulife Shariah Indonesia Equity A RM
-Manulife SGD Income MYR Hdg
 Manulife Shariah India Equity A RM
+Manulife Shariah Indonesia Equity A RM
 Maybank Global Sustainable Tech MYR
-Maybank Global Sustainable Tech USD
 Maybank Global Sustainable Tech MYR H
-Nomura Global Shariah Semicondctr Eq USD
+Maybank Global Sustainable Tech USD
 Nomura Global Shariah Semicondctr Eq MYR
+Nomura Global Shariah Semicondctr Eq USD
 Opus USD Fixed Income MYR
 Opus USD Fixed Income USD
 OUD Montreux Healthcare
-PB China Australia Equity Fund
 PB Asia Consumer Sector
+PB Australia Dynamic Balanced Fund
+PB China Australia Equity Fund
+PB Global Technology & Healthcare
 PB Indonesia Balanced
 PB Infrastructure Bond Fund
-PB Australia Dynamic Balanced Fund
-PB Global Technology & Healthcare
 PB Singapore Advantage-30 Equity Fund
-PB U.S. Eagle
 PB Vietnam Global 40
-Principal Biotechnology Discovery MYRH
+PB U.S. Eagle
 Precious Metals Securities
-Principal Biotechnology Discovery USD
 Principal Biotechnology Discovery AUDH
+Principal Biotechnology Discovery USD
+Principal Biotechnology Discovery MYRH
 Principal Biotechnology Discovery SGDH
 Principal China-India-Indonesia Opports
-Principal Commodity USD
+Principal Commodity AUD-Hedged
 Principal Commodity SGD-Hedged
 Principal Commodity MYR-Hedged
-Principal Commodity AUD-Hedged
-Principal Global Pr Secs USD
-Principal Global Real Estate MYR Hdg
-Principal Global Pr Secs MYR H
-Principal Global Real Estate MYR
+Principal Commodity USD
 Principal Global Pr Secs MYR
-Principal Global Technology GBP H
-Principal Global Technology MYR H
-Principal Global Technology SGD H
+Principal Global Pr Secs MYR H
+Principal Global Pr Secs USD
+Principal Global Real Estate MYR
 Principal Global Real Estate USD
+Principal Global Real Estate MYR Hdg
+Principal Global Technology GBP H
+Principal Global Technology SGD H
+Principal Global Technology MYR H
+Principal Global Technology USD
 Principal Global Technology AUD H
 Principal Islamic Global Technology MYR
-Principal Global Technology USD
 Principal Islamic Global Technology USD
 Principal Islamic Global Technology MYRH
 Principal Islamic RetireEasy 2030 C
-Principal Islamic RetireEasy 2040 A
-Principal Islamic RetireEasy 2040 C
 Principal Islamic RetireEasy 2030 X
-Principal Islamic RetireEasy 2050 A
-Principal Islamic RetireEasy 2030 A
+Principal Islamic RetireEasy 2040 A
 Principal Islamic RetireEasy 2040 X
 Principal Islamic RetireEasy 2050 C
+Principal Islamic RetireEasy 2040 C
 Principal Islamic RetireEasy 2050 X
-Principal Islamic RetireEasy 2060 A
-Principal Islamic RetireEasy 2060 X
+Principal Islamic RetireEasy 2050 A
 Principal Islamic RetireEasy 2060 C
-Principal Next-G Connectivity SGD Hdg
-Principal Next-G Connectivity AUD Hdg
+Principal Islamic RetireEasy 2030 A
+Principal Islamic RetireEasy 2060 X
+Principal Islamic RetireEasy 2060 A
 Principal Next-G Connectivity GBP Hdg
+Principal Next-G Connectivity AUD Hdg
 Principal Next-G Connectivity MYR Hdg
-Principal RetireEasy 2030 C
-Principal Next-G Connectivity USD
+Principal Next-G Connectivity SGD Hdg
 Principal RetireEasy 2030 A
-Principal RetireEasy 2040 X
+Principal Next-G Connectivity USD
+Principal RetireEasy 2030 C
 Principal RetireEasy 2030 X
-Principal RetireEasy 2050 A
 Principal RetireEasy 2040 A
 Principal RetireEasy 2040 C
-Principal RetireEasy 2050 X
+Principal RetireEasy 2040 X
+Principal RetireEasy 2050 A
 Principal RetireEasy 2050 C
-Principal RetireEasy 2060 X
-Principal RetireEasy 2060 C
+Principal RetireEasy 2050 X
 Principal RetireEasy 2060 A
+Principal RetireEasy 2060 C
+Principal RetireEasy 2060 X
 Principal US High Conviction Equity MYRH
 Principal US High Conviction Equity SGD
 Principal US High Conviction Equity MYR
 Principal US High Conviction Equity USD
 Principal US Mortgage AUD H
-Principal US Mortgage SGD H
-Principal US Mortgage USD
 Principal US Mortgage MYR H
-Public Australia Equity
+Principal US Mortgage USD
+Principal US Mortgage SGD H
 PRULink US Equity
+Public Australia Equity
+Public e-Carbon Efficient
 Public e-Artificial Intelligence Tech
 PUBLIC e-EMAS GOLD
-Public e-Carbon Efficient
 Public e-Islamic Innovative Technology
-Public Indonesia Select
-Public Far-East Telco & Infrastructure
 Public Far-East Consumer Themes
+Public Far-East Telco & Infrastructure
 Public Healthcare-Global Equity
+Public Indonesia Select
 Public Islamic Infrastructure Bond
 Public Islamic U.S. Equity
 Public Lifestyle & Technology
-Public US Equity
-Public Worldwide Equity
-Public Vietnam-Global Equity
 Public Singapore Equity
+Public US Equity
+Public Vietnam-Global Equity
 RHB American Income B AUD Hdg
 RHB American Income B GBP Hdg
 RHB American Income B MYR
 RHB American Income B MYR Hdg
-RHB American Income B USD
 RHB American Income B SGD Hdg
-RHB China Bond MYR
-RHB China Bond MYR Hdg
+RHB American Income B USD
 RHB China Bond AUD Hdg
+RHB China Bond MYR
 RHB China Bond GBP Hdg
-RHB China Bond RMB
-RHB China High Yield AUD Hdg
 RHB China Bond SGD Hdg
-RHB China High Yield GBP Hdg
+RHB China Bond RMB
+RHB China Bond MYR Hdg
+RHB China High Yield AUD Hdg
 RHB China Bond USD Hdg
 RHB China High Yield USD
 RHB China High Yield MYR Hdg
-RHB Global Artificial Intelligence MYR H
-RHB European Select
-RHB Global Artificial Intelligence RM
+RHB China High Yield GBP Hdg
 RHB Energy
+RHB European Select
+RHB Global Artificial Intelligence MYR H
+RHB Global Artificial Intelligence RM
 RHB Global Artificial Intelligence USD
-RHB Global Macro Opportunities USD
 RHB Global Macro Opportunities RM
-RHB Gold
+RHB Global Macro Opportunities USD
 RHB Gold and General
+RHB Gold
+RHB Golden Dragon
+RHB Goldenlife 2030
 RHB i-Sustainable Future Technology RM H
 RHB i-Sustainable Future Technology USD
-RHB Goldenlife 2030
-RHB Golden Dragon
-RHB Pacific Technology GBP H
 RHB Leisure, Lifestyle & Luxury
-RHB Pacific Technology RM
-RHB Pacific Technology SGD H
-RHB Pacific Technology RMB H
 RHB Pacific Technology AUD H
+RHB Pacific Technology RM H
+RHB Pacific Technology RM
+RHB Pacific Technology GBP H
+RHB Pacific Technology RMB H
+RHB Pacific Technology SGD H
 RHB Pacific Technology USD
 RHB Resources
-RHB Pacific Technology RM H
-RHB US Growth RM
-RHB US Growth SGD
-RHB US Growth RM Hdg
-RHB US Growth AUD
-RHB US Growth USD
-RHB US Value RM
-RHB US Value MYR Hdg
 RHB US Focus Equity
+RHB US Growth AUD
+RHB US Growth RM
+RHB US Growth RM Hdg
+RHB US Growth SGD
+RHB US Growth USD
 RHB US Value AUD Hdg
-Robotech RM Hdg
+RHB US Value MYR Hdg
+RHB US Value RM
 RHB US Value SGD Hdg
-Robotech USD
 RHB US Value USD
-Sustainable Series Climate Tech RM Hedge
+Robotech RM Hdg
+Robotech USD
 Sustainable Series Climate Tech RM
+Sustainable Series Climate Tech RM Hedge
+Sustainable Series Climate Tech USD
 Sustainable Series - Health RM
+Sustainable Series - Health RM Hedged
 Sustainable Series - Nutrition RM
 Sustainable Series - Health USD
-Sustainable Series Climate Tech USD
 Sustainable Series - Nutrition USD
-Sustainable Series - Health RM Hedged
 Sustainable Series - Nutrition RM Hdg
-TA Alternative Absolute Return MYR
-TA Alternative Absolute Return AUD H
-TA Alternative Absolute Return SGD H
-TA European Equity
-TA Alternative Absolute Return USD
-TA Global Technology AUD Hdg
-TA Global Technology MYR Hdg
 TA Alternative Absolute Return MYR H
+TA Alternative Absolute Return AUD H
+TA Alternative Absolute Return MYR
+TA Alternative Absolute Return SGD H
+TA Alternative Absolute Return USD
+TA European Equity
+TA Global Technology AUD Hdg
 TA Global Technology EUR Hdg
-TA Global Technology RMB Hdg
 TA Global Technology MYR
-TA Global Technology USD
 TA Global Technology SGD Hdg
-TA Gold & Silver EUR Hdg
+TA Global Technology RMB Hdg
+TA Global Technology USD
+TA Global Technology MYR Hdg
 TA Gold & Silver AUD Hdg
-TA Gold & Silver SGD Hdg
-TA Gold & Silver MYR
-TA Gold & Silver RMB Hdg
-TA Gold & Silver USD
+TA Gold & Silver EUR Hdg
 TA Gold & Silver MYR Hdg
-TA Sustainable Water & Waste GBP Hdg
+TA Gold & Silver RMB Hdg
+TA Gold & Silver SGD Hdg
+TA Gold & Silver USD
 TA Sustainable Water & Waste AUD Hdg
-TA Sustainable Water & Waste RMB Hdg
-United Bharat Fixed Income AUD H Acc
-TA Sustainable Water & Waste MYR Hdg
+TA Sustainable Water & Waste GBP Hdg
 TA Sustainable Water & Waste MYR
+TA Sustainable Water & Waste MYR Hdg
+TA Sustainable Water & Waste SGD Hdg
+TA Sustainable Water & Waste RMB Hdg
 TA Sustainable Water & Waste USD
+TA Total Return Income B MYR Inc Hedged
+United Bharat Fixed Income AUD H Acc
 United Bharat Fixed Income GBP H Acc
 United Bharat Fixed Income AUD H Inc
-United Bharat Fixed Income MYR Acc
-TA Sustainable Water & Waste SGD Hdg
 United Bharat Fixed Income GBP H Inc
+United Bharat Fixed Income MYR Acc
+United Bharat Fixed Income MYR Inc
 United Bharat Fixed Income MYR H Acc
-United Bharat Fixed Income SGD H Inc
 United Bharat Fixed Income MYR H Inc
 United Bharat Fixed Income SGD H Acc
 United Bharat Fixed Income USD Acc
+United Bharat Fixed Income SGD H Inc
 United Bharat Fixed Income USD Inc
 United Global Healthcare A MYR Acc H
 United Global Healthcare A SGD Acc H
-United Bharat Fixed Income MYR Inc
-United Global Technology Fund MYR H
-United Global Technology Fund GBP H
 United Global Technology Fund AUD H
+United Global Technology Fund GBP H
 United Global Technology Fund MYR
-United Global Transformation AUD Hedged
-United Global Technology Fund USD
+United Global Technology Fund MYR H
 United Global Technology Fund SGD H
+United Global Transformation AUD Hedged
 United Global Transformation GBP Hedged
-United Global Transformation MYR Hedged
+United Global Technology Fund USD
 United Global Transformation MYR
-United Global Transformation USD
+United Global Transformation MYR Hedged
 United Global Transformation RMB Hedged
+United Global Transformation USD
 United Global Transformation SGD Hedged
-United Golden Opportunity GBP hedged
-United Golden Opportunity MYR
 United Golden Opportunity AUD hedged
-United Golden Opportunity MYR hedged
+United Golden Opportunity GBP hedged
 United Golden Opportunity SGD hedged
+United Golden Opportunity MYR hedged
+United Golden Opportunity MYR
 United Golden Opportunity USD
-United Japan Discovery MYR hedged
 United Japan Discovery MYR
+United Japan Discovery MYR hedged
 United Vietnam Equities AUD Hedged
-United Vietnam Equities SGD Hedged
-United Vietnam Equities RMB Hedged
 United Vietnam Equities GBP Hedged
 United Vietnam Equities MYR Hedged
+United Vietnam Equities RMB Hedged
+United Vietnam Equities SGD Hedged
 United Vietnam Equities USD
 US-Canada Income and Growth
+Public Worldwide Equity
+TA Gold & Silver MYR

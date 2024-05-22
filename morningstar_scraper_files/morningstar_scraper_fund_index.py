@@ -6,6 +6,7 @@ from pprint import pprint as pp
 from morningstar_scraper import get_res_from_screener
 from xlwings import view, load
 import concurrent.futures
+import os.path
 
 def main():
     global fund_df
@@ -20,6 +21,7 @@ def main():
             info_df = info_df.loc[:, ["SecId", "Name", "PriceCurrency", "CategoryName"]]
             info_df.loc[:, "StarRatingM255"] = np.nan
         fund_df = pd.concat([fund_df, info_df], axis=0)
+
 def cumulative(df):
     df_rets = df.pct_change() + 1
     return (df_rets).prod() - 1
@@ -35,8 +37,8 @@ def calendar_year_return(df, latest_date, last_date, first_year, w1=1, w2=0, is_
     df_new["10 Year"] = ((df.resample("M").last().pct_change().loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*10)-1):].dropna(axis=0)) + 1).prod() -1
     inception_df = df.resample("M").last()
     target_index = str(df.index[0].date())
-    df.loc[target_index, :]  = df.loc[target_index, :]
-    df = df.sort_index()
+    inception_df.loc[target_index, :]  = df.loc[target_index, :]
+    inception_df = inception_df.sort_index()
     df_new["Since Inception"] = ((inception_df.pct_change()) + 1).prod() -1
     for year in list(reversed(range(start, end+1))):
         df_new[str(year)] = (df.resample("M").last().pct_change().loc[str(year)]  + 1).prod() -1
@@ -50,7 +52,7 @@ def calendar_year_return(df, latest_date, last_date, first_year, w1=1, w2=0, is_
 
 def rolling_return(df,w1=1,w2=0, start_date=None):
     start_date = start_date if start_date is not None else df.index[0]
-    df = df.loc[start_date:, :].pct_change(periods=freq).dropna(axis=0)
+    df = df.pct_change(periods=freq).loc[start_date:, :].dropna(axis=0)
     if w1 != 1:
         df["Benchmark"] = (df['Benchmark1'] * w1)  + (df['Benchmark2'] * w2)
         df = df.iloc[:, [0,-1]]
@@ -73,17 +75,17 @@ def semi_deviation(df, w1=1, w2=0):
 
 def downside_risk(df, latest_date, last_date, first_year, w1=1, w2=0):
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, list(reversed(range(start,end+1))))))
-    df_new["YTD"] = semi_deviation((df.loc[latest_date.split("-")[0]].dropna(axis=0).resample("M").last().pct_change().dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
-    df_new["1 Year"] = semi_deviation((df.loc[pd.to_datetime(last_date):].dropna(axis=0).resample("M").last().pct_change().dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
-    df_new["3 Year"] = semi_deviation((df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):].dropna(axis=0).resample("M").last().pct_change().dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
-    df_new["5 Year"] = semi_deviation((df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):].dropna(axis=0).resample("M").last().pct_change().dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
-    df_new["7 Year"] = semi_deviation((df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):].dropna(axis=0).resample("M").last().pct_change().dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
-    df_new["10 Year"] = semi_deviation((df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*10)-1):].dropna(axis=0).resample("M").last().pct_change().dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
-    df_new["Since Inception"] = semi_deviation((df.loc[first_year:].resample("M").last().pct_change()), w1=w1,w2=w2) * np.sqrt(12)
+    df_new["YTD"] = semi_deviation((rets(df,w1,w2).loc[latest_date.split("-")[0]].dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
+    df_new["1 Year"] = semi_deviation((rets(df,w1,w2).loc[pd.to_datetime(last_date):].dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
+    df_new["3 Year"] = semi_deviation((rets(df,w1,w2).loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):].dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
+    df_new["5 Year"] = semi_deviation((rets(df,w1,w2).loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):].dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
+    df_new["7 Year"] = semi_deviation((rets(df,w1,w2).loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):].dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
+    df_new["10 Year"] = semi_deviation((rets(df,w1,w2).loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*10)-1):].dropna(axis=0)), w1=w1,w2=w2) * np.sqrt(12)
+    df_new["Since Inception"] = semi_deviation((rets(df,w1,w2).loc[first_year:]), w1=w1,w2=w2) * np.sqrt(12)
 
     for year in list(reversed(range(start,end+1))):
         try:
-            df_new[str(year)] = semi_deviation(df.loc[str(year)].resample("M").last().pct_change(), w1=w1,w2=w2) * np.sqrt(12)
+            df_new[str(year)] = semi_deviation(rets(df,w1,w2).loc[str(year)], w1=w1,w2=w2) * np.sqrt(12)
         except:
             print(df_new[str(year)])
 
@@ -92,7 +94,7 @@ def downside_risk(df, latest_date, last_date, first_year, w1=1, w2=0):
 def drawdown(df, latest_date, last_date, first_year, w1=1, w2=0):
     dfs = [
         df.loc[latest_date.split("-")[0]],
-        df.loc[last_date:],
+        df.loc[pd.to_datetime(last_date):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
@@ -105,7 +107,7 @@ def drawdown(df, latest_date, last_date, first_year, w1=1, w2=0):
         max_price = df_temp.dropna(axis=0).cummax()
         max_drawdown = ((df_temp.dropna(axis=0) - max_price) / max_price)
         if w1 != 1:
-            max_drawdown['Benchmark'] = max_drawdown['Benchmark1'] * 0.5 + max_drawdown['Benchmark2'] * 0.5
+            max_drawdown['Benchmark'] = max_drawdown['Benchmark1'] * w1 + max_drawdown['Benchmark2'] * w2
             max_drawdown = max_drawdown.iloc[:, [0,-1]]
         max_drawdown_val = max_drawdown.min()
         df_new[col] = max_drawdown_val
@@ -113,7 +115,7 @@ def drawdown(df, latest_date, last_date, first_year, w1=1, w2=0):
 def drawdown_duration(df, latest_date, last_date, first_year, w1=1, w2=0):
     dfs = [
         df.loc[latest_date.split("-")[0]],
-        df.loc[last_date:],
+        df.loc[pd.to_datetime(last_date):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
@@ -125,7 +127,7 @@ def drawdown_duration(df, latest_date, last_date, first_year, w1=1, w2=0):
         max_price = df_temp.dropna(axis=0).cummax()
         max_drawdown = ((df_temp.dropna(axis=0) - max_price) / max_price)
         if w1 != 1:
-            max_drawdown['Benchmark'] = max_drawdown['Benchmark1'] * 0.5 + max_drawdown['Benchmark2'] * 0.5
+            max_drawdown['Benchmark'] = max_drawdown['Benchmark1'] * w1 + max_drawdown['Benchmark2'] * w2
             max_drawdown = max_drawdown.iloc[:, [0,-1]]
         max_drawdown_date = max_drawdown.idxmin()
         returns1 = max_drawdown.loc[max_drawdown_date.iloc[0]:, "Fund"]
@@ -147,51 +149,58 @@ def drawdown_duration(df, latest_date, last_date, first_year, w1=1, w2=0):
         df_new[col] = drawdown_dn
     return df_new
 
+def conditional_rets(df, freq):
+    if freq == "DM":
+        return df.pct_change()
+    else:
+        nw_df = df.resample(freq).last()
+        nw_df.loc[df.index[0], :] = df.loc[df.index[0], :]
+        nw_df = nw_df.sort_index().pct_change()
+        return nw_df
+
+
 def rets(df, w1=1,w2=0, freq="M"):
     if w1 != 1:
-        if freq == "DM":
-            df = df.pct_change()
-        else:
-            df = df.resample(freq).last().pct_change()
+        df = conditional_rets(df, freq)
         df['Benchmark'] = df['Benchmark1'] * w1 + df['Benchmark2'] * w2
         df = df.iloc[:, [0,-1]]
         return df
     else:
-        return df.resample(freq).last().pct_change() if freq != "DM" else df.pct_change()
+        return conditional_rets(df, freq)
 
 def annalised_std(df, df_rets, latest_date, last_date, first_year ,w1, w2):
     years = list(reversed(range(start,end+1)))
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, years)))
     dfs = [
-    df.loc[latest_date.split("-")[0]],
-    df.loc[last_date:],
-    df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
-    df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
-    df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
-    df.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
-    df.loc[first_year:]
+    df_rets.loc[latest_date.split("-")[0]],
+    df_rets.loc[pd.to_datetime(last_date):],
+    df_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
+    df_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
+    df_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
+    df_rets.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
+    df_rets.loc[first_year:]
             ]
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, years)))
     for df, col in zip(dfs, df_new.columns[:8]):
-        df_new[col] = rets(df, w1, w2).std() * np.sqrt(12)
+        df_new[col] = df.std() * np.sqrt(12)
     # print((df_rets.resample("Y").agg(np.std) * np.sqrt(12)).sort_index(ascending=False).values.T)
     df_new.loc[:, list(map(str,years))] =  (df_rets.resample("Y").agg(np.std) * np.sqrt(12)).sort_index(ascending=False).values.T
     return df_new
 
 def beta(df, latest_date, last_date, first_year, w1=1, w2=0):
+    periodic_rets = rets(df, w1, w2, freq="DM")
     dfs = [
-        df.loc[latest_date.split("-")[0]],
-        df.loc[last_date:],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
-        df.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
-        df.loc[first_year:]
+        periodic_rets.loc[latest_date.split("-")[0]],
+        periodic_rets.loc[pd.to_datetime(last_date):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
+        periodic_rets.loc[first_year:]
             ]
     years = list(reversed(range(start,end+1)))
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, years)))
-    for df, col in zip(dfs, df_new.columns[:8]):
-        df_rets = rets(df, w1, w2, freq="DM")
+    for df_rets, col in zip(dfs, df_new.columns[:8]):
         df_rets_nona = df_rets.dropna(axis=0)
         try:
             # print(col)
@@ -202,7 +211,7 @@ def beta(df, latest_date, last_date, first_year, w1=1, w2=0):
         df_new[col] = [beta]
 
     for year in years:
-        df_active = rets(df.loc[str(year)], w1,w2, freq="DM").dropna(axis=0)
+        df_active = rets(df, w1,w2, freq="DM").loc[str(year)].dropna(axis=0)
         try:
             beta, intercept = np.polyfit(y=df_active['Fund'], x=df_active['Benchmark'], deg=1)
         except:
@@ -211,19 +220,20 @@ def beta(df, latest_date, last_date, first_year, w1=1, w2=0):
 
     return df_new
 def tracking_error(df, latest_date, last_date, first_year, w1=1, w2=0):
+    periodic_rets = rets(df, w1, w2)
     dfs = [
-        df.loc[latest_date.split("-")[0]],
-        df.loc[last_date:],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
-        df.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
-        df.loc[first_year:]
+        periodic_rets.loc[latest_date.split("-")[0]],
+        periodic_rets.loc[pd.to_datetime(last_date):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
+        periodic_rets.loc[first_year:]
             ]
     years = list(reversed(range(start,end+1)))
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, years)))
-    for df, col in zip(dfs, df_new.columns[:8]):
-        df_active = rets(df, w1, w2).dropna(axis=0)
+    for df_rets, col in zip(dfs, df_new.columns[:8]):
+        df_active = df_rets.dropna(axis=0)
         try:
             df_active['alpha'] = df_active['Fund'] - df_active['Benchmark']
             tracking_error = df_active['alpha'].std()
@@ -232,7 +242,7 @@ def tracking_error(df, latest_date, last_date, first_year, w1=1, w2=0):
         df_new[col] = [tracking_error * np.sqrt(12)]
 
     for year in years:
-        df_active = rets(df.loc[str(year)], w1, w2).dropna(axis=0)
+        df_active = rets(df, w1, w2).loc[str(year)].dropna(axis=0)
         try:
             df_active['alpha'] = df_active['Fund'] - df_active['Benchmark']
             tracking_error = df_active['alpha'].std()
@@ -243,21 +253,20 @@ def tracking_error(df, latest_date, last_date, first_year, w1=1, w2=0):
     return df_new
 
 def sharpe_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
+    periodic_rets = rets(df, w1, w2)
     dfs = [
-        df.loc[latest_date.split("-")[0]],
-        df.loc[last_date:],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
-        df.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
-        df.loc[first_year:]
+        periodic_rets.loc[latest_date.split("-")[0]],
+        periodic_rets.loc[pd.to_datetime(last_date):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
+        periodic_rets.loc[first_year:]
             ]
     years = list(reversed(range(start,end+1)))
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, years)))
-    for df, col in zip(dfs, df_new.columns[:7]):
-        df_active = rets(df, w1, w2).dropna(axis=0)
-        # if col == "3 Year":
-        #     print(df_active)
+    for df_rets, col in zip(dfs, df_new.columns[:7]):
+        df_active = df_rets.dropna(axis=0)
         try:
             df_sharpe = df_active - (risk_free_rate/12)
             annualized_sharpe_ratio = (df_sharpe.mean() / df_sharpe.std()) * np.sqrt(12)
@@ -266,7 +275,7 @@ def sharpe_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
         df_new[col] = annualized_sharpe_ratio
 
     for year in years:
-        df_active = rets(df.loc[str(year)].dropna(axis=0), w1, w2).dropna(axis=0)
+        df_active = rets(df, w1, w2).loc[str(year)].dropna(axis=0)
         try:
             df_sharpe = df_active - (risk_free_rate/12)
             annualized_sharpe_ratio = (df_sharpe.mean() / df_sharpe.std()) * np.sqrt(12)
@@ -276,27 +285,28 @@ def sharpe_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
     return df_new
 
 def treynor_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
+    periodic_rets = rets(df, w1, w2)
     dfs = [
-        df.loc[latest_date.split("-")[0]],
-        df.loc[last_date:],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
-        df.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
-        df.loc[first_year:]
+        periodic_rets.loc[latest_date.split("-")[0]],
+        periodic_rets.loc[pd.to_datetime(last_date):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
+        periodic_rets.loc[first_year:]
             ]
     years = list(reversed(range(start,end+1)))
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, years)))
-    for df, col in zip(dfs, df_new.columns[:8]):
-        df_active = rets(df.dropna(axis=0).resample("M").last(), w1, w2).dropna(axis=0)
+    for df_rets, col in zip(dfs, df_new.columns[:8]):
+        df_active = df_rets.dropna(axis=0)
         df_beta_rets = rets(df.dropna(axis=0), w1, w2, freq="DM").dropna(axis=0)
         beta, intercept = np.polyfit(x=df_beta_rets['Fund'], y=df_beta_rets['Benchmark'], deg=1)
         annualized_treynor = (((df_active.mean()  *12) - risk_free_rate) / beta)
         df_new[col] = annualized_treynor
 
     for year in years:
-        df_active = rets(df.loc[str(year)].dropna(axis=0).resample("M").last(), w1, w2).dropna(axis=0)
-        df_beta_rets = rets(df.loc[str(year)].dropna(axis=0), w1, w2, freq="DM").dropna(axis=0)
+        df_active = rets(df, w1, w2).loc[str(year)].dropna(axis=0)
+        df_beta_rets = rets(df, w1, w2, freq="DM").loc[str(year)].dropna(axis=0)
         try:
             beta, intercept = np.polyfit(x=df_beta_rets['Fund'], y=df_beta_rets['Benchmark'], deg=1)
             annualized_treynor = (((df_active.mean()  *12) - risk_free_rate) / beta)
@@ -306,20 +316,20 @@ def treynor_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
     return df_new
 
 def information_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
+    periodic_rets = rets(df, w1, w2)
     dfs = [
-
-        df.loc[latest_date.split("-")[0]],
-        df.loc[str(last_date):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1): latest_date],
-        df.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
-        df.loc[first_year:]
+        periodic_rets.loc[latest_date.split("-")[0]],
+        periodic_rets.loc[pd.to_datetime(last_date):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
+        periodic_rets.loc[first_year:]
             ]
     years = list(reversed(range(start,end+1)))
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, years)))
-    for df, col in zip(dfs, df_new.columns[:8]):
-        df_active = rets(df.dropna(axis=0), w1, w2).dropna(axis=0)
+    for df_rets, col in zip(dfs, df_new.columns[:8]):
+        df_active = df_rets.dropna(axis=0)
         df_active['alpha'] = df_active['Fund'] - df_active['Benchmark']
         tracking_error = df_active['alpha'].std()
         # print(df_active)
@@ -327,7 +337,7 @@ def information_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
         df_new[col] = [information_ratio]
 
     for year in years:
-        df_active = rets(df.loc[str(year)].dropna(axis=0), w1, w2).dropna(axis=0)
+        df_active = rets(df, w1, w2).loc[str(year)].dropna(axis=0)
         try:
             df_active['alpha'] = df_active['Fund'] - df_active['Benchmark']
             tracking_error = df_active['alpha'].std()
@@ -344,7 +354,7 @@ def geomean(df):
 def capture_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
     dfs = [
         df.loc[latest_date.split("-")[0]],
-        df.loc[last_date:],
+        df.loc[pd.to_datetime(last_date):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
         df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
@@ -356,9 +366,15 @@ def capture_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
     for df, col in zip(dfs, df_new.columns[:8]):
         try:
             df_active = rets(df.dropna(axis=0).resample("D").last(), w1, w2).dropna(axis=0)
-            upside = df_active.query("Benchmark > 0")
-            upside_geo = geomean(upside)
-            upside_capture = upside_geo['Fund'] / upside_geo['Benchmark']
+
+            # modification
+            upside_fund_geo = geomean(df_active.query("Fund > 0"))
+            upside_bench_geo = geomean(df_active.query("Benchmark > 0"))
+
+            # upside = df_active.query("Benchmark > 0")
+            # upside_geo = geomean(upside)
+            upside_capture = upside_fund_geo['Fund'] / upside_bench_geo['Benchmark']
+
             downside = df_active.query("Benchmark <= 0")
             downside_geo = geomean(downside)
             downside_capture = downside_geo['Fund'] / downside_geo['Benchmark']
@@ -366,9 +382,9 @@ def capture_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
             infos = pd.Series([upside_capture, downside_capture, capture_ratio])
             df_new[col] = infos
         except ZeroDivisionError:
-            upside_capture = np.nan
+            upside_capture = upside_capture
             downside_capture = np.nan
-            capture_ratio = np.nan
+            capture_ratio = upside_capture
 
     for year in years:
         df_active = rets(df.loc[str(year)].dropna(axis=0).resample("D").last(), w1, w2).dropna(axis=0)
@@ -384,9 +400,9 @@ def capture_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
                 # print(downside_capture)
                 capture_ratio = upside_capture / downside_capture
             except ZeroDivisionError:
-                upside_capture = np.nan
+                upside_capture = upside_capture
                 downside_capture = np.nan
-                capture_ratio = np.nan
+                capture_ratio = upside_capture
         else:
             upside_capture = np.nan
             downside_capture = np.nan
@@ -395,25 +411,26 @@ def capture_ratio(df, latest_date, last_date, first_year, w1=1, w2=0):
     return df_new
 
 def batting_average(df, latest_date, last_date, first_year, w1=1, w2=0):
+    periodic_rets = rets(df, w1, w2)
     dfs = [
-        df.loc[latest_date.split("-")[0]],
-        df.loc[last_date:],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
-        df.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1): latest_date],
-        df.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
-        df.loc[first_year:]
+        periodic_rets.loc[latest_date.split("-")[0]],
+        periodic_rets.loc[pd.to_datetime(last_date):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*3)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*5)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) - pd.DateOffset(months=((12)*7)-1):],
+        periodic_rets.loc[pd.to_datetime(latest_date) -  pd.DateOffset(months=((12)*10)-1):],
+        periodic_rets.loc[first_year:]
             ]
     years = list(reversed(range(start,end+1)))
     df_new = pd.DataFrame(columns=['YTD', "1 Year", "3 Year", "5 Year", "7 Year", "10 Year", "Since Inception"] + list(map(str, years)))
-    for df, col in zip(dfs, df_new.columns[:8]):
-        df_active = rets(df.dropna(axis=0).resample("M").last(), w1, w2).dropna(axis=0)
+    for df_rets, col in zip(dfs, df_new.columns[:8]):
+        df_active = df_rets.dropna(axis=0)
         df_active['alpha'] = df_active['Fund'] - df_active['Benchmark']
         batting_average = df_active.query("alpha > 0").shape[0] / df_active.shape[0]
         df_new[col] = [batting_average]
 
     for year in years:
-        df_active = rets(df.loc[str(year)].dropna(axis=0).resample("M").first(), w1, w2).dropna(axis=0)
+        df_active = rets(df, w1, w2).loc[str(year)].dropna(axis=0)
         if df_active.shape[0] != 0:
             df_active['alpha'] = df_active['Fund'] - df_active['Benchmark']
             batting_average = df_active.query("alpha > 0").shape[0] / df_active.shape[0]
@@ -422,13 +439,16 @@ def batting_average(df, latest_date, last_date, first_year, w1=1, w2=0):
         df_new[str(year)] = [batting_average]
     return df_new
 
+
+
 def get_fund_data(ticker: str):
 
     headers = {
         'accept': '*/*',
         'accept-language': 'en-US,en;q=0.9',
-        'authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1EY3hOemRHTnpGRFJrSTRPRGswTmtaRU1FSkdOekl5TXpORFJrUTROemd6TWtOR016bEdOdyJ9.eyJodHRwczovL21vcm5pbmdzdGFyLmNvbS9tc3Rhcl9pZCI6Ijc2NjU2NkFELTkxMjEtNDJDMS05RjM2LTkwREM1RkNENUUxQyIsImh0dHBzOi8vbW9ybmluZ3N0YXIuY29tL3Bhc3N3b3JkQ2hhbmdlUmVxdWlyZWQiOmZhbHNlLCJodHRwczovL21vcm5pbmdzdGFyLmNvbS9lbWFpbCI6Imo2M2s4OTVuanBhOG1ubXE0cDJqbXN0dGNoOTBzYWhiQG1hYXMtbXN0YXIuY29tIiwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vcm9sZSI6WyJFQy5TZXJ2aWNlLkNvbmZpZ3VyYXRpb24iLCJFQy5TZXJ2aWNlLkhvc3RpbmciLCJFQ1VTLkFQSS5BdXRvY29tcGxldGUiLCJFQ1VTLkFQSS5TY3JlZW5lciIsIkVDVVMuQVBJLlNlY3VyaXRpZXMiLCJQQUFQSVYxLlhyYXkiLCJWZWxvVUkuQWxsb3dBY2Nlc3MiXSwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vY29tcGFueV9pZCI6IjI4MmNjODY1LTM1MDUtNGUyMC04ZDI0LTg0YTQzOGIyMTkyNCIsImh0dHBzOi8vbW9ybmluZ3N0YXIuY29tL2ludGVybmFsX2NvbXBhbnlfaWQiOiJDbGllbnQwIiwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vZGF0YV9yb2xlIjpbIkVDVVMuRGF0YS5VUy5PcGVuRW5kRnVuZHMiLCJRUy5NYXJrZXRzIiwiUVMuUHVsbHFzIiwiU0FMLlNlcnZpY2UiXSwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vbGVnYWN5X2NvbXBhbnlfaWQiOiIyNGJmMGE4NS0zMjcxLTRiMWItYWIxZS0wZTlmZDE4ODE4YmQiLCJodHRwczovL21vcm5pbmdzdGFyLmNvbS91aW1fcm9sZXMiOiJFQU1TLE1VX01FTUJFUl8xXzEiLCJpc3MiOiJodHRwczovL2xvZ2luLXByb2QubW9ybmluZ3N0YXIuY29tLyIsInN1YiI6ImF1dGgwfDc2NjU2NkFELTkxMjEtNDJDMS05RjM2LTkwREM1RkNENUUxQyIsImF1ZCI6WyJodHRwczovL2F1dGgwLWF3c3Byb2QubW9ybmluZ3N0YXIuY29tL21hYXMiLCJodHRwczovL3VpbS1wcm9kLm1vcm5pbmdzdGFyLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE3MTUwNDYzODEsImV4cCI6MTcxNTA0OTk4MSwic2NvcGUiOiJvcGVuaWQiLCJndHkiOiJwYXNzd29yZCIsImF6cCI6ImlRa1d4b2FwSjlQeGw4Y0daTHlhWFpzYlhWNzlnNjRtIn0.N8mH5uiy7nh0eKTuTBR0qVIKPqQa058SUvTSa37WgTiXsSTPPms5mh47swQuOwabhqwcyBZG-Rq3ojh1MydUf0nsoQSmA1QCO4UsHOWwkagBbnce1UbsutpYJEMkWc8wiR28lllAlUG-P1v56ggqRwPxnxOS2DDNhNiSNiAAgjKHXDGmpDvE3ovQDDEGYSkgdpnYgF16IV7l6ePw6I81iEo8nr1Ru45q322eOBN_DHL4RteYn0vgnGu324-yCErMWjVMoj3cyeoMdk1iRNO_sDc-Ov2MW0g4OfyNPSwz04Pr1BGtQYGtfgDxqrciMJPvz5oilrw__Ft_82fVcubldA',
+        'authorization': 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1EY3hOemRHTnpGRFJrSTRPRGswTmtaRU1FSkdOekl5TXpORFJrUTROemd6TWtOR016bEdOdyJ9.eyJodHRwczovL21vcm5pbmdzdGFyLmNvbS9tc3Rhcl9pZCI6Ijc2NjU2NkFELTkxMjEtNDJDMS05RjM2LTkwREM1RkNENUUxQyIsImh0dHBzOi8vbW9ybmluZ3N0YXIuY29tL3Bhc3N3b3JkQ2hhbmdlUmVxdWlyZWQiOmZhbHNlLCJodHRwczovL21vcm5pbmdzdGFyLmNvbS9lbWFpbCI6Imo2M2s4OTVuanBhOG1ubXE0cDJqbXN0dGNoOTBzYWhiQG1hYXMtbXN0YXIuY29tIiwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vcm9sZSI6WyJFQy5TZXJ2aWNlLkNvbmZpZ3VyYXRpb24iLCJFQy5TZXJ2aWNlLkhvc3RpbmciLCJFQ1VTLkFQSS5BdXRvY29tcGxldGUiLCJFQ1VTLkFQSS5TY3JlZW5lciIsIkVDVVMuQVBJLlNlY3VyaXRpZXMiLCJQQUFQSVYxLlhyYXkiLCJWZWxvVUkuQWxsb3dBY2Nlc3MiXSwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vY29tcGFueV9pZCI6IjI4MmNjODY1LTM1MDUtNGUyMC04ZDI0LTg0YTQzOGIyMTkyNCIsImh0dHBzOi8vbW9ybmluZ3N0YXIuY29tL2ludGVybmFsX2NvbXBhbnlfaWQiOiJDbGllbnQwIiwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vZGF0YV9yb2xlIjpbIkVDVVMuRGF0YS5VUy5PcGVuRW5kRnVuZHMiLCJRUy5NYXJrZXRzIiwiUVMuUHVsbHFzIiwiU0FMLlNlcnZpY2UiXSwiaHR0cHM6Ly9tb3JuaW5nc3Rhci5jb20vbGVnYWN5X2NvbXBhbnlfaWQiOiIyNGJmMGE4NS0zMjcxLTRiMWItYWIxZS0wZTlmZDE4ODE4YmQiLCJodHRwczovL21vcm5pbmdzdGFyLmNvbS91aW1fcm9sZXMiOiJFQU1TLE1VX01FTUJFUl8xXzEiLCJpc3MiOiJodHRwczovL2xvZ2luLXByb2QubW9ybmluZ3N0YXIuY29tLyIsInN1YiI6ImF1dGgwfDc2NjU2NkFELTkxMjEtNDJDMS05RjM2LTkwREM1RkNENUUxQyIsImF1ZCI6WyJodHRwczovL2F1dGgwLWF3c3Byb2QubW9ybmluZ3N0YXIuY29tL21hYXMiLCJodHRwczovL3VpbS1wcm9kLm1vcm5pbmdzdGFyLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE3MTYyMDc2ODIsImV4cCI6MTcxNjIxMTI4Miwic2NvcGUiOiJvcGVuaWQiLCJndHkiOiJwYXNzd29yZCIsImF6cCI6ImlRa1d4b2FwSjlQeGw4Y0daTHlhWFpzYlhWNzlnNjRtIn0.aj4Td9Hg6fKKmGoerDt_IZNSSQb4ZkLn2V1XowMxwaYxwMXVh-dJE-X9p4a7gj8d0rCxtg2Qdg7Wd-_HvH5DLdZT4olm3Z42LMQCmF02TXyKe25zqd9TxHQEnrlJkPvr2Q26H2hBam8_7nlcRwdqs0lznXzebqseIvCg3Df3BW-FPoKrj4sgXTJI8dOKKIO1Re2-AZaEoPzLmvVgBPac1vRC_EeLyOAg4OKqDbEJAOcK1qQGgaaNr7clkb29uqFP6KppZ9uzuvci4bCD8hoIw5n_aNw2dIlI5PG5nUaRRT9zUw0RI-IJcW-wOF-hkFWpCr2p8SMc4rSld9EdHKm91Q',
     }
+
     params = {
         'secExchangeList': '',
         'limitAge': '',
@@ -471,6 +491,8 @@ def clean_data(ticker):
     temp_df = pd.concat([fund, category], axis=1)
     temp_df.index = pd.to_datetime(temp_df.index)
     temp_df = temp_df.sort_index()
+    # start = 2017
+    temp_df = temp_df.loc["2017-10-31":, :]
     start = temp_df.index[0].year
     end = 2024
     latest_date = temp_df.dropna().index[-1].date()
@@ -478,6 +500,9 @@ def clean_data(ticker):
     latest_date = str(latest_date)
     first_year = str(start)
     freq = freqs['M']
+    print(temp_df)
+    # ======= start cleaning data and caluclate fund's performance
+
     c_return = calendar_year_return(temp_df, latest_date=latest_date, last_date=last_date, first_year=first_year)
     c_return.rename(lambda x: "return:" + x, axis=0, inplace=True)
     excess_return = (c_return.loc["return:Fund", :] - c_return.loc["return:Benchmark", :]).to_frame().T
@@ -524,8 +549,11 @@ if __name__ == "__main__":
     df = temp_df.set_index("SecId")["Name"].to_dict()
     category = temp_df.set_index("Name")["CategoryName"].to_dict()
     fund_df = pd.DataFrame()
-    scraped_fund = pd.read_csv("universe_details.csv", index_col=[0,1], encoding="ISO-8859-1")
-    # print(scraped_fund)
+    destination = "astute_update.csv"
+    if os.path.exists(destination):
+        scraped_fund = pd.read_csv(destination, index_col=[0,1], encoding="ISO-8859-1")
+    else:
+        scraped_fund = pd.DataFrame()
     with open("error.txt") as rf:
         error_data = [item.strip() for item in rf.readlines()]
     scraped_fund_names = scraped_fund.columns
@@ -533,10 +561,8 @@ if __name__ == "__main__":
         for ticker in list(df.keys())[:]:
             if  (df[ticker] not in scraped_fund_names) and (df[ticker] not in error_data):
                 executor.submit(clean_data, ticker)
-            # clean_data(ticker)
 
     fund_df.loc["Category", :] = [category[col] for col in fund_df.columns]
     fund_df = pd.concat([fund_df, scraped_fund], axis=1)
     fund_df.to_clipboard(excel=True)
-    fund_df.to_csv("universe_details.csv")
-    # view(fund_df)
+    fund_df.to_csv(destination)
