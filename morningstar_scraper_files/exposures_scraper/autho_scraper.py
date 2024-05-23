@@ -43,6 +43,7 @@ def main():
     autho = list(set(exposure_links))[0]
     with open("autho.txt", "w") as wf:
         wf.write(autho)
+    return autho
 
 if __name__ == "__main__":
     main()
