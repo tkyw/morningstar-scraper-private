@@ -54,20 +54,6 @@ def authentication_scraper():
         wf.write(autho)
     return autho
 
-def main():
-    global fund_df
-    for i in range(page, max_page + 1)[:]:
-        res = get_res_from_screener(i, page_size, user_agent)
-        print(f"Request to page {i} was successfull")
-        info = res['rows']
-        info_df = pd.json_normalize(info)
-        try:
-            info_df = info_df.loc[:, ["SecId", "Name", "PriceCurrency", "CategoryName", "StarRatingM255"]]
-        except:
-            info_df = info_df.loc[:, ["SecId", "Name", "PriceCurrency", "CategoryName"]]
-            info_df.loc[:, "StarRatingM255"] = np.nan
-        fund_df = pd.concat([fund_df, info_df], axis=0)
-
 def get_fund_data(ticker: str):
     headers = {
         'accept': '*/*',
@@ -89,13 +75,13 @@ def get_fund_data(ticker: str):
         'version': '3.60.0',
     }
 
-    response = requests.get(
+    response = requests.get(  ## send request to the hidden api links containing the specific fund detail
         f'https://www.us-api.morningstar.com/sal/sal-service/fund/performance/v3/{ticker}',
         params=params,
         headers=headers,
     )
     try:
-        data = response.json()["graphData"]
+        data = response.json()["graphData"] ## conver the response to json format, selecting the key containing the nav of both fund and benchmark
     except:
         print("graphData problem")
         return
@@ -107,52 +93,49 @@ def clean_data(ticker):
     print(f"Now scraping {df[ticker]}...")
     data = get_fund_data(ticker)
     try:
-        category = pd.json_normalize(data["category"]).set_index("date").rename(columns={"value": "Benchmark"})
+        category = pd.json_normalize(data["category"]).set_index("date").rename(columns={"value": "Benchmark"})  ## convert the nav of category benchmark from json format to pandas dataframe for data cleaning, analysis, and manipulation, renaming column accordingly
     except KeyError:
         print(f"Failed to scrape {df[ticker]}")
         with open("error.txt", 'a') as wf:
             wf.write(f"{df[ticker]}\n")
         return
-    fund = pd.json_normalize(data["fund"]).set_index("date").rename(columns={"value": "Fund"})
-    temp_df = pd.concat([fund, category], axis=1)
+    fund = pd.json_normalize(data["fund"]).set_index("date").rename(columns={"value": "Fund"}) ## convert the nav of fund from json format to pandas dataframe for data cleaning, analysis, and manipulation, renaming column accordingly
+    temp_df = pd.concat([fund, category], axis=1) ## merge both fund and category nav based on dates
     temp_df.index = pd.to_datetime(temp_df.index)
     temp_df = temp_df.sort_index().rename(dict(zip(temp_df.columns, [df[ticker], category_name[ticker] ])), axis=1)
-    fund_df = pd.concat([fund_df, temp_df], axis=1)
+    fund_df = pd.concat([fund_df, temp_df], axis=1) ## concat the data containing the nav of both fund and category into the fund_df
     return fund_df
 
 
 if __name__ == "__main__":
     user_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36'
-    page = 1
-    max_page = 40
-    page_size = 50
 
     freqs = {
         "D": 252,
         "M": 12,
         "Q": 252/4,
     }
-    risk_free_rate = 0.03
+    risk_free_rate = 0.03 # set the risk free rate = 3%, source:https://www.bnm.gov.my/-/monetary-policy-statement-09052024
     w1 = 1; w2 = 0
-    temp_df = pd.read_excel("/Users/tkyw/Library/Mobile Documents/com~apple~CloudDocs/Documents/work/work Doc/Due Diligence/Fund Reviews/Morningstar Screener.xlsx")
+    temp_df = pd.read_excel("/Users/tkyw/Library/Mobile Documents/com~apple~CloudDocs/Documents/work/work Doc/Due Diligence/Fund Reviews/Morningstar Screener.xlsx") ## read the file containing all the funds' tickers in Malaysia universe
     df = temp_df.set_index("SecId")["Name"].to_dict()
     category_name = temp_df.set_index("SecId")["CategoryName"].to_dict()
-    fund_df = pd.DataFrame()
-    destination = "testing.csv"
+    fund_df = pd.DataFrame() ## a dataframe which have the function of fetching funds' details.
+    destination = "output.csv"
     if os.path.exists(destination):
         scraped_fund = pd.read_csv(destination, index_col=[0], encoding="ISO-8859-1")
     else:
-        scraped_fund = pd.DataFrame()
+        scraped_fund = pd.DataFrame()  ## create a file to store all funds scraped
     with open("error.txt") as rf:
         error_data = [item.strip() for item in rf.readlines()]
     scraped_fund_names = scraped_fund.columns
-    authentication = authentication_scraper()
-    with concurrent.futures.ThreadPoolExecutor(5) as executor:
+    authentication = authentication_scraper() ## scrape the bearer token to bypass the authentication validator
+    with concurrent.futures.ThreadPoolExecutor(5) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
         for ticker in list(df.keys())[:]:
-            if  (df[ticker] not in scraped_fund_names) and (df[ticker] not in error_data):
+            if  (df[ticker] not in scraped_fund_names) and (df[ticker] not in error_data): ## only send request to the fund that has not in the scraped fund's list and error data list
                 # print(clean_data(ticker))
                 executor.submit(clean_data, ticker)
 
-    fund_df = pd.concat([fund_df, scraped_fund], axis=1)
+    fund_df = pd.concat([fund_df, scraped_fund], axis=1)  ## merge the previously scraped fund and new scraped funds
     fund_df.to_clipboard(excel=True)
-    fund_df.to_csv(destination)
+    fund_df.to_csv(destination) ## ultimately, store the funds nav into a file caled output.csv, consider changing this based on user preference
