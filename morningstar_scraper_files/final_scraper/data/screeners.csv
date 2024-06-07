@@ -1,0 +1,1975 @@
+,SecId,Name,CategoryName
+0,F00001443C,A-DALI Equity,Equity - Malaysia Large-cap (Shariah)
+1,F00001443D,A-Dana Balanced,Blended - Balanced (Shariah)
+2,F00001443E,A-Dana Equity,Equity - Malaysia Large-cap (Shariah)
+3,F00001443F,A-Dana Income,Bonds - Malaysia (Shariah)
+4,F00000PLRP,Aberdeen Std Islmc World Eq A,Equity - Global
+5,F00000ONU5,Advantage Asia Pacific ex Japan Div,Equity - Asia Pacific ex-Japan
+6,F00000W8R1,Advantage Glbl Eq Volatility Focus AUD H,Equity - Global
+7,F00000W8R0,Advantage Glbl Eq Volatility Focus MYR H,Equity - Global
+8,F00000ZV4P,Advantage Glb High Income Bond RM-Hdg,Bonds - Global
+9,F00000ZFUZ,Advantage Glb High Income Bond USD,Bonds - Global
+10,F000010CHH,AHAM Absolute Return II-AUD,Blended - Flexible
+11,F000010CHI,AHAM Absolute Return II-GBP,Blended - Flexible
+12,F000001A0J,AHAM Absolute Return II-MYR,Blended - Flexible
+13,F000010CHJ,AHAM Absolute Return II-SGD,Blended - Flexible
+14,F000010CHK,AHAM Absolute Return II-USD,Blended - Flexible
+15,F000013F34,AHAM Absolute Return III,Blended - Flexible
+16,F00000YDBT,AHAM Aiiman Asia(Ex Jpn)Gr MYR,Equity - Asia Pacific ex-Japan (Shariah)
+17,F000000AIY,AHAM Aiiman Bal,Blended - Balanced (Shariah)
+18,F00001ELZJ,AHAM Aiiman Enhncd i-Profit A Inc,Money Market - Malaysia (Shariah)
+19,F00001ELZK,AHAM Aiiman Enhncd i-Profit B Acc,Money Market - Malaysia (Shariah)
+20,F000000AJP,AHAM Aiiman ESG Income Plus,Bonds - Malaysia (Shariah)
+21,F0000182RH,AHAM Aiiman Glb Mlt Thmtc AUD Hdg,Equity - Global
+22,F0000182RK,AHAM Aiiman Glb Mlt Thmtc MYR Hdg,Equity - Global
+23,F0000182RN,AHAM Aiiman Glb Mlt Thmtc SGD Hdg,Equity - Global
+24,F0000182RP,AHAM Aiiman Glb Mlt Thmtc USD,Equity - Global
+25,F00000YDBU,AHAM Aiiman Glbl Sukuk MYR,Bonds - Global
+26,F000011D0D,AHAM Aiiman Glbl Sukuk MYR Hdg,Bonds - Global
+27,F00000YDBV,AHAM Aiiman Glbl Sukuk USD,Bonds - Global
+28,F00001DY2Q,AHAM Aiiman Glb Thm Mxd Ast AUDH,Blended - Balanced (Shariah)
+29,F00001DY2S,AHAM Aiiman Glb Thm Mxd Ast MYRH,Blended - Balanced (Shariah)
+30,F00001DY2P,AHAM Aiiman Glb Thm Mxd Ast SGDH,Blended - Balanced (Shariah)
+31,F00001DY2R,AHAM Aiiman Gb Thm Mx Ast USD Ins,Blended - Balanced (Shariah)
+32,F00001DY2O,AHAM Aiiman Glb Thmtc Mxd Ast USD,Blended - Balanced (Shariah)
+33,F000000AJQ,AHAM Aiiman Growth,Equity - Malaysia Mid/Small-cap (Shariah)
+34,F00001F8KC,AHAM Aiiman Income MYR Inc,Money Market - Malaysia (Shariah)
+35,F000002KYN,AHAM Aiiman Money Market,Money Market - Malaysia (Shariah)
+36,F0000026JU,AHAM Aiiman Quantum,Equity - Malaysia Mid/Small-cap (Shariah)
+37,F00000PR17,AHAM Aiiman Select Income,Blended - Conservative
+38,F00000VCKU,AHAM ASEAN Flexi,Blended - Other
+39,F000000AFN,AHAM Bond,Bonds - Malaysia
+40,F0000163G2,AHAM EduGrowth & Income Fd,Blended - Balanced
+41,F000000AJR,AHAM Enhanced Deposit Fund,Money Market - Malaysia
+42,F000000AFO,AHAM Equity,Equity - Malaysia Large-cap
+43,F000016H4C,AHAM ESG SGD Bond MYR,Bonds - Other
+44,F000016H4B,AHAM ESG SGD Bond SGD,Bonds - Other
+45,F00001ADDT,AHAM Flexi 6,Blended - Flexible
+46,F0000183PD,AHAM Flexi Fund 7 MYR,Blended - Flexible
+47,F0000183PE,AHAM Flexi Fund 7 SGD,Blended - Flexible
+48,F0000183PF,AHAM Flexi Fund 7 USD,Blended - Flexible
+49,F00001DH4S,AHAM Flexi 8 MYR,Blended - Flexible
+0,F00001DH4T,AHAM Flexi 8 SGD,Blended - Flexible
+1,F00001DH4R,AHAM Flexi 8 USD,Blended - Flexible
+2,F00001ADDW,AHAM Flexi III MYR,Blended - Flexible
+3,F00001ERPR,AHAM Flexi III USD,Blended - Flexible
+4,F00000MS1S,AHAM Growth,Equity - Malaysia Large-cap
+5,F000014I2H,AHAM Hard Ccis Fixed Inc USD,Bonds - Global
+6,F000013Y1G,AHAM Income Extra,Bonds - Malaysia
+7,F00001DH9D,AHAM Income 6,Bonds - Malaysia
+8,F00001DPG1,AHAM Income Fund 7 MYR Cl,Bonds - Malaysia
+9,F000014XBM,AHAM INR Flexi,Blended - Flexible
+10,F00001E7OY,AHAM Malaysia Government Bond MYR,Bonds - Malaysia
+11,F0000183PG,AHAM Multi-Asset Fund 2 MYR,Blended - Flexible
+12,F0000183PH,AHAM Multi-Asset Fund 2 SGD,Blended - Flexible
+13,F0000183PI,AHAM Multi-Asset Fund 2 USD,Blended - Flexible
+14,F000014MC2,AHAM Multi-Asset 3 MYR,Blended - Flexible
+15,F000014MC3,AHAM Multi-Asset 3 USD,Blended - Flexible
+16,F000016MJI,AHAM Multi-Asset Fund 5,Blended - Flexible
+17,F000015ZOC,AHAM New China Tracker,Equity - Greater China
+18,F000014MGI,AHAM Perwira,Blended - Flexible
+19,F0000040IN,AHAM Principled Growth,Equity - Malaysia Large-cap
+20,F0000173BA,AHAM RMB Bond MYR,Bonds - Other
+21,F0000173BB,AHAM RMB Bond RMB,Bonds - Other
+22,F000000AJS,AHAM Select Asia (ex Japan) Opp,Equity - Asia Pacific ex-Japan
+23,F000011091,AHAM Select Asia (ex Japan) Opp AUD,Equity - Asia Pacific ex-Japan
+24,F000011092,AHAM Select Asia (ex Japan) Opp GBP,Equity - Asia Pacific ex-Japan
+25,F000011093,AHAM Select Asia (ex Japan) Opp SGD,Equity - Asia Pacific ex-Japan
+26,F000011094,AHAM Select Asia (ex Japan) Opp USD,Equity - Asia Pacific ex-Japan
+27,F000000AK0,AHAM Select Asia (ex Jpn) Qtm Fd,Equity - Asia Pacific ex-Japan
+28,F000011095,AHAM Select Asia (ex Jpn) Qtm AUD,Equity - Asia Pacific ex-Japan
+29,F000011096,AHAM Select Asia (ex Jpn) Qtm GBP,Equity - Asia Pacific ex-Japan
+30,F000011097,AHAM Select Asia (ex Jpn) Qtm SGD,Equity - Asia Pacific ex-Japan
+31,F000011098,AHAM Select Asia (ex Jpn) Qtm USD,Equity - Asia Pacific ex-Japan
+32,F00000V5SN,AHAM Select ASPC ex Jpn Bal,Blended - Balanced
+33,F000011D00,AHAM Select ASPC ex Jpn Bal AUD H,Blended - Balanced
+34,F000011CZZ,AHAM Select ASPC ex Jpn Bal EUR H,Blended - Balanced
+35,F000011CZY,AHAM Select ASPC ex Jpn Bal RMB H,Blended - Balanced
+36,F000011CZX,AHAM Select ASPC ex Jpn Bal USD H,Blended - Balanced
+37,F00000V5SO,AHAM Select Asia Pacific (ex Jpn) Div,Equity - Asia Pacific ex-Japan
+38,F000011VO8,AHAM Select Asia Pacific (ex Jpn) DivAUD,Equity - Asia Pacific ex-Japan
+39,F000011VO6,AHAM Select Asia Pacific (ex Jpn) DivEUR,Equity - Asia Pacific ex-Japan
+40,F000011VOB,AHAM Select Asia Pacific (ex Jpn) DivGBP,Equity - Asia Pacific ex-Japan
+41,F000011VO9,AHAM Select Asia Pacific (ex Jpn) DivRMB,Equity - Asia Pacific ex-Japan
+42,F000011VOA,AHAM Select Asia Pacific (ex Jpn) DivSGD,Equity - Asia Pacific ex-Japan
+43,F000011VO7,AHAM Select Asia Pacific (ex Jpn) DivUSD,Equity - Asia Pacific ex-Japan
+44,F000001A0G,AHAM Sel AsaPac exJpn REITs Fd,Property - Indirect Asia
+45,F00000MCHY,AHAM Select AUD Income - AUD,Blended - Other
+46,F00000H0Y4,AHAM Select AUD Income - MYR,Blended - Other
+47,F000000AJV,AHAM Select Bal,Blended - Balanced
+48,F000000AJW,AHAM Select Bond (RM),Bonds - Asia
+49,F00000QEFM,AHAM Select Bond (USD hedged),Bonds - Asia
+0,F000000AJX,AHAM Select Cash,Money Market - Malaysia
+1,F00000MCHZ,AHAM Select Dividend Fund,Equity - Malaysia Income
+2,F000000AJY,AHAM Select Income,Blended - Conservative
+3,F000000AJZ,AHAM Select Opportunity Fund,Equity - Malaysia Large-cap
+4,F00000ORWR,AHAM Select SGD Income - MYR,Blended - Other
+5,F00000ORWS,AHAM Select SGD Income - SGD,Blended - Other
+6,F000015UIC,AHAM Shariah Gold Tracker MYR,Other - Miscellaneous
+7,F000013S3S,AHAM Single Bond Series 1 MYR Cl,Bonds - Other
+8,F000014BEW,AHAM Single Bond Series 2 MYR Cl,Bonds - Other
+9,F000015HH1,AHAM Single Bond Series 3 MYR Cl,Bonds - Other
+10,F000015OLI,AHAM Single Bond Series 4 MYR Cl,Bonds - Other
+11,F000015OLJ,AHAM Single Bond Series 5 MYR Cl,Bonds - Other
+12,F000013M0Y,AHAM Smart Invest Portfolio - Growth,Blended - Flexible
+13,F000015HN9,AHAM Smart Invest Port - Inc A,Blended - Conservative
+14,F00001E945,AHAM Strategic Opportunity 4,Other - Target Date
+15,F00000JSAT,AHAM Tactical,Blended - Flexible
+16,F000014I2G,AHAM Total Return USD,Other - Miscellaneous
+17,F000014XBN,AHAM TWD Flexi,Blended - Flexible
+18,F00000ZU7T,AHAM USD Cash USD,Money Market - Malaysia
+19,F00001DITV,AHAM Versa Portfolio Growth,Blended - Aggressive
+20,F00001DITW,AHAM Versa Portfolio Moderate,Blended - Balanced
+21,F00001CMQ5,AHAM WHOLESALE EQUITY 2,Equity - Malaysia Large-cap
+22,F00000PSEN,AHAM Wholesale I,Bonds - Malaysia
+23,F00001CJIE,AHAM Wholesale Income,Bonds - Malaysia
+24,F0000170SX,AHAM Wld Sers America Equity AUDH,Equity - Country Focus
+25,F00001II5E,AHAM Wld Sers America Equity MYR,Equity - Country Focus
+26,F0000170SY,AHAM Wld Sers America Equity MYRH,Equity - Country Focus
+27,F0000170SZ,AHAM Wld Sers America Equity SGDH,Equity - Country Focus
+28,F0000170T0,AHAM Wld Sers America Equity USD,Equity - Country Focus
+29,F000015NW7,AHAM Wld Sers Asian HY AUD Hdg,Bonds - Asia
+30,F00001II5H,AHAM Wld Sers Asian HY MYR,Bonds - Asia
+31,F000015NW8,AHAM Wld Sers Asian HY MYR Hdg,Bonds - Asia
+32,F000015NW9,AHAM Wld Sers Asian HY SGD Hdg,Bonds - Asia
+33,F000015NWA,AHAM Wld Sers Asian HY USD,Bonds - Asia
+34,F00001L9UN,AHAM World Series Biotechnology MYR,Equity - Sector Focus
+35,F00001L9UO,AHAM World Series Biotechnology MYR H,Equity - Sector Focus
+36,F00001L9UM,AHAM World Series Biotechnology USD,Equity - Sector Focus
+37,F000011UP5,AHAM Wld Ser China A Opp AUD H,Equity - Greater China
+38,F000011UP2,AHAM Wld Ser China A Opp MYR,Equity - Greater China
+39,F000011UP3,AHAM Wld Ser China A Opp MYR H,Equity - Greater China
+40,F000011UP4,AHAM Wld Ser China A Opp SGD H,Equity - Greater China
+41,F000011UP1,AHAM Wld Ser China A Opp USD,Equity - Greater China
+42,F000011UOQ,AHAM Wld Ser CHN Allc Opp AUD Hdg,Blended - Balanced
+43,F000011UON,AHAM Wld Ser CHN Allc Opp MYR,Blended - Balanced
+44,F000011UOO,AHAM Wld Ser CHN Allc Opp MYR Hdg,Blended - Balanced
+45,F000011UOP,AHAM Wld Ser CHN Allc Opp SGD Hdg,Blended - Balanced
+46,F000011UOM,AHAM Wld Ser CHN Allc Opp USD,Blended - Balanced
+47,F00000NC0Z,AHAM Wld Ser China Growth,Equity - Greater China
+48,F00000ZDTW,AHAM Wld Ser China Growth MYR H,Equity - Greater China
+49,F00000ZDTV,AHAM Wld Ser China Growth USD,Equity - Greater China
+0,F00000VYBU,AHAM Wld Ser Div Val AUD,Equity - Asia Pacific ex-Japan
+1,F00000VYBT,AHAM Wld Ser Div Val MYR,Equity - Asia Pacific ex-Japan
+2,F00000VYBS,AHAM Wld Ser Div Val SGD,Equity - Asia Pacific ex-Japan
+3,F00000VYAQ,AHAM Wld Ser Div Val USD,Equity - Asia Pacific ex-Japan
+4,F000013DVZ,AHAM Wld Ser EM Shrt Dur AUD Hdg,Bonds - Emerging Markets
+5,F000013DW0,AHAM Wld Ser EM Shrt Dur MYR,Bonds - Emerging Markets
+6,F000013DW1,AHAM Wld Ser EM Shrt Dur MYR Hdg,Bonds - Emerging Markets
+7,F000013DW2,AHAM Wld Ser EM Shrt Dur RMB Hdg,Bonds - Emerging Markets
+8,F000013DW3,AHAM Wld Ser EM Shrt Dur SGD Hdg,Bonds - Emerging Markets
+9,F000013DW4,AHAM Wld Ser EM Shrt Dur USD,Bonds - Emerging Markets
+10,F00000WYQJ,AHAM Wld Ser Eurp Uncons AUD H,Equity - Country Focus
+11,F00000WYQH,AHAM Wld Ser Eurp Uncons EUR,Equity - Country Focus
+12,F00000WYQK,AHAM Wld Ser Eurp Uncons MYR H,Equity - Country Focus
+13,F00000WYQL,AHAM Wld Ser Eurp Uncons SGD H,Equity - Country Focus
+14,F00000WYQG,AHAM Wld Ser Eurp Uncons USD H,Equity - Country Focus
+15,F00000YDC0,AHAM World Series Global Bal AUD H,Blended - Balanced
+16,F000010IPR,AHAM World Series Global Bal EUR H,Blended - Balanced
+17,F00000Z3WE,AHAM World Series Global Bal GBP H,Blended - Balanced
+18,F00000YDC1,AHAM World Series Global Bal MYR H,Blended - Balanced
+19,F00000YDC2,AHAM World Series Global Bal SGD H,Blended - Balanced
+20,F00000YDC3,AHAM World Series Global Bal USD,Blended - Balanced
+21,F000014VYL,AHAM Wld Ser Global Brands AUD H,Equity - Global
+22,F000014VYP,AHAM Wld Ser Global Brands MYR H,Equity - Global
+23,F000014VYR,AHAM Wld Ser Global Brands SGD H,Equity - Global
+24,F000014VYS,AHAM Wld Ser Global Brands USD,Equity - Global
+25,F000016OR3,AHAM World Ser Glbl Clmt Chg AUDH,Equity - Sector Focus
+26,F00001II5G,AHAM World Ser Glbl Clmt Chg MYR,Equity - Sector Focus
+27,F000016OR1,AHAM World Ser Glbl Clmt Chg MYRH,Equity - Sector Focus
+28,F000016OR2,AHAM World Ser Glbl Clmt Chg SGDH,Equity - Sector Focus
+29,F000016OR0,AHAM World Ser Glbl Clmt Chg USD,Equity - Sector Focus
+30,F00001GLGX,AHAM World Series - Global Corp Bd MYR,Bonds - Global Hedged
+31,F00001GLGY,AHAM World Series - Global Corp Bd MYR H,Bonds - Global Hedged
+32,F00001GLGW,AHAM World Series - Global Corp Bd SGD H,Bonds - Global Hedged
+33,F00001GLGV,AHAM World Series - Global Corp Bd USD,Bonds - Global Hedged
+34,F000015UI8,AHAM Wld Ser Glb Dsrpt InnovtAUDH,Equity - Global
+35,F00001II5F,AHAM Wld Ser Glb Dsrpt Innovt MYR,Equity - Global
+36,F000015UI9,AHAM Wld Ser Glb Dsrpt InnovtMYRH,Equity - Global
+37,F000015UIA,AHAM Wld Ser Glb Dsrpt InnovtSGDH,Equity - Global
+38,F000015UIB,AHAM Wld Ser Glb Dsrpt Innovt USD,Equity - Global
+39,F00001CRDU,AHAM World Ser Glbl Div Gr AUDH,Equity - Global
+40,F00001II5A,AHAM World Ser Glbl Div Grr MYR,Equity - Global
+41,F00001CRDS,AHAM World Ser Glbl Div Gr MYRH,Equity - Global
+42,F00001CRDT,AHAM World Ser Glbl Div Gr SGDH,Equity - Global
+43,F00001CRDR,AHAM World Ser Glbl Div Gr USD,Equity - Global
+44,F00000X6ZT,AHAM Wld Ser Glb Equity MYR,Equity - Global
+45,F00000X6ZU,AHAM Wld Ser Glb Equity SGD,Equity - Global
+46,F00000X6ZW,AHAM Wld Ser Glb Equity USD,Equity - Global
+47,F000013CUY,AHAM Wld Ser Glb Hlthsci AUD Hdg,Equity - Sector Focus
+48,F000013CUV,AHAM Wld Ser Glb Hlthsci MYR,Equity - Sector Focus
+49,F000013CUW,AHAM Wld Ser Glb Hlthsci MYR Hdg,Equity - Sector Focus
+0,F000013CUZ,AHAM Wld Ser Glb Hlthsci SGD Hdg,Equity - Sector Focus
+1,F000013CUU,AHAM Wld Ser Glb Hlthsci USD,Equity - Sector Focus
+2,F000014NVG,AHAM Wld Ser Glb High Inc AUD Hdg,Bonds - Global
+3,F000014NVI,AHAM Wld Ser Glb High Inc GBP Hdg,Bonds - Global
+4,F00001II59,AHAM Wld Ser Glb High Inc MYR,Bonds - Global
+5,F000014NVJ,AHAM Wld Ser Glb High Inc MYR Hdg,Bonds - Global
+6,F000014NVL,AHAM Wld Ser Glb High Inc SGD Hdg,Bonds - Global
+7,F000014NVM,AHAM Wld Ser Glb High Inc USD,Bonds - Global
+8,F00000XO8Z,AHAM Wld Ser Glb Inc AUD Hdg,Bonds - Global
+9,F0000106CM,AHAM Wld Ser Glb Inc EUR Hdg,Bonds - Global
+10,F00000XO90,AHAM Wld Ser Glb Inc GBP Hdg,Bonds - Global
+11,F00000XO8W,AHAM Wld Ser Glb Inc MYR,Bonds - Global
+12,F00000XO8X,AHAM Wld Ser Glb Inc MYR Hdg,Bonds - Global
+13,F00000XO8Y,AHAM Wld Ser Glb Inc SGD Hdg,Bonds - Global
+14,F00000XO8V,AHAM Wld Ser Glb Inc USD,Bonds - Global
+15,F00001D40M,AHAM Wld Ser Glb Infras Inc AUDH,Equity - Sector Focus
+16,F00001II5I,AHAM Wld Ser Glb Infras Inc MYR,Equity - Sector Focus
+17,F00001D40K,AHAM Wld Ser Glb Infras Inc MYRH,Equity - Sector Focus
+18,F00001D40L,AHAM Wld Ser Glb Infras Inc SGDH,Equity - Sector Focus
+19,F00001D40J,AHAM Wld Ser Glb Infras Inc USD,Equity - Sector Focus
+20,F0000100L3,AHAM Wld Ser Glbl Qtm AUD,Equity - Global
+21,F0000100L4,AHAM Wld Ser Glbl Qtm GBP,Equity - Global
+22,F0000100L5,AHAM Wld Ser Glbl Qtm MYR,Equity - Global
+23,F000010YT0,AHAM Wld Ser Glbl Qtm MYR H,Equity - Global
+24,F0000100L6,AHAM Wld Ser Glbl Qtm SGD,Equity - Global
+25,F0000100L7,AHAM Wld Ser Glbl Qtm USD,Equity - Global
+26,F000015OLK,AHAM Wld Sers Global Sust AUD Hdg,Equity - Global
+27,F00001II5B,AHAM Wld Sers Global Sust MYR,Equity - Global
+28,F000015OLL,AHAM Wld Sers Global Sust MYR Hdg,Equity - Global
+29,F000015OLM,AHAM Wld Sers Global Sust SGD Hdg,Equity - Global
+30,F000015OLN,AHAM Wld Sers Global Sust USD,Equity - Global
+31,F000010DV1,AHAM Wld Ser Glb Trgt Ret AUD-H,Blended - Flexible
+32,F000010DV3,AHAM Wld Ser Glb Trgt Ret EUR-H,Blended - Flexible
+33,F000010DV2,AHAM Wld Ser Glb Trgt Ret GBP-H,Blended - Flexible
+34,F000010DV5,AHAM Wld Ser Glb Trgt Ret HKD-H,Blended - Flexible
+35,F000010DUZ,AHAM Wld Ser Glb Trgt Ret MYR-H,Blended - Flexible
+36,F000010DV4,AHAM Wld Ser Glb Trgt Ret RMB-H,Blended - Flexible
+37,F000010DV0,AHAM Wld Ser Glb Trgt Ret SGD-H,Blended - Flexible
+38,F000010DUY,AHAM Wld Ser Glb Trgt Ret USD,Blended - Flexible
+39,F00001EQET,AHAM World Series Inc & Gr AUD H,Blended - Balanced
+40,F00001L2A1,AHAM World Series Inc & Gr MYR,Blended - Balanced
+41,F00001EQER,AHAM World Series Inc & Gr MYR H,Blended - Balanced
+42,F00001EQES,AHAM World Series Inc & Gr SGD H,Blended - Balanced
+43,F00001EQEQ,AHAM World Series Inc & Gr USD,Blended - Balanced
+44,F00001FSTD,AHAM World Series Income MYR,Blended - Balanced
+45,F00001FSTC,AHAM World Series Income MYR H,Blended - Balanced
+46,F00001FSTB,AHAM World Series Income USD,Blended - Balanced
+47,F000011099,AHAM Wld Ser Jpn Growth MYR,Equity - Country Focus
+48,F00000T766,AHAM Wld Ser Jpn Growth MYR H,Equity - Country Focus
+49,F000015NHN,AHAM Wld Ser Lng Trm Glb Gr AUD H,Equity - Global
+0,F00001II5C,AHAM Wld Ser Lng Trm Glb Gr MYR,Equity - Global
+1,F000015NHO,AHAM Wld Ser Lng Trm Glb Gr MYR H,Equity - Global
+2,F000015NHP,AHAM Wld Ser Lng Trm Glb Gr SGD H,Equity - Global
+3,F000015NHQ,AHAM Wld Ser Lng Trm Glb Gr USD,Equity - Global
+4,F000016AB9,AHAM Wld Sers Next Gen Tech AUD H,Equity - Sector Focus
+5,F00001II5D,AHAM Wld Sers Next Gen Tech MYR,Equity - Sector Focus
+6,F000016ABA,AHAM Wld Sers Next Gen Tech MYR H,Equity - Sector Focus
+7,F000016ABB,AHAM Wld Sers Next Gen Tech SGD H,Equity - Sector Focus
+8,F000016ABC,AHAM Wld Sers Next Gen Tech USD,Equity - Sector Focus
+9,F000016H4X,AHAM World Series Str Bd AUD Hdg,Bonds - Global Hedged
+10,F000016H4U,AHAM World Series Str Bd MYR Hdg,Bonds - Global Hedged
+11,F000016H4V,AHAM World Series Str Bd SGD Hdg,Bonds - Global Hedged
+12,F000016H4W,AHAM World Series Str Bd USD,Bonds - Global Hedged
+13,F000014U0I,AHAM Wld Ser US Dollar Liquidity,Money Market - Malaysia
+14,F00000YMVP,AHAM Wld Ser US ShrtDurHiInc AUDH,Bonds - Other
+15,F0000106CN,AHAM Wld Ser US ShrtDurHiInc EURH,Bonds - Other
+16,F00000Z5KQ,AHAM Wld Ser US ShrtDurHiInc GBPH,Bonds - Other
+17,F00000YGKH,AHAM Wld Ser US ShrtDurHiInc MYR,Bonds - Other
+18,F00000YGKI,AHAM Wld Ser US ShrtDurHiInc MYRH,Bonds - Other
+19,F00000YMVO,AHAM Wld Ser US ShrtDurHiInc SGDH,Bonds - Other
+20,F00000YGKG,AHAM Wld Ser US ShrtDurHiInc USD,Bonds - Other
+21,F00001HF4K,AHAM World Series - World Technology MYR,Equity - Sector Focus
+22,F00001HF4L,AHAM World Series - World TechnologyMYRH,Equity - Sector Focus
+23,F00001HF4J,AHAM World Series - World Technology USD,Equity - Sector Focus
+24,F000013G22,Aiiman Asia Pacific (ex Japan) Dividend,Equity - Asia Pacific ex-Japan (Shariah)
+25,F000014FLG,Aiiman Global Equity MYR,Equity - Global
+26,F000014FLH,Aiiman Global Equity MYR Hdg,Equity - Global
+27,F00001DGOH,Aiiman Global Equity USD,Equity - Global
+28,F000014A4J,Aiiman Income Extra,Money Market - Malaysia (Shariah)
+29,F00001CPX0,Aiiman Smart Invest Portfolio - Growth,Blended - Flexible
+30,F00001I535,Aiiman Smart Invest Portfolio - Growth B,Blended - Flexible
+31,F000000AFY,AmAl-Amin,Money Market - Malaysia (Shariah)
+32,F00000LMH5,Amanah Saham Bank Simpanan Nasional,Equity - Malaysia Large-cap
+33,F00000LMA7,AmanahRaya Islamic Equity,Equity - Malaysia Large-cap (Shariah)
+34,F000013OEG,AmanahRaya Syariah Cash Management,Money Market - Malaysia (Shariah)
+35,F00001E27Y,AmanahRaya Syariah Income,Bonds - Malaysia (Shariah)
+36,F00000LMA8,AmanahRaya Syariah Trust,Bonds - Malaysia (Shariah)
+37,F00000LMA9,AmanahRaya Unit Trust,Bonds - Malaysia
+38,F00000MJZ9,AmAsean Eq,Equity - ASEAN
+39,F00000MVDJ,AmAsia Pacific REITs B MYR,Property - Indirect Asia
+40,F00000Q9C1,AmAsia Pacific REITs Plus,Property - Indirect Asia
+41,F000000AG2,AmBalanced,Blended - Balanced
+42,F000000AG3,AmBon Islam,Bonds - Malaysia (Shariah)
+43,F000000AG4,AmBond,Bonds - Malaysia
+44,F000013L2T,AmBond Select 1,Bonds - Malaysia
+45,F000013L2U,AmBond Select 2,Bonds - Asia
+46,F000000AG5,AmCash Management A,Money Market - Malaysia
+47,F00001D9GZ,AmCash Management B,Money Market - Malaysia
+48,F000016T17,AmChina A-Shares AUD Hdg,Equity - Greater China
+49,F00000PKR4,AmChina A-Shares MYR,Equity - Greater China
+0,F000013JS6,AmChina A-Shares MYR Hdg,Equity - Greater China
+1,F000016T16,AmChina A-Shares SGD Hdg,Equity - Greater China
+2,F000016T15,AmChina A-Shares USD,Equity - Greater China
+3,F000000AG6,AmConservative,Blended - Conservative
+4,F000000AG9,AmCumulative Growth,Equity - Asia Pacific ex-Japan
+5,F000000AGA,AmDividend Income,Equity - Malaysia Income
+6,F00000OK11,AmDynamic Allocator,Blended - Flexible
+7,F000000AGB,AmDynamic Bond,Bonds - Malaysia
+8,F00000ORXR,AmDynamic Sukuk - Class A,Bonds - Malaysia (Shariah)
+9,F00000YJZA,AmDynamic Sukuk B,Bonds - Malaysia (Shariah)
+10,F000011D1J,AmFunds Glb Div MYR Hedged,Equity - Global
+11,F00000X4J5,AmFunds Glb Div RM,Equity - Global
+12,F00000X4J6,AmFunds Glb Div USD,Equity - Global
+13,F000001ZQN,AmFunds Glb Emerging Market Opps,Equity - Emerging Markets
+14,F000014W77,AmFunds Income and Growth AUD H,Blended - Balanced
+15,F000014W79,AmFunds Income and Growth MYR H,Blended - Balanced
+16,F000014W7A,AmFunds Income and Growth SGD H,Blended - Balanced
+17,F000014W7B,AmFunds - Income and Growth Fund - USD,Blended - Balanced
+18,F00001752B,AmFunds Sustainable Series Pstv Chg MYRH,Equity - Global
+19,F00001752C,AmFunds Sustainable Series Pstv Chg USD,Equity - Global
+20,F000000AGD,AmIncome,Money Market - Malaysia
+21,F000000AGE,AmIncome Advantage,Money Market - Malaysia
+22,F00000Y8XI,AmIncome Management,Bonds - Malaysia
+23,F000000AGG,AmIncome Plus,Bonds - Malaysia
+24,F000000AGH,AmIncome Premium,Bonds - Malaysia
+25,F000014K42,AmIncome USD,Bonds - Other
+26,F00001E95M,AmInstitutional Income Bond,Bonds - Malaysia
+27,F000000AGJ,AmIslamic Balanced,Blended - Balanced (Shariah)
+28,F00001D9H0,AmIslamic Cash Management D,Money Market - Malaysia (Shariah)
+29,F000011D1F,AmIslamic Cash Management A,Money Market - Malaysia (Shariah)
+30,F000011D1G,AmIslamic Cash Management B,Money Market - Malaysia (Shariah)
+31,F000011D1H,AmIslamic Cash Management C,Money Market - Malaysia (Shariah)
+32,F00001F5IW,AmIslamic China Equity RM,Equity - Greater China
+33,F00001F5IX,AmIslamic China Equity USD,Equity - Greater China
+34,F00000O9C4,AmIslamic Fixed Income Conservative,Bonds - Malaysia (Shariah)
+35,F000011E1T,AmIslamic Global SRI RM,Equity - Global
+36,F000011E1U,AmIslamic Global SRI USD R,Equity - Global
+37,F000000AGK,AmIslamic Growth,Equity - Malaysia Large-cap (Shariah)
+38,F00001E95N,AmIslamic Income Jadwa,Money Market - Malaysia (Shariah)
+39,F00001E95O,AmIslamic Institutional 1,Bonds - Malaysia (Shariah)
+40,F000000AGL,AmIttikal,Equity - Malaysia Large-cap (Shariah)
+41,F000000AGM,AmMalaysia Eq,Equity - Malaysia Large-cap
+42,F00001EGK6,AmSingle Bond Series 1 RM,Other Bond
+43,F00001EGK5,AmSingle Bond Series 1 RM Hedged,Other Bond
+44,F00001EGK4,AmSingle Bond Series 1 SGD,Other Bond
+45,F00001EGK3,AmSingle Bond Series 1 USD,Other Bond
+46,F00000P09Q,AmTactical Bond B MYR,Bonds - Asia
+47,F000000AGP,AmTotal Return,Blended - Flexible
+48,F00000Y5J8,Amundi Bond Global Aggregate MYR,Bonds - Global Hedged
+49,F00000Y5J7,Amundi Bond Global Aggregate USD,Bonds - Global Hedged
+0,F000010863,Amundi Bond Global Emerging Blended RM,Bonds - Emerging Markets
+1,F000010861,Amundi Bond Global Emerging Blended SGD,Bonds - Emerging Markets
+2,F000010862,Amundi Bond Global Emerging Blended USD,Bonds - Emerging Markets
+3,F0000169GC,Amundi Equity Global Disruptive Opps MYR,Equity - Global
+4,F0000169GD,Amundi Equity Global Disruptive Opps USD,Equity - Global
+5,F00000XVWB,Amundi International MYR,Equity - Global
+6,F00000XVWC,Amundi International USD,Equity - Global
+7,F000000OUK,Apex Asian (Ex Japan),Equity - Asia Pacific ex-Japan
+8,F000000AGT,Apex Dynamic,Equity - Malaysia Mid/Small-cap
+9,F000000AGU,Apex Quantum,Blended - Flexible
+10,F00001KTB5,Areca Aggressive Alpha,Equity - Malaysia Mid/Small-cap
+11,F000013SVQ,Areca Astute Assets,Equity - Malaysia Large-cap
+12,F00001L3RL,Areca China A-Share Alpha Fund,Equity - Greater China
+13,F00001CLVW,Areca Composite Bond,Bonds - Malaysia
+14,F00000YVZE,Areca Dividend Income,Equity - Global
+15,F000016ULO,Areca Dragon Technology MYR,Blended - Flexible
+16,F000016PQD,Areca Dragon Technology USD,Blended - Flexible
+17,F00001DDP6,Areca Dynamic ESG MYR,Blended - Flexible
+18,F00001DDP5,Areca Dynamic ESG USD,Blended - Flexible
+19,F000013ENM,Areca Dynamic Growth 2.0,Equity - Malaysia Large-cap
+20,F000013SVR,Areca Dynamic Growth 3.0,Equity - Malaysia Large-cap
+21,F000016PCD,Areca Dynamic Growth 5.0,Equity - Malaysia Large-cap
+22,F000016TYN,Areca Dynamic Growth 6.0,Equity - Malaysia Large-cap
+23,F000016TYO,Areca Dynamic Growth 8.0,Equity - Malaysia Large-cap
+24,F000000ONJ,Areca EnhancedINCOME,Bonds - Malaysia
+25,F000016MUD,Areca Equity Growth Fund,Equity - Malaysia Large-cap
+26,F000000ONH,Areca EquityTRUST,Equity - Malaysia Mid/Small-cap
+27,F00000YVZF,Areca Flexi FixedINCOME,Bonds - Malaysia
+28,F000015GJ1,Areca Focus Leverage,Blended - Flexible
+29,F00001DE0M,Areca Global Emerging Momentum 2 MYR,Blended - Flexible
+30,F00001DE0N,Areca Global Emerging Momentum 2 USD,Blended - Flexible
+31,F00001L9H9,Areca Global Emerging Momentum 3 MYR,Blended - Flexible
+32,F00001L9HA,Areca Global Emerging Momentum 3 USD,Blended - Flexible
+33,F000000ONG,Areca IncomeTRUST,Bonds - Malaysia
+34,F00000YVZG,Areca Islamic Cash,Money Market - Malaysia (Shariah)
+35,F00001EFO0,Areca Islamic equityTRUST,Equity - Malaysia Large-cap (Shariah)
+36,F00001F80F,Areca Islamic incomeTrust,Bonds - Malaysia (Shariah)
+37,F000000ONI,Areca MoneyTRUST,Money Market - Malaysia
+38,F000011DK3,Areca Progressive Income,Blended - Flexible
+39,F0000112N5,Areca Progressive Income 2.0,Blended - Flexible
+40,F000013XLU,Areca Progressive Income 3.0,Blended - Flexible
+41,F000014BGK,Areca Progressive Income 4.0,Blended - Flexible
+42,F00001F7E6,Areca Progressive Income 8.0,Blended - Flexible
+43,F00001DAAW,Areca REIT Leverage MYR,Property - Indirect Asia
+44,F00001DAAV,Areca REIT Leverage SGD,Property - Indirect Asia
+45,F00000ZTG7,Areca Situational Income 2.0,Blended - Flexible
+46,F00000YVZI,Areca Steady fixedINCOME,Bonds - Malaysia
+47,F00001KAKW,Areca Strategic Income 11,Blended - Flexible
+48,F000013SVS,Areca Strategic Income,Blended - Flexible
+49,F00001J1QW,Areca Strategic Income Fund 10,Blended - Flexible
+0,F00001KAKX,Areca Strategic Income 12,Blended - Flexible
+1,F00001L9H7,Areca Strategic Income 15,Blended - Flexible
+2,F00001L9H8,Areca Strategic Income 16,Blended - Flexible
+3,F000013SVT,Areca Strategic Income 2.0,Blended - Flexible
+4,F0000149OO,Areca Strategic Income 4.0,Blended - Flexible
+5,F000015HL6,Areca Strategic Income 5.0,Blended - Flexible
+6,F00001F7E5,Areca Strategic Income 8.0,Blended - Flexible
+7,F00001G3OL,Areca Strategic Income 9.0,Blended - Flexible
+8,F00001DAAU,Areca USD Dynamic Assets MYR,Blended - Flexible
+9,F00001DAAT,Areca USD Dynamic Assets SGD,Blended - Flexible
+10,F00001DAAS,Areca USD Dynamic Assets USD,Blended - Flexible
+11,F00001DE0L,Areca Value,Equity - Global
+12,F00000XGNT,ASEAN Corporate Governance,Equity - ASEAN
+13,F0000119EO,ASEAN Equity,Equity - ASEAN
+14,F00000OJVP,Asia Pacific Eq Income,Equity - Asia Pacific ex-Japan
+15,F000000AG1,Asia-Pacific Property Equities,Property - Indirect Asia
+16,F000000AGQ,Astute Dana Al-Faiz-i,Blended - Balanced (Shariah)
+17,F000000AGR,Astute Dana Al-Kanz,Money Market - Malaysia (Shariah)
+18,F000000AGS,Astute Dana Al-Sofi-i,Equity - Malaysia Mid/Small-cap (Shariah)
+19,F000000AGW,Astute Dana Aslah,Blended - Flexible
+20,F00001DL8A,Astute Dividend Maximiser,Equity - Malaysia Income
+21,F000000AGV,Astute Malaysia Growth Trust,Equity - Malaysia Mid/Small-cap
+22,F0000164TK,Bank Islam Premier,Blended - Balanced (Shariah)
+23,F0000106SV,BIMB-Arabesque AP Shariah-ESG Eq MYR,Equity - Asia Pacific
+24,F0000106SW,BIMB-Arabesque AP Shariah-ESG Eq USD,Equity - Asia Pacific
+25,F00001D4AO,BIMB-Arabesque Glbl Shrh-ESG AI Tech RM,Equity - Global
+26,F00001D4AM,BIMB-Arabesque Glbl Shrh-ESG AI Tech RMH,Equity - Global
+27,F00001D4AN,BIMB-Arabesque Glbl Shrh-ESG AI Tech USD,Equity - Global
+28,F000016OJB,BIMB-ARABESQUE Global Shrh Sust Eq AUD,Equity - Global
+29,F000016OJE,BIMB-ARABESQUE Global Shrh Sust Eq RM,Equity - Global
+30,F000016OJD,BIMB-ARABESQUE Global Shrh Sust Eq RM H,Equity - Global
+31,F000016OJA,BIMB-ARABESQUE Global Shrh Sust Eq SGD,Equity - Global
+32,F000016OJC,BIMB-ARABESQUE Global Shrh Sust Eq USD,Equity - Global
+33,F00000WTVS,BIMB-Arabesque i Global Dividend 1 MYR,Equity - Global
+34,F000015GKG,BIMB-Arabesque i Global Dividend 1 MYR H,Equity - Global
+35,F000015GKH,BIMB-Arabesque i Global Dividend 1 SGD,Equity - Global
+36,F00000WTVR,BIMB-Arabesque i Global Dividend 1 USD,Equity - Global
+37,F00000YVBE,BIMB-Arabesque Malay Shariah-Esg Eq Eur,Equity - Malaysia Large-cap (Shariah)
+38,F00000YVBH,BIMB-Arabesque Malay Shariah-Esg Eq Myr,Equity - Malaysia Large-cap (Shariah)
+39,F00000YVBF,BIMB-Arabesque Malay Shariah-Esg Eq Sgd,Equity - Malaysia Large-cap (Shariah)
+40,F00000YVBG,BIMB-Arabesque Malay Shariah-Esg Eq Usd,Equity - Malaysia Large-cap (Shariah)
+41,F00001DVDL,BIMB Dana Al-Fakhim I,Money Market - Malaysia (Shariah)
+42,F000000AGX,BIMB Dana Al-Fakhim R,Money Market - Malaysia (Shariah)
+43,F000000AGY,BIMB Dana Al-Falah,Blended - Balanced (Shariah)
+44,F000000AH0,BIMB Dana Al-Munsif,Blended - Balanced (Shariah)
+45,F0000110DD,BIMB ESG Sukuk A,Bonds - Malaysia (Shariah)
+46,F0000110DE,BIMB ESG Sukuk B,Bonds - Malaysia (Shariah)
+47,F0000110DF,BIMB ESG Sukuk C,Bonds - Malaysia (Shariah)
+48,F0000110DG,BIMB ESG Sukuk D,Bonds - Malaysia (Shariah)
+49,F0000110DH,BIMB ESG Sukuk E,Bonds - Malaysia (Shariah)
+0,F00000Y8FG,BIMB i Flexi,Blended - Flexible
+1,F000000AGZ,BIMB i Growth,Equity - Malaysia Large-cap (Shariah)
+2,F00000NFGH,BIMB i Tactical,Equity - Malaysia Income
+3,F000015AR5,BIMB Shariah IncomePlus,Money Market - Malaysia (Shariah)
+4,F00000YFUK,BOSWM Asian Income MYR,Blended - Balanced
+5,F0000146SP,BOSWM Asian Income MYR BOS,Blended - Balanced
+6,F0000146SQ,BOSWM Asian Income USD BOS,Blended - Balanced
+7,F000000AM6,BOSWM Cash A,Money Market - Malaysia
+8,F00001D829,BOSWM Cash B,Money Market - Malaysia
+9,F00001DAXF,BOSWM Core Asia Equities MYR BOS,Equity - Asia Pacific ex-Japan
+10,F00001DAXG,BOSWM Core Asia Equities MYR I BOS,Equity - Asia Pacific ex-Japan
+11,F00001DAXH,BOSWM Core Asia Equities MYRH BOS,Equity - Asia Pacific ex-Japan
+12,F0000155G7,BOSWM Core Balanced MYR Hdg,Blended - Balanced
+13,F00001D8S5,BOSWM Core Balanced PP USD,Blended - Balanced
+14,F0000155G8,BOSWM Core Balanced USD,Blended - Balanced
+15,F0000155G9,BOSWM Core Defensive MYR Hdg,Blended - Conservative
+16,F0000155GA,BOSWM Core Defensive USD,Blended - Conservative
+17,F00001D8S6,BOSWM Core Defensive PP USD,Blended - Conservative
+18,F00001DAX9,BOSWM Core DM Invmt Grd Bond MYR BOS,Bonds - Global Hedged
+19,F00001DAXA,BOSWM Core DM Invmt Grd Bond MYR I BOS,Bonds - Global Hedged
+20,F00001DAXB,BOSWM Core DM Invmt Grd Bond MYRH BOS,Bonds - Global Hedged
+21,F00001DAX6,BOSWM Core EM Invmt Grd Bond MYR BOS,Bonds - Emerging Markets
+22,F00001DAX7,BOSWM Core EM Invmt Grd Bond MYR I BOS,Bonds - Emerging Markets
+23,F00001DAX8,BOSWM Core EM Invmt Grd Bond MYRH BOS,Bonds - Emerging Markets
+24,F00001DAXI,BOSWM Core European Equities MYR BOS,Equity - Country Focus
+25,F00001DAXJ,BOSWM Core European Equities MYR I BOS,Equity - Country Focus
+26,F00001DAXK,BOSWM Core European Equities MYRH BOS,Equity - Country Focus
+27,F0000155G5,BOSWM Core Growth MYR Hdg,Blended - Aggressive
+28,F0000155G6,BOSWM Core Growth USD,Blended - Aggressive
+29,F00001D8S7,BOSWM Core Growth Fund PP MYR Non-hedged,Blended - Aggressive
+30,F00001D8S8,BOSWM Core Growth Fund PP USD,Blended - Aggressive
+31,F00001DAX3,BOSWM Core High Yield Bond MYR BOS,Bonds - Emerging Markets
+32,F00001DAX4,BOSWM Core High Yield Bond MYR I BOS,Bonds - Emerging Markets
+33,F00001DAX5,BOSWM Core High Yield Bond MYRH BOS,Bonds - Emerging Markets
+34,F00001DAXC,BOSWM Core US Equities MYR BOS,Equity - Country Focus
+35,F00001DAXD,BOSWM Core US Equities MYR I BOS,Equity - Country Focus
+36,F00001DAXE,BOSWM Core US Equities MYRH BOS,Equity - Country Focus
+37,F00001D3HV,BOSWM Dynamic Income BOS MYR,Bonds - Malaysia
+38,F0000175LH,BOSWM Dynamic Islamic Income,Bonds - Malaysia (Shariah)
+39,F00000XWX3,BOSWM Emerging Market Bd MYR,Bonds - Emerging Markets
+40,F0000146SR,BOSWM Emerging Market Bd MYR BOS,Bonds - Emerging Markets
+41,F0000146SS,BOSWM Emerging Market Bd USD BOS,Bonds - Emerging Markets
+42,F0000106SY,BOSWM Islamic Deposit A,Money Market - Malaysia (Shariah)
+43,F00001D82A,BOSWM Islamic Deposit B,Money Market - Malaysia (Shariah)
+44,F00000LMH6,BSN Dana Al-Jadid,Equity - Malaysia Large-cap (Shariah)
+45,F00000Y7UL,BSN Dana Dividen Al-Ifrah,Equity - Malaysia Large-cap (Shariah)
+46,F00001DOD2,BSN Dana Wakaf Al-Ikhlas,Blended - Balanced (Shariah)
+47,F000000AIZ,Dana Makmur Pheim,Blended - Balanced (Shariah)
+48,F000000AN2,Eastspring Inv Asia Pacific Equity MY,Equity - Asia Pacific ex-Japan
+49,F00000VCSC,Eastspring Inv As Pac ex-Jpn Trgt Rtrn,Equity - Asia Pacific ex-Japan
+0,F000000AN4,Eastspring Inv Asia Select Income,Blended - Balanced
+1,F00000W33J,Eastspring Invest Asian HY Bd MY AUD,Bonds - Asia
+2,F00000W33I,Eastspring Invest Asian HY Bd MY RM,Bonds - Asia
+3,F00000W33K,Eastspring Invest Asian HY Bd MY USD,Bonds - Asia
+4,F000000AN5,Eastspring Inv Balanced,Blended - Balanced
+5,F000000AN6,Eastspring Inv Bond,Bonds - Malaysia
+6,F000000AN8,Eastspring Inv Cash Management,Money Market - Malaysia
+7,F00001D6KY,Eastspring Investments Cash Management R,Money Market - Malaysia
+8,F000000ANA,Eastspring Inv Dana al-Ilham,Equity - Malaysia Large-cap (Shariah)
+9,F000000ANB,Eastspring Inv Dana al-Islah,Blended - Conservative
+10,F000000ANC,Eastspring Inv Dana Dinamik,Blended - Flexible
+11,F000005J27,Eastspring Inv Dinasti Equity,Equity - Greater China
+12,F000000ANF,Eastspring Inv Dyn,Blended - Flexible
+13,F000000ANG,Eastspring Inv Equity Income,Equity - Malaysia Income
+14,F000014YP4,Eastspring Inv Glb Bal Tgt Ret,Blended - Balanced
+15,F000002290,Eastspring Inv Global Emerging Markets,Equity - Emerging Markets
+16,F00001CW9O,Eastspring Investments Global Equity RMH,Equity - Global
+17,F00001DOOD,Eastspring Investments Global Impact RM,Equity - Global
+18,F00000XJVC,Eastspring Inv Global Target Inc,Bonds - Global
+19,F000000ANI,Eastspring Inv Growth,Equity - Malaysia Large-cap
+20,F00001CKOU,Eastspring Inv Islamic China A-Shrs MYR,Equity - Greater China
+21,F000013EV1,Eastspring Investments Islamic Eq Inc,Equity - Malaysia Income
+22,F00000228Y,Eastspring Inv Islamic Income,Money Market - Malaysia (Shariah)
+23,F00001D6KZ,Eastspring Investments Islamic Income R,Money Market - Malaysia (Shariah)
+24,F00000Z0M1,Eastspring Inv Islamic Small-cap,Equity - Malaysia Mid/Small-cap (Shariah)
+25,F00000VZTD,Eastspring Invest Japan Dyn MY RM H,Equity - Country Focus
+26,F00000MC50,Eastspring Inv MY Focus,Equity - Malaysia Large-cap
+27,F000015MSC,Eastspring Inv Regular Investment Choice,Equity - Malaysia Large-cap
+28,F000000ANK,Eastspring Inv Small-cap,Equity - Malaysia Mid/Small-cap
+29,F00001DLNA,Eastspring Investments Wholesale Bond,Bonds - Malaysia
+30,F00001709C,Eastspring Inv Wholesale Sukuk Extra,Bonds - Malaysia (Shariah)
+31,F000014YIJ,Eastspring Inv Wholesale Sukuk,Bonds - Malaysia (Shariah)
+32,F00000U58O,Europe Eq Growth,Equity - Country Focus
+33,F000000AGO,European Equity Alpha,Equity - Country Focus
+34,F00000WK5G,Franklin Malaysia Sukuk A,Bonds - Malaysia (Shariah)
+35,F00000WKHK,Franklin Malaysia Sukuk I,Bonds - Malaysia (Shariah)
+36,F00000NRUW,Franklin US Opportunities MYR,Equity - Country Focus
+37,F00000RZDO,Franklin US Opportunities USD,Equity - Country Focus
+38,F000001XK9,Glb Agribusiness,Equity - Sector Focus
+39,F000000AGN,Global Islamic Equity,Equity - Global
+40,F00000T6N8,Glb Multi-Asset Income AUD,Blended - Flexible
+41,F00000T6N7,Glb Multi-Asset Income MYR,Blended - Flexible
+42,F00000T6N9,Glb Multi-Asset Income SGD,Blended - Flexible
+43,F00000T6N6,Glb Multi-Asset Income USD,Blended - Flexible
+44,F000000AGC,Global Property Equities,Property - Indirect Non-Asia
+45,F00001DBYG,Global Smaller Companies RM,Equity - Global
+46,F00001DBYF,Global Smaller Companies RM Hdg,Equity - Global
+47,F00001DBYE,Global Smaller Companies USD,Equity - Global
+48,F00001J6AA,Halogen Shariah Bitcoin MYR Acc,Other - Miscellaneous
+49,F00001J6AB,Halogen Shariah Ethereum MYR Acc,Other - Miscellaneous
+0,F00001J6A8,Halogen Shariah Ringgit Income A MYR Inc,Bonds - Malaysia (Shariah)
+1,F00001J6A9,Halogen Shariah Ringgit Income B MYR Acc,Bonds - Malaysia (Shariah)
+2,F00001BR6H,Hong Kong Tech Index HKD,Equity - Sector Focus
+3,F00001BR6I,Hong Kong Tech Index MYR,Equity - Sector Focus
+4,F00001BR6J,Hong Kong Tech Index MYR Hdg,Equity - Sector Focus
+5,F000000AJ0,Hong Leong Asia-Pacific Dividend,Equity - Asia Pacific ex-Japan
+6,F000013FD5,Hong Leong Asia Pacific Equity,Equity - Asia Pacific ex-Japan
+7,F000000AJ1,Hong Leong Balanced,Blended - Balanced
+8,F000000AJ3,Hong Leong Bond Ordinary Investment Plan,Bonds - Malaysia
+9,F000000AJ4,Hong Leong Bond Standalone Invmt Plan,Bonds - Malaysia
+10,F000000AJ6,Hong Leong Consumer Product Sector,Equity - Sector Focus
+11,F00001I9O0,Hong Leong Dana Abadi,Money Market - Malaysia (Shariah)
+12,F00000Z4MP,Hong Leong Dana Al-Izdihar,Money Market - Malaysia (Shariah)
+13,F0000175GT,Hong Leong Dana Al-Safa' A,Bonds - Malaysia (Shariah)
+14,F00001CMNE,Hong Leong Dana Al-Safa' A SGD,Bonds - Malaysia (Shariah)
+15,F00001CMNF,Hong Leong Dana Al-Safa' A USD,Bonds - Malaysia (Shariah)
+16,F000000AJ7,Hong Leong Dana Maa'rof,Blended - Balanced (Shariah)
+17,F000000AJ8,Hong Leong Dana Makmur,Equity - Malaysia Mid/Small-cap (Shariah)
+18,F000000AJB,Hong Leong Dividend,Equity - Malaysia Income
+19,F00001DRIV,Hong Leong Global ESG,Equity - Global
+20,F000014YPA,Hong Leong Global Multi Strategies,Blended - Balanced
+21,F00001EYO1,Hong Leong Global Shariah ESG Fund,Equity - Global
+22,F000000AJF,Hong Leong Growth,Equity - Malaysia Mid/Small-cap
+23,F00000MWQZ,Hong Leong HK Equity Optimizer,Equity - Greater China
+24,F000013FD3,Hong Leong Income A,Bonds - Malaysia
+25,F00001DB1S,Hong Leong Income D,Bonds - Malaysia
+26,F000000AJH,Hong Leong Institutional Bond,Bonds - Malaysia
+27,F000000JZH,Hong Leong Islamic Income Management,Bonds - Malaysia (Shariah)
+28,F00000VYZL,Hong Leong Money Market,Money Market - Malaysia
+29,F00000XLJ7,Hong Leong Regular Income,Blended - Conservative
+30,F00000YDZL,Hong Leong SEA-5 Equity Class A,Equity - ASEAN
+31,F00001F6BX,Hong Leong SEA-5 Equity Class B,Equity - ASEAN
+32,F000000AJK,Hong Leong Strategic,Blended - Flexible
+33,F000000AJI,Hong Leong Value,Equity - Malaysia Mid/Small-cap
+34,F00001DAXO,Hong Leong Wholesale Bond D,Bonds - Malaysia
+35,F000015RTB,Hong Leong Wholesale Equity 2,Equity - Malaysia Large-cap
+36,F0000144SY,Hong Leong Wholesale Income,Bonds - Malaysia
+37,F0000119JP,ICD Global Sustainable,Equity - Global
+38,F000014KMP,InterPac Capital Preservation and Growth,Blended - Aggressive
+39,F00001GEZN,InterPac Dana Abadi,Blended - Other
+40,F00001GEZM,InterPac Dana Saadi,Blended - Other
+41,F000002SNO,InterPac Dana Safi,Blended - Flexible
+42,F000002SNP,InterPac Dynamic Equity,Equity - Malaysia Large-cap
+43,F00000231C,KAF Bond,Bonds - Malaysia
+44,F000011F06,KAF Cash,Money Market - Malaysia
+45,F000000AFV,KAF CORE INCOME FUND,Equity - Malaysia Large-cap
+46,F000000AFP,KAF DANA ADIB,Equity - Malaysia Large-cap (Shariah)
+47,F000000AFT,KAF Dana Al-Iddhikhar,Money Market - Malaysia (Shariah)
+48,F000000AKE,KAF DANA ALIF,Blended - Balanced (Shariah)
+49,F000000AFU,KAF ENHANCED BOND FUND,Bonds - Malaysia
+0,F000000AFQ,KAF FIRST FUND,Blended - Balanced
+1,F000011F07,KAF iCash,Money Market - Malaysia (Shariah)
+2,F00000Y7DG,KAF Islamic Dividend Income,Equity - Malaysia Income
+3,F00000231D,KAF Jade,Equity - Asia Pacific
+4,F000000AMC,KAF Millennium,Equity - Malaysia Large-cap
+5,F00000231E,KAF Money Market,Money Market - Malaysia
+6,F00000Y7DH,KAF Sukuk,Bonds - Malaysia (Shariah)
+7,F000000AFW,KAF TACTICAL FUND,Equity - Malaysia Mid/Small-cap
+8,F000000AFX,KAF VISION FUND,Equity - Malaysia Mid/Small-cap
+9,F000000AG0,Kenanga Amanah Saham Wanita,Equity - Malaysia Mid/Small-cap (Shariah)
+10,F00000WLVA,Kenanga ASEAN Tactical Total Return,Equity - ASEAN
+11,F00000Y9SA,Kenanga Asia Pacific Income,Blended - Conservative
+12,F00000QADD,Kenanga Asia Pacific Total Return,Equity - Asia Pacific ex-Japan
+13,F000000AI0,Kenanga AsnitaBond Fund,Bonds - Malaysia (Shariah)
+14,F000014W6X,Kenanga AUD Alternative Income 3 AUD,Other - Miscellaneous
+15,F000014W6Y,Kenanga AUD Alternative Income 3 MYR,Other - Miscellaneous
+16,F000000AIT,Kenanga Balanced,Blended - Balanced
+17,F000000AK4,Kenanga Blue Chip,Equity - Malaysia Large-cap
+18,F000000AK5,Kenanga Bon Islam,Bonds - Malaysia (Shariah)
+19,F000000AIU,Kenanga Bond,Bonds - Malaysia
+20,F000000AI1,Kenanga BondExtra Fund,Bonds - Malaysia
+21,F00000VSAG,Kenanga Cash,Money Market - Malaysia
+22,F000000PA8,Kenanga Cash Plus,Money Market - Malaysia
+23,F000001X92,Kenanga Consumer and Leisure Asia Fund,Equity - Asia Pacific ex-Japan
+24,F00000H17N,Kenanga Dana Safa,Money Market - Malaysia (Shariah)
+25,F000000AKB,Kenanga Diversified,Blended - Balanced
+26,F000000AI2,Kenanga DividendExtra Fund,Equity - Malaysia Income
+27,F000000AK6,Kenanga Ekuiti Islam,Equity - Malaysia Large-cap (Shariah)
+28,F000000AI3,Kenanga EquityExtra Fund,Equity - Malaysia Mid/Small-cap
+29,F000000PA6,Kenanga Global Dividend,Equity - Global
+30,F00000MC4Z,Kenanga Global Growth Fund,Equity - Sector Focus
+31,F000000AIV,Kenanga Global Islamic Fund,Equity - Malaysia Mid/Small-cap (Shariah)
+32,F00000ZSJM,Kenanga Global Multi Asset MYR,Other - Miscellaneous
+33,F00000ZSJN,Kenanga Global Multi Asset USD,Other - Miscellaneous
+34,F00000IZYY,Kenanga Global Opportunities,Equity - Global
+35,F000000AKC,Kenanga Growth,Equity - Malaysia Mid/Small-cap
+36,F000010QXE,Kenanga Growth Ser 2 MYR,Equity - Malaysia Large-cap
+37,F000011W8K,Kenanga Growth Ser 2 USD,Equity - Malaysia Large-cap
+38,F000000AK8,Kenanga Growth Opportunities,Equity - Malaysia Mid/Small-cap
+39,F000000PA5,Kenanga i-Enhanced Cash,Other - Protected or Guaranteed
+40,F000011DPP,Kenanga-ICBC China Focus Income RMB,Bonds - Other
+41,F000011DPQ,Kenanga-ICBC China Focus Income USD,Bonds - Other
+42,F000000AK9,Kenanga Income Plus,Bonds - Malaysia
+43,F000000AI4,Kenanga IncomeExtra Fund,Blended - Balanced
+44,F00001HM94,Kenanga Islamic AsiaPac (Ex Jpn) Ttl Ret,Equity - Asia Pacific ex-Japan (Shariah)
+45,F000000AIW,Kenanga Islamic Balanced,Blended - Balanced (Shariah)
+46,F00000TPEI,Kenanga Islamic Cash,Money Market - Malaysia (Shariah)
+47,F00000U4LI,Kenanga Islamic Income Fund Ser 3,Money Market - Malaysia (Shariah)
+48,F00001H5I3,Kenanga Islamic Money Market NR,Money Market - Malaysia (Shariah)
+49,F000000OO5,Kenanga Islamic Money Market RI,Money Market - Malaysia (Shariah)
+0,F00001H5I5,Kenanga Liquidity NR,Money Market - Malaysia
+1,F000002OLA,Kenanga Liquidity RI,Money Market - Malaysia
+2,F000000OO8,Kenanga Malaysian Inc,Equity - Malaysia Mid/Small-cap
+3,F000000AKA,Kenanga Managed Growth,Blended - Balanced
+4,F00001H5I4,Kenanga Money Market NR,Money Market - Malaysia
+5,F000000OO7,Kenanga Money Market RI,Money Market - Malaysia
+6,F000000AI5,Kenanga MoneyExtra Fund,Money Market - Malaysia
+7,F000000AIX,Kenanga Premier,Equity - Malaysia Mid/Small-cap
+8,F0000020DL,Kenanga Principal Protected Income,Money Market - Malaysia
+9,F000002VEF,Kenanga Principal Protected Income II,Money Market - Malaysia
+10,F000000AK1,Kenanga Shariah Growth Opportunity,Equity - Malaysia Mid/Small-cap (Shariah)
+11,F000011DPT,Kenanga Sukuk Wholesale Ser 1,Bonds - Malaysia (Shariah)
+12,F000011DPS,Kenanga Sust Ser Emrg Waqf Musaadah,Blended - Balanced (Shariah)
+13,F00001CXDU,Kenanga Sustainability Series Frntr MYR,Equity - Other
+14,F00001CXDV,Kenanga Sustainability Series Frntr USD,Equity - Other
+15,F00001DP37,Kenanga Sustainability Series Hgh Yld Bd,Bonds - Global
+16,F00001EEI9,Kenanga Sust Ser Wld Qul ESG MYR,Equity - Global
+17,F00001EEIA,Kenanga Sust Ser Wld Qul ESG USD,Equity - Global
+18,F000000AKD,Kenanga Syariah Growth,Equity - Malaysia Mid/Small-cap (Shariah)
+19,F000000AI6,Kenanga SyariahExtra Fund,Blended - Balanced (Shariah)
+20,F000000AI7,Kenanga TacticalExtra Fund,Equity - Malaysia Large-cap
+21,F00001GFPD,Kenanga US Dollar,Other - Miscellaneous
+22,F000016T54,Kenanga Waqf Al-Ihsan,Blended - Balanced (Shariah)
+23,F00000X7EY,Kenanga Yield Enhancement,Bonds - Malaysia
+24,F000014MRG,Libra Shariah Liquidity Fund Series 2,Money Market - Malaysia (Shariah)
+25,F000014MRH,Libra Strategic Opportunity,Blended - Flexible
+26,F000016OJF,Makmur myWakaf AUD,Blended - Flexible
+27,F000016OJH,Makmur myWakaf RM,Blended - Flexible
+28,F000016OJG,Makmur myWakaf US,Blended - Flexible
+29,F00001C4A0,MAMG All-China Focus Equity MYR,Equity - Greater China
+30,F00001C4A1,MAMG All-China Focus Equity MYR Hdg,Equity - Greater China
+31,F00001C4A2,MAMG All-China Focus Equity USD,Equity - Greater China
+32,F00001DAYM,MAMG China Evolution Equity AUD Hdg,Equity - Greater China
+33,F00001DAYQ,MAMG China Evolution Equity MYR,Equity - Greater China
+34,F00001DAYL,MAMG China Evolution Equity MYR Hdg,Equity - Greater China
+35,F00001DAYN,MAMG China Evolution Equity SGD Hdg,Equity - Greater China
+36,F00001DAYO,MAMG China Evolution Equity USD,Equity - Greater China
+37,F000011XGD,MAMG Dynamic High Income AUD Hdg,Blended - Flexible
+38,F000011XGC,MAMG Dynamic High Income EUR Hdg,Blended - Flexible
+39,F000011XG9,MAMG Dynamic High Income MYR,Blended - Flexible
+40,F000011XGA,MAMG Dynamic High Income MYR Hdg,Blended - Flexible
+41,F000011XGE,MAMG Dynamic High Income SGD Hdg,Blended - Flexible
+42,F000011XGB,MAMG Dynamic High Income USD,Blended - Flexible
+43,F00001GIW2,MAMG Global Dividend AUD Hedged,Equity - Global
+44,F00001GIVZ,MAMG Global Dividend MYR,Equity - Global
+45,F00001GIW0,MAMG Global Dividend MYR Hedged,Equity - Global
+46,F00001GIW3,MAMG Global Dividend SGD Hedged,Equity - Global
+47,F00001GIW1,MAMG Global Dividend USD,Equity - Global
+48,F00001ECGB,MAMG Global Environment AUD Hedged,Equity - Sector Focus
+49,F00001ECG8,MAMG Global Environment MYR,Equity - Sector Focus
+0,F00001ECG9,MAMG Global Environment MYR Hedged,Equity - Sector Focus
+1,F00001ECGC,MAMG Global Environment SGD Hedged,Equity - Sector Focus
+2,F00001ECGA,MAMG Global Environment USD,Equity - Sector Focus
+3,F000010U4J,MAMG Global Income – I Fund,Bonds - Global
+4,F000015IKD,MAMG Global Income-I B USD,Bonds - Global
+5,F000015BQS,MAMG Gold MYR,Other - Miscellaneous
+6,F000015BQR,MAMG Gold MYR Hdg,Other - Miscellaneous
+7,F000015BQT,MAMG Gold USD,Other - Miscellaneous
+8,F00001GVS5,MAMG Green Tigers AUD Hdg,Equity - Sector Focus
+9,F00001GVS8,MAMG Green Tigers MYR,Equity - Sector Focus
+10,F00001GVS7,MAMG Green Tigers MYR Hdg,Equity - Sector Focus
+11,F00001GVS4,MAMG Green Tigers SGD Hdg,Equity - Sector Focus
+12,F00001GVS6,MAMG Green Tigers USD,Equity - Sector Focus
+13,F00001D1QR,MAMG Liquid Alternative MYR,Other - Miscellaneous
+14,F00001D1QQ,MAMG Liquid Alternative MYR H,Other - Miscellaneous
+15,F00001D1QP,MAMG Liquid Alternative USD,Other - Miscellaneous
+16,F00001IZQH,MAMG Systematic AsiaPac Eq Ab R AUD H,Other - Miscellaneous
+17,F00001IZQG,MAMG Systematic AsiaPac Eq Ab R MYR,Other - Miscellaneous
+18,F00001IZQF,MAMG Systematic AsiaPac Eq Ab Rt MYR H,Other - Miscellaneous
+19,F00001IZQI,MAMG Systematic AsiaPac Eq Ab R SGD H,Other - Miscellaneous
+20,F00001IZQJ,MAMG Systematic AsiaPac Eq Ab R USD,Other - Miscellaneous
+21,F000014AKW,Manulife ASEAN Equity MYR Hdg,Equity - ASEAN
+22,F000014AKV,Manulife ASEAN Equity USD,Equity - ASEAN
+23,F00001D05E,Manulife Asia Pacific Opports A AUD H,Equity - Asia Pacific
+24,F00001D05D,Manulife Asia Pacific Opports A RM H,Equity - Asia Pacific
+25,F00001D05F,Manulife Asia Pacific Opports A SGD H,Equity - Asia Pacific
+26,F00001D05C,Manulife Asia Pacific Opports A USD,Equity - Asia Pacific
+27,F0000133LV,Manulife Asia Total Return Bond CNH Hdg,Bonds - Asia
+28,F0000133LU,Manulife Asia Total Return Bond MYR Hdg,Bonds - Asia
+29,F0000133LT,Manulife Asia Total Return Bond USD,Bonds - Asia
+30,F00000VSN1,Manulife Asian Small Cap Equity,Equity - Asia Pacific ex-Japan
+31,F000010998,Manulife Asian Small Cap Equity MYRH,Equity - Asia Pacific ex-Japan
+32,F00000H6DK,Manulife Bond Plus,Bonds - Malaysia
+33,F00000QSZT,Manulife Cash Management,Money Market - Malaysia
+34,F00000YJ7Q,Manulife Dragon Gr USD,Equity - Country Focus
+35,F00000YJ7R,Manulife Dragon Gr MYR Hedged,Equity - Country Focus
+36,F00001CUAU,Manulife Global Aqua A AUDH,Equity - Sector Focus
+37,F00001CUAT,Manulife Global Aqua A RMH,Equity - Sector Focus
+38,F00001CUAV,Manulife Global Aqua A SGDH,Equity - Sector Focus
+39,F00001CUAW,Manulife Global Aqua A USDH,Equity - Sector Focus
+40,F000013BDM,Manulife Global Em Mkts MA Inc MYR Hdg,Blended - Balanced
+41,F000013BDO,Manulife Global Em Mkts MA Inc USD,Blended - Balanced
+42,F00001BJT3,Manulife Global Energy Transition A MYRH,Equity - Sector Focus
+43,F00001BJT4,Manulife Global Energy Transition A USDH,Equity - Sector Focus
+44,F000016976,Manulife Global Healthcare A MYR Hdg,Equity - Sector Focus
+45,F00001FI2V,Manulife Global Inc Optr A (RM-Hdg) Acc,Bonds - Global
+46,F00001FI2W,Manulife Global Inc Optr A4 (RM-Hdg) Inc,Bonds - Global
+47,F00001IL42,Manulife Global Inc Optr A4 (RM) Inc,Bonds - Global
+48,F00001FI2U,Manulife Global Inc Optr A4 (USD) Inc,Bonds - Global
+49,F000015CGZ,Manulife Global Low Volatility Eq A MYRH,Equity - Global
+0,F000015CGY,Manulife Global Low Volatility Eq A USD,Equity - Global
+1,F000014RKF,Manulife Global MA Dvrs Inc A MYR H (G),Blended - Flexible
+2,F00001IL43,Manulife Global MA Dvrs Inc A RM (G),Blended - Flexible
+3,F000014RKG,Manulife Global MA Dvrs Inc A USD (G),Blended - Flexible
+4,F00001GZNE,Manulife Global Perspective A RM H Acc,Equity - Global
+5,F00001GZNF,Manulife Global Perspective A SGD H Acc,Equity - Global
+6,F00001GZND,Manulife Global Perspective A USD Acc,Equity - Global
+7,F00000H6DM,Manulife Global Resources,Equity - Sector Focus
+8,F000016EDZ,Manulife Global Thematic A RM H,Equity - Global
+9,F000016EE0,Manulife Global Thematic A USD,Equity - Global
+10,F00000H6DJ,Manulife India Equity RM,Equity - Country Focus
+11,F000011VKD,Manulife India Equity RM-Hedged,Equity - Country Focus
+12,F000000AKM,Manulife Investment AL-Faid,Equity - Malaysia Mid/Small-cap (Shariah)
+13,F000000AKL,Manulife Investment AL-Fauzan,Equity - Malaysia Income
+14,F000000EUV,Manulife Investment Al-Ma'mun A,Money Market - Malaysia (Shariah)
+15,F00001D6LD,Manulife Investment Al-Ma'mun I,Money Market - Malaysia (Shariah)
+16,F000000AKN,Manulife Investment AL-Umran,Blended - Balanced (Shariah)
+17,F000000AKO,Manulife Investment AS-Saad,Bonds - Malaysia (Shariah)
+18,F000000AKX,Manulife Investment AsiaPac ex Jpn RM,Equity - Asia Pacific ex-Japan
+19,F000000H0P,Manulife Investment Asia-Pacific REIT,Property - Indirect Asia
+20,F000000AKP,Manulife Investment Balanced,Blended - Balanced
+21,F000000AKQ,Manulife Investment Bond,Bonds - Malaysia
+22,F000000EUW,Manulife Investment CM Flexi,Blended - Flexible
+23,F000001V81,Manulife Investment-CM Shariah Flexi,Blended - Flexible
+24,F000000AKR,Manulife Investment Dividend,Equity - Malaysia Income
+25,F0000029BI,Manulife Investment Greater China,Equity - Greater China
+26,F000000AKV,Manulife Investment Growth,Equity - Malaysia Mid/Small-cap
+27,F000000JZJ,Manulife Investment-HW Flexi,Blended - Flexible
+28,F00000OXKT,Manulife Investment-HW Shariah Flexi,Blended - Flexible
+29,F000000AKS,Manulife Investment-ML Flexi,Blended - Flexible
+30,F00000WBRY,Manulife Investment-ML Shariah Flexi,Blended - Flexible
+31,F000000AKW,Manulife Investment Money Market A,Money Market - Malaysia
+32,F00001D6LC,Manulife Investment Money Market I,Money Market - Malaysia
+33,F000000AKY,Manulife Investment Progress,Equity - Malaysia Mid/Small-cap
+34,F000000AKT,Manulife Investment Regular Savings,Equity - Malaysia Large-cap
+35,F000000RVF,Manulife Investment Shrh APAC ex Jpn Fd,Equity - Asia Pacific ex-Japan (Shariah)
+36,F00000MGAS,Manulife Investment Shariah Progress,Equity - Malaysia Mid/Small-cap (Shariah)
+37,F000010DEX,Manulife Investment Shariah Progress +,Equity - Malaysia Mid/Small-cap (Shariah)
+38,F000005H6W,Manulife Investment US Equity,Equity - Country Focus
+39,F000011VKE,Manulife Investment US Equity RM-Hedged,Equity - Country Focus
+40,F000011VKF,Manulife Investment US Equity USD,Equity - Country Focus
+41,F000015QVG,Manulife Preferred Securities Inc A RM H,Bonds - Other
+42,F000015QVF,Manulife Preferred Securities Inc A USD,Bonds - Other
+43,F0000108QY,Manulife SGD Income CNH Hdg,Bonds - Other
+44,F0000108QZ,Manulife SGD Income EUR Hdg,Bonds - Other
+45,F0000108R0,Manulife SGD Income GBP Hdg,Bonds - Other
+46,F0000108R1,Manulife SGD Income MYR,Bonds - Other
+47,F0000108R2,Manulife SGD Income MYR Hdg,Bonds - Other
+48,F0000108R3,Manulife SGD Income SGD,Bonds - Other
+49,F00001CEZK,Manulife Shariah China Equity A MYR,Equity - Greater China
+0,F00001CEZL,Manulife Shariah China Equity A USD,Equity - Greater China
+1,F00000QSZU,Manulife Shariah - Dana Ekuiti,Equity - Malaysia Mid/Small-cap (Shariah)
+2,F000013CFU,Manulife Shariah Global REIT MYR Inc,Property - Indirect Non-Asia
+3,F000013CFT,Manulife Shariah Global REIT USD Inc,Property - Indirect Non-Asia
+4,F0000178E5,Manulife Shariah Income Management A,Bonds - Malaysia (Shariah)
+5,F0000178E6,Manulife Shariah Income Management I,Bonds - Malaysia (Shariah)
+6,F00001CV1J,Manulife Shariah India Equity A RM,Equity - Country Focus
+7,F00001CV1L,Manulife Shariah India Equity A USD,Equity - Country Focus
+8,F00001E9KX,Manulife Shariah Indonesia Equity A RM,Equity - Country Focus
+9,F000014HA8,Manulife Wholesale Corporate Bond I,Bonds - Malaysia
+10,F000014HA9,Manulife Wholesale Government Bond I,Bonds - Malaysia
+11,F00001CJ7F,Maybank Asia Mixed Assets-I Fund MYR,Blended - Balanced (Shariah)
+12,F00001EDAB,Maybank Asia Mixed Assets-I Fund SGDH,Blended - Balanced (Shariah)
+13,F00001CJ7G,Maybank Asia Mixed Assets-I Fund USD,Blended - Balanced (Shariah)
+14,F000015IKE,Maybank Asian Credit Income MYR,Bonds - Asia
+15,F000015IKF,Maybank Asian Credit Income SGD Hdg,Bonds - Asia
+16,F00000YO3Y,Maybank Asiapac Ex-Japan Equity-I Fund,Equity - Asia Pacific ex-Japan (Shariah)
+17,F00000YO3W,Maybank Bluewaterz Total Return,Bonds - Asia
+18,F000011HHI,Maybank Bluewaterz Total Return USD,Bonds - Asia
+19,F00000MVDK,Maybank Corporate Money Market I A,Money Market - Malaysia (Shariah)
+20,F00001CBFV,Maybank Corporate Money Market I B,Money Market - Malaysia (Shariah)
+21,F00000YNK7,Maybank Enhanced Cash XII,Money Market - Malaysia
+22,F00000YNK8,Maybank Enhanced Cash XIII,Money Market - Malaysia
+23,F00000YO3X,Maybank Financial Institutions Inc Asia,Bonds - Asia
+24,F00000YO3Z,Maybank Financial Institutions Inc,Bonds - Malaysia
+25,F000014MLJ,Maybank Flexi Income AUD Hdg,Blended - Conservative
+26,F000014MLG,Maybank Flexi Income MYR,Blended - Conservative
+27,F000014MLH,Maybank Flexi Income MYR Hdg,Blended - Conservative
+28,F000014MLI,Maybank Flexi Income SGD Hdg,Blended - Conservative
+29,F000014MLF,Maybank Flexi Income USD,Blended - Conservative
+30,F000015H8V,Maybank Global Mixed Assets-I AUD Hdg,Blended - Balanced (Shariah)
+31,F000013TIV,Maybank Global Mixed Assets-I MYR,Blended - Balanced (Shariah)
+32,F000013TIU,Maybank Global Mixed Assets-I MYR Hdg,Blended - Balanced (Shariah)
+33,F00001E9LA,Maybank Global Mixed Assets-I MYRHInsDis,Blended - Balanced (Shariah)
+34,F00001E9L9,Maybank Global Mixed Assets-I MYRInstDis,Blended - Balanced (Shariah)
+35,F000015H8W,Maybank Global Mixed Assets-I SGD Hdg,Blended - Balanced (Shariah)
+36,F000013TIW,Maybank Global Mixed Assets-I USD,Blended - Balanced (Shariah)
+37,F000015RI9,Maybank Global Mixed Assets-I USDInslDis,Blended - Balanced (Shariah)
+38,F00001F6S2,Maybank Global Sustnbl Eq-I Instl USD,Equity - Global
+39,F000015OBS,Maybank Global Sustainable Eq-I MYR,Equity - Global
+40,F000015OBT,Maybank Global Sustainable Eq-I MYR H,Equity - Global
+41,F000015OBU,Maybank Global Sustainable Eq-I USD,Equity - Global
+42,F000016ECN,Maybank Global Sustainable Tech MYR,Equity - Sector Focus
+43,F000016ECO,Maybank Global Sustainable Tech MYR H,Equity - Sector Focus
+44,F000016ECP,Maybank Global Sustainable Tech USD,Equity - Sector Focus
+45,F00001F5UW,Maybank Global Wealth Conservative-IMYRH,Blended - Flexible
+46,F00001DH3P,Maybank Global Wealth Growth-I MYRH Acc,Blended - Aggressive
+47,F00001E04X,Maybank Global Wealth Growth-I USD Acc,Blended - Aggressive
+48,F00001DH3O,Maybank Global Wealth Moderate-I MYRHAcc,Blended - Balanced (Shariah)
+49,F00001DH3N,Maybank Global Wealth Moderate-I MYRHDis,Blended - Balanced (Shariah)
+0,F00001E04V,Maybank Global Wealth Moderate-I USD Acc,Blended - Balanced (Shariah)
+1,F00001E04W,Maybank Global Wealth Moderate-I USD Dis,Blended - Balanced (Shariah)
+2,F00001F5UX,Maybank Global Wealth Conservative-IUSD,Blended - Flexible
+3,F00001F9MJ,Maybank Income Flow-I Fund,Bonds - Malaysia (Shariah)
+4,F000014XT4,Maybank Income Management-I,Bonds - Malaysia (Shariah)
+5,F000000AL1,Maybank Malaysia Balanced,Blended - Balanced
+6,F000000AL4,Maybank Malaysia Balanced I,Blended - Balanced (Shariah)
+7,F000000AL6,Maybank Malaysia Dividend,Equity - Malaysia Income
+8,F000000AL8,Maybank Malaysia Ethical Dividend,Equity - Malaysia Large-cap
+9,F000000ALI,Maybank Malaysia Growth,Equity - Malaysia Large-cap
+10,F000000AL5,Maybank Malaysia Growth I,Equity - Malaysia Large-cap (Shariah)
+11,F000000ALA,Maybank Malaysia Income,Bonds - Malaysia
+12,F000000AL2,Maybank Malaysia Income-I A MYR,Bonds - Malaysia (Shariah)
+13,F00000WODU,Maybank Malaysia Income-I A SGD,Bonds - Malaysia (Shariah)
+14,F00000WODS,Maybank Malaysia Income-I C MYR,Bonds - Malaysia (Shariah)
+15,F00000WODX,Maybank Malaysia Income-I C USD,Bonds - Malaysia (Shariah)
+16,F000000ALH,Maybank Malaysia Small Cap,Equity - Malaysia Mid/Small-cap
+17,F00000YN7R,Maybank Malaysia Sukuk,Bonds - Malaysia (Shariah)
+18,F000000ALJ,Maybank Malaysia Value A-MYR,Equity - Malaysia Large-cap
+19,F00000V5VB,Maybank Malaysia Value C-MYR,Equity - Malaysia Large-cap
+20,F000016ZKZ,Maybank Mixed Assets-I Waqf,Blended - Balanced (Shariah)
+21,F00001CYIV,Maybank Retail Money Market-I,Money Market - Malaysia (Shariah)
+22,F00000YO40,Maybank Shariah Enhanced Cash Fund,Money Market - Malaysia (Shariah)
+23,F000011EQ4,Maybank Singapore REITs MYR,Property - Indirect Asia
+24,F000011EQ5,Maybank Singapore REITs MYR Hdg,Property - Indirect Asia
+25,F000011EQ6,Maybank Singapore REITs SGD,Property - Indirect Asia
+26,F00001LE86,MIDF Amanah DL,Money Market - Malaysia (Shariah)
+27,F000000AHZ,MIDF Amanah Dynamic,Equity - Malaysia Mid/Small-cap
+28,F00001CG07,MIDF Amanah ESG Mustadamah,Equity - Malaysia Large-cap (Shariah)
+29,F000000AHX,MIDF Amanah growth,Equity - Malaysia Mid/Small-cap
+30,F000000AHH,MIDF Amanah Islamic,Equity - Malaysia Mid/Small-cap (Shariah)
+31,F00001ISTQ,MIDF Amanah LR Sukuk Fund,Money Market - Malaysia (Shariah)
+32,F000000AHG,MIDF Amanah Money Market,Money Market - Malaysia
+33,F000011E1M,MIDF Amanah Shariah Equity,Equity - Malaysia Large-cap (Shariah)
+34,F000000AHW,MIDF Amanah Shariah Money Market,Money Market - Malaysia (Shariah)
+35,F000000AHY,MIDF Amanah Strategic,Equity - Malaysia Mid/Small-cap
+36,F00001IRJT,MIDF TM TR Finite Fund - 1,Equity - Global
+37,F000018MW9,Muamalat Invest i-Institutional Mny Mkt,Money Market - Malaysia (Shariah)
+38,F00001F7SE,Muamalat Invest Islamic Equity Fund,Equity - Malaysia Large-cap (Shariah)
+39,F00001E057,New China Sectors Index HKD,Equity - Greater China
+40,F00001E058,New China Sectors Index RM,Equity - Greater China
+41,F00001E059,New China Sectors Index RM Hdg,Equity - Greater China
+42,F00000X3K8,Nikko AM Shenton Singapore Div Eq MYR,Singapore Equity
+43,F000017JQM,Nomura Global Sustainable Equity MYR A,Equity - Global
+44,F000017JQO,Nomura Global Sustainable Equity MYR B,Equity - Global
+45,F000017JQQ,Nomura Global Sustainable Equity USD,Equity - Global
+46,F000016H7X,Nomura Global Dynamic Bond MYR,Bonds - Global
+47,F000016H7W,Nomura Global Dynamic Bond USD,Bonds - Global
+48,F00000YCT0,Nomura Global High Conviction MYR,Equity - Global
+49,F00000YCT1,Nomura Global High Conviction USD,Equity - Global
+0,F00001E5MS,Nomura Global Shariah Semicondctr Eq MYR,Equity - Sector Focus
+1,F00001E5MT,Nomura Global Shariah Semicondctr Eq USD,Equity - Sector Focus
+2,F00001582G,Nomura Global Shariah Strategic Growth A,Blended - Balanced (Shariah)
+3,F0000158HV,Nomura Global Shariah Strategic Growth B,Blended - Balanced (Shariah)
+4,F00001DXLH,Nomura Global Shariah Sust Eq MYR A,Equity - Global
+5,F00001DXMX,Nomura Global Shariah Sust Eq USD A,Equity - Global
+6,F00000WWKN,Nomura i-Cash,Money Market - Malaysia (Shariah)
+7,F000019CSN,Nomura i-Income Fund 2 H USD Hdg,Bonds - Malaysia (Shariah)
+8,F000019CSM,Nomura i-Income Fund 2 I,Bonds - Malaysia (Shariah)
+9,F000019CSL,Nomura i-Income Fund 2 R,Bonds - Malaysia (Shariah)
+10,F000019CSK,Nomura i-Income Fund 2 S,Bonds - Malaysia (Shariah)
+11,F00000WWKO,Nomura i-Income I MYR,Bonds - Malaysia (Shariah)
+12,F00001EFYI,Nomura i-Income R MYR,Bonds - Malaysia (Shariah)
+13,F00001432B,Nomura Ringgit Bond 1,Bonds - Malaysia
+14,F000015LJF,Nomura Ringgit Bond 2,Bonds - Malaysia
+15,F00000JXOR,Opus Cash Extra,Money Market - Malaysia
+16,F00001HHK2,Opus Cash Extra 2,Money Market - Malaysia
+17,F00000JXOQ,Opus Dynamic Income,Bonds - Malaysia
+18,F00000JXOP,Opus Fixed Income,Bonds - Malaysia
+19,F000013BMF,Opus Income Plus,Bonds - Malaysia
+20,F000013BMC,Opus Institutional Income,Bonds - Malaysia
+21,F000013BMG,Opus Money Plus,Money Market - Malaysia
+22,F00000JXOS,Opus Shariah Cash Extra,Money Market - Malaysia (Shariah)
+23,F000013BMB,Opus Shariah Dynamic Income,Bonds - Malaysia (Shariah)
+24,F000013BMA,Opus Shariah Income,Bonds - Malaysia (Shariah)
+25,F000014PDA,Opus Shariah Income Plus,Bonds - Malaysia (Shariah)
+26,F0000158H6,Opus Shariah Short Term Low Risk Asset,Bonds - Malaysia (Shariah)
+27,F00001D0ON,Opus SRI Sukuk A,Bonds - Malaysia (Shariah)
+28,F00001D0OM,Opus SRI Sukuk B,Bonds - Malaysia (Shariah)
+29,F00001GLW7,Opus USD Fixed Income MYR,Bonds - Other
+30,F000013BME,Opus USD Fixed Income USD,Bonds - Other
+31,F000015IJK,OUD Ethical Enrich,Equity - Malaysia Large-cap
+32,F000015IJL,OUD Montreux Healthcare,Equity - Sector Focus
+33,F000001XKA,Pan European Property Equities,Property - Indirect Non-Asia
+34,F00000T2LM,PB Aiman Sukuk,Bonds - Malaysia (Shariah)
+35,F000000NVC,PB ASEAN Dividend,Equity - ASEAN
+36,F00000Y8EX,PB ASEAN Dividend Sequel,Equity - ASEAN
+37,F0000110DK,PB Asia-30 Equity,Equity - Asia Pacific
+38,F000011VNJ,PB Asia Consumer Sector,Equity - Sector Focus
+39,F00000NBYX,PB Asia Emerging Growth,Equity - Asia Pacific ex-Japan
+40,F000000AMJ,PB Asia Equity,Equity - Asia Pacific
+41,F00000ZORK,PB Asia Pacific Dividend,Equity - Asia Pacific ex-Japan
+42,F00000MC51,PB Asia Pacific Enterprises,Equity - Asia Pacific ex-Japan
+43,F000001A3J,PB Asia Real Estate Income,Property - Indirect Asia
+44,F000003WCT,PB Australia Dynamic Balanced Fund,Blended - Other
+45,F000000AMK,PB Balanced,Blended - Balanced
+46,F00000T2LL,PB Balanced Sequel,Blended - Balanced
+47,F00000NBYY,PB Bond,Bonds - Malaysia
+48,F00001D9GW,PB Cash Management B,Money Market - Malaysia
+49,F000000AML,PB Cash Management,Money Market - Malaysia
+0,F000000PXI,PB Cash Plus,Money Market - Malaysia
+1,F000001VEZ,PB China ASEAN Equity,Equity - Asia Pacific ex-Japan
+2,F00000IRXR,PB China Australia Equity Fund,Equity - Country Focus
+3,F000001A3I,PB China Pacific Equity,Equity - Greater China
+4,F00000Y8EY,PB Dividend Builder Equity,Equity - Malaysia Large-cap
+5,F00000OSAC,PB Dynamic Allocation,Blended - Flexible
+6,F000001A3H,PB Euro Pacific Equity,Equity - Asia Pacific ex-Japan
+7,F000000AMM,PB Fixed Income,Bonds - Malaysia
+8,F00000Y8EZ,PB Global Equity,Equity - Global
+9,F0000143LN,PB Global Opportunities,Equity - Global
+10,F000013MFU,PB Global Technology & Healthcare,Equity - Sector Focus
+11,F000014XCB,PB Greater China A-Shares,Equity - Greater China
+12,F000000AMN,PB Growth,Equity - Malaysia Large-cap
+13,F00000NQHT,PB Growth Sequel,Equity - Malaysia Large-cap
+14,F00000LIP8,PB Indonesia Balanced,Blended - Other
+15,F00000J3N7,PB Infrastructure Bond Fund,Bonds - Other
+16,F000000AMO,PB Islamic Asia Equity,Equity - Asia Pacific ex-Japan (Shariah)
+17,F000001A3G,PB Islamic Asia Strategic Sector,Equity - Asia Pacific ex-Japan (Shariah)
+18,F000000AMP,PB Islamic Bond,Bonds - Malaysia (Shariah)
+19,F00001D9GV,PB Islamic Cash Management B,Money Market - Malaysia (Shariah)
+20,F000001VF0,PB Islamic Cash Management,Money Market - Malaysia (Shariah)
+21,F000011D8I,PB Islamic Dynamic Allocation,Blended - Flexible
+22,F000000AMQ,PB Islamic Equity,Equity - Malaysia Large-cap (Shariah)
+23,F00000Z9YW,PB Islamic SmallCap,Equity - Malaysia Mid/Small-cap (Shariah)
+24,F00000T2LK,PB Mixed Asset Conservative,Blended - Conservative
+25,F00000Y8F0,PB Mixed Asset Growth,Blended - Balanced
+26,F00000J3N6,PB Singapore Advantage-30 Equity Fund,Equity - Country Focus
+27,F00000Y8F1,PB SmallCap Growth,Equity - Malaysia Mid/Small-cap
+28,F00000NBYZ,PB Sukuk,Bonds - Malaysia (Shariah)
+29,F00001GPMO,PB Sustainable Growth,Blended - Aggressive
+30,F000016ATK,PB U.S. Eagle,Equity - Country Focus
+31,F000015R8X,PB Vietnam Global 40,Equity - Country Focus
+32,F00001D3UK,Pheim ASEAN Islamic MYR,Equity - ASEAN
+33,F000000AMR,Pheim Asia Ex-Japan,Equity - Asia Pacific ex-Japan
+34,F000000AMS,Pheim Asia Ex-Japan Islamic,Equity - Asia Pacific ex-Japan (Shariah)
+35,F000000AMT,Pheim Emerging Co Balanced,Blended - Balanced
+36,F00001D3UL,Pheim Global ESG Islamic MYR,Equity - Global
+37,F00001D3UJ,Pheim Greater China Islamic MYR,Equity - Greater China
+38,F000000AMU,Pheim Income,Blended - Conservative
+39,F000000EV0,Phillip AsiaPac Income,Blended - Balanced
+40,F000000AM7,Phillip Dana Aman,Equity - Malaysia Large-cap (Shariah)
+41,F000000JPN,Phillip Dana Dividen Inc,Equity - Global
+42,F000000AM8,Phillip Dana Murni,Bonds - Malaysia (Shariah)
+43,F000000AM9,Phillip Dividend,Equity - Malaysia Income
+44,F000002X80,Phillip Focus China,Equity - Greater China
+45,F000013JVB,Phillip Global Disruptive Innovt MYR Hdg,Equity - Global
+46,F000000AMG,Phillip Global Stars,Equity - Global
+47,F000011E99,Phillip Islamic Money Market 2,Money Market - Malaysia (Shariah)
+48,F000000AMV,Phillip Master Equity Growth,Equity - Malaysia Mid/Small-cap
+49,F000011E9A,Phillip Master Islamic Cash,Money Market - Malaysia (Shariah)
+0,F000000AMX,Phillip Master Money Market,Money Market - Malaysia
+1,F000000AMD,Phillip Pearl,Equity - Malaysia Mid/Small-cap
+2,F000000AMF,Phillip Recovery,Equity - Malaysia Large-cap
+3,F000000AMH,Phillip Select Balance,Blended - Balanced
+4,F000017H46,Phillip Value Growth,Blended - Aggressive
+5,F000016ZX4,Phillip Wholesale Income,Bonds - Malaysia
+6,F000016ZX5,Phillip Wholesale Islamic Income,Bonds - Malaysia (Shariah)
+7,F000016SZS,PMB-An-Nur Waqf Income A,Blended - Flexible
+8,F000016SZT,PMB-An-Nur Waqf Income B,Blended - Flexible
+9,F000000AH3,PMB Dana Al-Aiman,Equity - Malaysia Large-cap (Shariah)
+10,F000000AH4,PMB Dana Bestari,Equity - Malaysia Mid/Small-cap (Shariah)
+11,F000000AH5,PMB Dana Mutiara,Equity - Malaysia Large-cap (Shariah)
+12,F000000AH9,PMB Shariah Aggressive,Equity - Malaysia Mid/Small-cap (Shariah)
+13,F000011DHJ,PMB Shariah ASEAN Stars Equity MYR Acc,Equity - ASEAN
+14,F000011DHK,PMB Shariah ASEAN Stars Equity USD Acc,Equity - ASEAN
+15,F000000AHA,PMB Shariah Cash Management,Money Market - Malaysia (Shariah)
+16,F0000024VM,PMB Shariah Dividend,Equity - Malaysia Large-cap (Shariah)
+17,F000000AH1,PMB Shariah Equity Fund,Equity - Malaysia Income
+18,F00001CUH7,PMB Shariah Global Equity Fund,Equity - Global
+19,F00001DZSS,PMB Shariah Greater China Equity,Equity - Greater China
+20,F000000AHB,PMB Shariah Growth,Equity - Malaysia Mid/Small-cap (Shariah)
+21,F000000AH7,PMB Shariah Index,Equity - Malaysia Large-cap (Shariah)
+22,F000000AH8,PMB Shariah Premier,Equity - Malaysia Large-cap (Shariah)
+23,F00000Y6II,PMB Shariah Small-Cap MYR,Equity - Malaysia Mid/Small-cap (Shariah)
+24,F000000AHD,PMB Shariah Tactical,Equity - Malaysia Large-cap (Shariah)
+25,F000000AH6,PMB Shariah ESG Global Equity Fd,Equity - Global
+26,F000000AH2,PMB Sukuk,Blended - Balanced (Shariah)
+27,F000001XK7,Precious Metals Securities,Equity - Sector Focus
+28,F00000VEPH,Principal ASEAN Dynamic MYR,Equity - ASEAN
+29,F00000XRL1,Principal ASEAN Dynamic SGD,Equity - ASEAN
+30,F00000VEPJ,Principal ASEAN Dynamic USD,Equity - ASEAN
+31,F000013EBP,Principal Asia Dynamic Bond,Bonds - Asia
+32,F00000XBJ5,Principal APAC Dyn Gr AUD,Equity - Asia Pacific ex-Japan
+33,F00000XBJ3,Principal APAC Dyn Gr MYR,Equity - Asia Pacific ex-Japan
+34,F00000XBJ4,Principal APAC Dyn Gr SGD,Equity - Asia Pacific ex-Japan
+35,F00000XBJ2,Principal APAC Dyn Gr USD,Equity - Asia Pacific ex-Japan
+36,F00001GJA0,Principal Asia Pacific Dynamic Inc AUD,Equity - Asia Pacific ex-Japan
+37,F00001FW1C,Principal Asia Pacific Dynamic Inc D MYR,Equity - Asia Pacific ex-Japan
+38,F00000MC43,Principal Asia Pacific Dynamic Inc MYR,Equity - Asia Pacific ex-Japan
+39,F00000XRKZ,Principal Asia Pacific Dynamic Inc SGD,Equity - Asia Pacific ex-Japan
+40,F00000XRL0,Principal Asia Pacific Dynamic Inc USD,Equity - Asia Pacific ex-Japan
+41,F00001FKEV,Principal APAC Dyn Mxd Ast AUD,Blended - Flexible
+42,F00001FKEW,Principal APAC Dyn Mxd Ast D,Blended - Flexible
+43,F00000YJGC,Principal APAC Dyn Mxd Ast MYR,Blended - Flexible
+44,F00000YJGB,Principal APAC Dyn Mxd Ast USD,Blended - Flexible
+45,F00001DYWR,Principal Asia Pacific Renewables AUDH,Equity - Asia Pacific ex-Japan
+46,F00001DYWS,Principal Asia Pacific Renewables MYRH,Equity - Asia Pacific ex-Japan
+47,F00001DYWP,Principal Asia Pacific Renewables SGDH,Equity - Asia Pacific ex-Japan
+48,F00001DYWQ,Principal Asia Pacific Renewables USD,Equity - Asia Pacific ex-Japan
+49,F000000AOU,Principal Asia Titans,Equity - Asia Pacific ex-Japan
+0,F00001J8KZ,Principal Asia Titans D,Equity - Asia Pacific ex-Japan
+1,F00001CNNK,Principal Biotechnology Discovery AUDH,Equity - Sector Focus
+2,F00001CNNJ,Principal Biotechnology Discovery MYRH,Equity - Sector Focus
+3,F00001CNNL,Principal Biotechnology Discovery SGDH,Equity - Sector Focus
+4,F00001CNNM,Principal Biotechnology Discovery USD,Equity - Sector Focus
+5,F000011DFA,Principal China Direct Opps MYR,Equity - Greater China
+6,F0000118PF,Principal China Direct Opps SGD,Equity - Greater China
+7,F000011AE9,Principal China Direct Opps USD,Equity - Greater China
+8,F000005PLN,Principal China-India-Indonesia Opports,Equity - Country Focus
+9,F0000110DJ,Principal China Multi Asset Income AUDH,Blended - Flexible
+10,F00000Z6JA,Principal China Multi Asset Income MYR,Blended - Flexible
+11,F00000Z6J8,Principal China Multi Asset Income MYRH,Blended - Flexible
+12,F0000110DI,Principal China Multi Asset Income RMBH,Blended - Flexible
+13,F000010QM7,Principal China Multi Asset Income SGDH,Blended - Flexible
+14,F00000Z6J9,Principal China Multi Asset Income USD,Blended - Flexible
+15,F00001EBSO,Principal Commodity AUD-Hedged,Other - Miscellaneous
+16,F00001EBSP,Principal Commodity MYR-Hedged,Other - Miscellaneous
+17,F00001EBSQ,Principal Commodity SGD-Hedged,Other - Miscellaneous
+18,F00001EBSN,Principal Commodity USD,Other - Miscellaneous
+19,F00000ZP2X,Principal Conservative Bond A,Bonds - Malaysia
+20,F00000ZP2Y,Principal Conservative Bond C,Bonds - Malaysia
+21,F00001D393,Principal Corporate Deposit 1,Money Market - Malaysia
+22,F000000AP5,Principal DALI Asia Pacific Equity Gr,Equity - Asia Pacific ex-Japan (Shariah)
+23,F000000AP4,Principal DALI Equity,Equity - Malaysia Large-cap (Shariah)
+24,F000000AP3,Principal DALI Equity Growth,Equity - Malaysia Large-cap (Shariah)
+25,F00000ZP2T,Principal DALI Global Equity,Equity - Global
+26,F00001G00D,Principal DALI Global Equity D,Equity - Global
+27,F0000022FM,Principal DALI Opportunities MYR,Equity - Malaysia Large-cap (Shariah)
+28,F00000XRLX,Principal DALI Opportunities SGD,Equity - Malaysia Large-cap (Shariah)
+29,F00000ZP2U,Principal Deposit 2 AI,Money Market - Malaysia
+30,F00000ZP2V,Principal Deposit 2 BI,Money Market - Malaysia
+31,F00000ZP2W,Principal Deposit 2 CI,Money Market - Malaysia
+32,F000017H47,Principal Deposit Fund 2AI,Money Market - Malaysia
+33,F000017H48,Principal Deposit Fund 2BI,Money Market - Malaysia
+34,F000017H49,Principal Deposit Fund 2BR,Money Market - Malaysia
+35,F000017H4A,Principal Deposit Fund 2CI,Money Market - Malaysia
+36,F000017H4B,Principal Deposit Fund 2DI,Money Market - Malaysia
+37,F000017H4C,Principal Deposit Fund 2EI,Money Market - Malaysia
+38,F000017H4D,Principal Deposit Fund 2FI,Money Market - Malaysia
+39,F00001CICY,Principal Deposit AR,Money Market - Malaysia
+40,F000000APG,Principal Deposit AI,Money Market - Malaysia
+41,F000000AIH,Principal Dynamic Enhanced Malaysia Inc,Blended - Balanced
+42,F000010BG9,Principal Dynamic Gr SGD,Equity - Asia Pacific ex-Japan
+43,F000010BG7,Principal Dynamic Gr USD,Equity - Asia Pacific ex-Japan
+44,F000016PMA,Principal e-Cash A,Money Market - Malaysia
+45,F000016PMB,Principal e-Cash B,Money Market - Malaysia
+46,F00000ZCKL,Principal Em Mkt Mlt Asst AUDH,Blended - Balanced
+47,F000010N33,Principal Emerging Markets Mlt Asst EURH,Blended - Balanced
+48,F000011D8L,Principal Emerging Markets Mlt Asst GBPH,Blended - Balanced
+49,F000010UED,Principal Emerging Markets Mlt Asst HKDH,Blended - Balanced
+0,F00000YJFV,Principal Em Mkt Mlt Asst MYR,Blended - Balanced
+1,F00000YZAU,Principal Em Mkt Mlt Asst MYRH,Blended - Balanced
+2,F000010UJO,Principal Emerging Markets Mlt Asst RMBH,Blended - Balanced
+3,F00000ZCKM,Principal Em Mkt Mlt Asst SGDH,Blended - Balanced
+4,F00000YJFU,Principal Em Mkt Mlt Asst USD,Blended - Balanced
+5,F00001KAKD,Principal Global Dynamic Income AUDH,Blended - Balanced
+6,F00001KAKE,Principal Global Dynamic Income MYR,Blended - Balanced
+7,F00001KAKF,Principal Global Dynamic Income MYRH,Blended - Balanced
+8,F00001KAKG,Principal Global Dynamic Income SGDH,Blended - Balanced
+9,F00001KAKH,Principal Global Dynamic Income USD,Blended - Balanced
+10,F00000ZLY1,Principal Global Income AUD H,Bonds - Global
+11,F000010N31,Principal Global Income EUR Hedged,Bonds - Global
+12,F00000ZLY2,Principal Global Income GBP Hedged,Bonds - Global
+13,F000010UEE,Principal Global Income HKD Hedged,Bonds - Global
+14,F00000ZLY3,Principal Global Income MYR H,Bonds - Global
+15,F000010UJN,Principal Global Income RMB Hedged,Bonds - Global
+16,F00000ZLY4,Principal Global Income SGD H,Bonds - Global
+17,F00000ZLY5,Principal Global Income USD,Bonds - Global
+18,F000010PVY,Principal Global Millennial Equity MYR,Equity - Global
+19,F000010PVZ,Principal Global Millennial Equity MYR H,Equity - Global
+20,F000010PW0,Principal Global Millennial Equity SGD H,Equity - Global
+21,F000010PW1,Principal Global Millennial Equity USD,Equity - Global
+22,F000014JV8,Principal Global Multi Asset Income AUDH,Blended - Balanced
+23,F000014JV9,Principal Global Multi Asset Income GBPH,Blended - Balanced
+24,F00000T6N4,Principal Global Multi Asset Income MYR,Blended - Balanced
+25,F000014JVA,Principal Global Multi Asset Income MYRH,Blended - Balanced
+26,F000014JVB,Principal Global Multi Asset Income SGDH,Blended - Balanced
+27,F000014JV7,Principal Global Multi Asset Income USD,Blended - Balanced
+28,F00000YJGF,Principal Global Pr Secs MYR,Bonds - Other
+29,F00000YZAY,Principal Global Pr Secs MYR H,Bonds - Other
+30,F00000YJGE,Principal Global Pr Secs USD,Bonds - Other
+31,F000014EJS,Principal Global Real Estate MYR,Equity - Sector Focus
+32,F000014EJT,Principal Global Real Estate MYR Hdg,Equity - Sector Focus
+33,F000014EJU,Principal Global Real Estate USD,Equity - Sector Focus
+34,F00001CMKN,Principal Global Sustainable Growth AUDH,Equity - Global
+35,F00001CMKC,Principal Global Sustainable Growth MYRH,Equity - Global
+36,F00001CMKD,Principal Global Sustainable Growth SGDH,Equity - Global
+37,F00001CMKM,Principal Global Sustainable Growth USD,Equity - Global
+38,F000010RLE,Principal Global Technology AUD H,Equity - Sector Focus
+39,F000010RLF,Principal Global Technology GBP H,Equity - Sector Focus
+40,F000010RLB,Principal Global Technology MYR H,Equity - Sector Focus
+41,F000010RLC,Principal Global Technology SGD H,Equity - Sector Focus
+42,F000010RLD,Principal Global Technology USD,Equity - Sector Focus
+43,F00001G00C,Principal Global Titans D,Equity - Global
+44,F000000AIF,Principal Global Titans MYR,Equity - Global
+45,F0000103YJ,Principal Global Titans USD,Equity - Global
+46,F000014EKB,Principal Greater Bay AUD Hdg,Equity - Greater China
+47,F000014EKC,Principal Greater Bay MYR Hdg,Equity - Greater China
+48,F000014EKD,Principal Greater Bay SGD Hdg,Equity - Greater China
+49,F000014EKE,Principal Greater Bay USD,Equity - Greater China
+0,F0000158RL,Principal Greater China Equity AUD H,Equity - Greater China
+1,F0000022FU,Principal Greater China Equity MYR,Equity - Greater China
+2,F0000158RM,Principal Greater China Equity MYR H,Equity - Greater China
+3,F0000158RN,Principal Greater China Equity RMB H,Equity - Greater China
+4,F0000158RO,Principal Greater China Equity SGD H,Equity - Greater China
+5,F0000158RP,Principal Greater China Equity USD,Equity - Greater China
+6,F00001D1AL,Principal Heritage Balanced AUD Hdg,Blended - Balanced
+7,F000015U4K,Principal Heritage Balanced GBP Hdg,Blended - Balanced
+8,F000015H52,Principal Heritage Balanced MYR Hdg,Blended - Balanced
+9,F000015H53,Principal Heritage Balanced SGD,Blended - Balanced
+10,F000016R91,Principal Heritage Balanced USD Hdg,Blended - Balanced
+11,F00001D1AM,Principal Heritage Growth AUD Hdg,Blended - Aggressive
+12,F000015U4L,Principal Heritage Growth GBP Hdg,Blended - Aggressive
+13,F000015H54,Principal Heritage Growth MYR Hdg,Blended - Aggressive
+14,F000015H55,Principal Heritage Growth SGD,Blended - Aggressive
+15,F000016R92,Principal Heritage Growth USD Hdg,Blended - Aggressive
+16,F00001D1AK,Principal Heritage Income AUD Hdg,Blended - Conservative
+17,F000015U4M,Principal Heritage Income GBP Hdg,Blended - Conservative
+18,F000015H56,Principal Heritage Income MYR Hdg,Blended - Conservative
+19,F000015H57,Principal Heritage Income SGD,Blended - Conservative
+20,F000016R93,Principal Heritage Income USD Hdg,Blended - Conservative
+21,F000000AII,Principal Institutional Bond 2,Bonds - Malaysia
+22,F00001D395,Principal Institutional Bond 3,Bonds - Malaysia
+23,F00001D397,Principal Institutional Bond 4,Bonds - Malaysia
+24,F00001D39A,Principal Institutional Bond 6,Bonds - Malaysia
+25,F00001D39C,Principal Institutional Bond 7,Bonds - Malaysia
+26,F000011DF8,Principal Islamic Agrsv Wholsl FoF,Equity - Asia Pacific ex-Japan (Shariah)
+27,F000014W5Q,Principal Islamic ASEAN Equity MYR,Equity - ASEAN
+28,F000014W5R,Principal Islamic ASEAN Equity SGD,Equity - ASEAN
+29,F000014W5S,Principal Islamic ASEAN Equity USD,Equity - ASEAN
+30,F000000AI9,Principal Islamic Asia Pacific Dyn Eq,Equity - Asia Pacific ex-Japan (Shariah)
+31,F00001FW1B,Principal Islamic Asia Pacific Dyn Eq D,Equity - Asia Pacific ex-Japan (Shariah)
+32,F000016KAF,Principal Islamic AP Dyn Inc & Gr MYR,Equity - Asia Pacific ex-Japan (Shariah)
+33,F000016KAG,Principal Islamic AP Dyn Inc & Gr SGD,Equity - Asia Pacific ex-Japan (Shariah)
+34,F000016KAH,Principal Islamic AP Dyn Inc & Gr USD,Equity - Asia Pacific ex-Japan (Shariah)
+35,F000011DF7,Principal Islamic Bal Wholsl FoF,Blended - Balanced (Shariah)
+36,F000011DF9,Principal Islamic Cnsrv Wholesale FoF,Blended - Conservative
+37,F00000ZPXP,Principal Islamic Deposit Fund 2 A,Money Market - Malaysia (Shariah)
+38,F00000ZPXQ,Principal Islamic Deposit Fund 2 B,Money Market - Malaysia (Shariah)
+39,F00000ZPXR,Principal Islamic Deposit Fund 2 C,Money Market - Malaysia (Shariah)
+40,F00001CICZ,Principal Islamic Deposit AR,Money Market - Malaysia (Shariah)
+41,F000005GIT,Principal Islamic Deposit AI,Money Market - Malaysia (Shariah)
+42,F000000AIL,Principal Islamic Enhanced Opportunities,Equity - Malaysia Large-cap (Shariah)
+43,F00001H9PN,Principal Islamic Enhanced Opp D,Equity - Malaysia Large-cap (Shariah)
+44,F00001GM0Y,Principal Islamic Global Mlt-Asst MYR,Blended - Flexible
+45,F00001GM0Z,Principal Islamic Global Mlt-Asst MYRH,Blended - Flexible
+46,F00001GM10,Principal Islamic Global Mlt-Asst USD,Blended - Flexible
+47,F00001F9OW,Principal Islamic Global Rspnb Eq MYR,Equity - Global
+48,F00001F9OU,Principal Islamic Global Rspnb Eq MYR H,Equity - Global
+49,F00001F9OV,Principal Islamic Global Rspnb Eq USD,Equity - Global
+0,F00001FW1E,Principal Islamic Global Slctn AggsvDMYR,Blended - Aggressive
+1,F00001AHCR,Principal Islamic Global Slctn Aggsv MYR,Blended - Aggressive
+2,F00001AHCS,Principal Islamic Global Slctn Aggsv USD,Blended - Aggressive
+3,F00001FW1D,Principal Islamic Glb Slctn Mod ConsDMYR,Blended - Balanced (Shariah)
+4,F00001AHCT,Principal Islamic Glb Slctn Mod Cons MYR,Blended - Balanced (Shariah)
+5,F00001AHCU,Principal Islamic Glb Slctn Mod Cons USD,Blended - Balanced (Shariah)
+6,F00001FKEU,Principal Islamic Global Slctn Mod D,Blended - Balanced (Shariah)
+7,F00001AHCV,Principal Islamic Global Slctn Mod MYR,Blended - Balanced (Shariah)
+8,F00001AHCW,Principal Islamic Global Slctn Mod USD,Blended - Balanced (Shariah)
+9,F000013MSU,Principal Islamic Global Sukuk MYR,Bonds - Global
+10,F000013MSV,Principal Islamic Global Sukuk SGD,Bonds - Global
+11,F000013MSW,Principal Islamic Global Sukuk USD,Bonds - Global
+12,F00001E72C,Principal Islamic Global Technology MYR,Equity - Sector Focus
+13,F00001E72B,Principal Islamic Global Technology MYRH,Equity - Sector Focus
+14,F00001E72D,Principal Islamic Global Technology USD,Equity - Sector Focus
+15,F00001GM11,Principal Islamic Greater China Gr MYR,Equity - Greater China
+16,F00001GM12,Principal Islamic Greater China Gr MYRH,Equity - Greater China
+17,F00001GM14,Principal Islamic Greater China Gr SGD,Equity - Greater China
+18,F00001GM15,Principal Islamic Greater China Gr SGDH,Equity - Greater China
+19,F00001GM13,Principal Islamic Greater China Gr USD,Equity - Greater China
+20,F00001D39D,Principal Islamic Institutional Sukuk,Bonds - Malaysia (Shariah)
+21,F000000AP6,Principal Islamic Lifetime Balanced,Blended - Balanced (Shariah)
+22,F000000AIN,Principal Islamic Lifetime Balanced Gr,Blended - Balanced (Shariah)
+23,F00001H5HQ,Principal Islamic Lifetime Balanced Gr D,Blended - Balanced (Shariah)
+24,F000000AIM,Principal Islamic Lifetime Enh Sukuk,Blended - Conservative
+25,F00001FW1F,Principal Islamic Lifetime Enh Sukuk D,Blended - Conservative
+26,F000000AP0,Principal Islamic Lifetime Sukuk,Bonds - Malaysia (Shariah)
+27,F00001H9PM,Principal Islamic Lifetime Sukuk D,Bonds - Malaysia (Shariah)
+28,F0000183P4,Principal Islamic Malaysia Gov Sukuk A,Bonds - Malaysia (Shariah)
+29,F0000183P5,Principal Islamic Malaysia Gov Sukuk B,Bonds - Malaysia (Shariah)
+30,F0000183P6,Principal Islamic Malaysia Gov Sukuk C,Bonds - Malaysia (Shariah)
+31,F0000183P7,Principal Islamic Malaysia Gov Sukuk D,Bonds - Malaysia (Shariah)
+32,F00000OWM3,Principal Islamic Malaysia Opportunities,Equity - Malaysia Large-cap (Shariah)
+33,F00001CID1,Principal Islamic Money Market AR,Money Market - Malaysia (Shariah)
+34,F0000024VO,Principal Islamic Money Market AI,Money Market - Malaysia (Shariah)
+35,F00001E0X4,Principal Islamic Money Market D,Money Market - Malaysia (Shariah)
+36,F00001EHFF,Principal Islamic RetireEasy 2030 A,Other - Target Date
+37,F00001EHFN,Principal Islamic RetireEasy 2030 C,Other - Target Date
+38,F00001EHFV,Principal Islamic RetireEasy 2030 X,Other - Target Date
+39,F00001EHFE,Principal Islamic RetireEasy 2040 A,Other - Target Date
+40,F00001EHFM,Principal Islamic RetireEasy 2040 C,Other - Target Date
+41,F00001EHFU,Principal Islamic RetireEasy 2040 X,Other - Target Date
+42,F00001EHFD,Principal Islamic RetireEasy 2050 A,Other - Target Date
+43,F00001EHFL,Principal Islamic RetireEasy 2050 C,Other - Target Date
+44,F00001EHFT,Principal Islamic RetireEasy 2050 X,Other - Target Date
+45,F00001EHFC,Principal Islamic RetireEasy 2060 A,Other - Target Date
+46,F00001EHFK,Principal Islamic RetireEasy 2060 C,Other - Target Date
+47,F00001EHFS,Principal Islamic RetireEasy 2060 X,Other - Target Date
+48,F00001DS58,Principal Islamic RetireEasy Income A,Blended - Flexible
+49,F00001DS59,Principal Islamic RetireEasy Income C,Blended - Flexible
+0,F00001DS5A,Principal Islamic RetireEasy Income X,Blended - Flexible
+1,F000000AOY,Principal Islamic Small Cap Opps,Equity - Malaysia Mid/Small-cap (Shariah)
+2,F000016UAN,Principal Islamic Wholesale Sukuk A,Bonds - Malaysia (Shariah)
+3,F000016UAO,Principal Islamic Wholesale Sukuk B,Bonds - Malaysia (Shariah)
+4,F000016UAP,Principal Islamic Wholesale Sukuk C,Bonds - Malaysia (Shariah)
+5,F000000AIA,Principal Lifetime Balanced,Blended - Balanced
+6,F000000APK,Principal Lifetime Balanced Income,Blended - Balanced
+7,F00001J8KX,Principal Lifetime Balanced Income D,Blended - Balanced
+8,F000000AIJ,Principal Lifetime Bond,Bonds - Malaysia
+9,F00001J8KY,Principal Lifetime Bond D,Bonds - Malaysia
+10,F000000AIQ,Principal Lifetime Enhanced Bond,Bonds - Malaysia
+11,F000000APM,Principal Malaysia Enhanced Opports,Equity - Malaysia Large-cap
+12,F0000158T3,Principal Malaysia Government Bond B,Bonds - Malaysia
+13,F0000158T4,Principal Malaysia Government Bond C,Bonds - Malaysia
+14,F0000158T5,Principal Malaysia Government Bond D,Bonds - Malaysia
+15,F000000AID,Principal Malaysia Opportunities,Equity - Malaysia Large-cap
+16,F000000APH,Principal Malaysia Titans,Equity - Malaysia Large-cap
+17,F00001J8KV,Principal Malaysia Titans D,Equity - Malaysia Large-cap
+18,F000000APE,Principal Malaysia Titans Plus MYR,Equity - Malaysia Large-cap
+19,F00000XRL2,Principal Malaysia Titans Plus SGD,Equity - Malaysia Large-cap
+20,F000000AIR,Principal Money Market Income AI,Money Market - Malaysia
+21,F00001CID0,Principal Money Market Income AR,Money Market - Malaysia
+22,F000016BKH,Principal Next-G Connectivity AUD Hdg,Equity - Sector Focus
+23,F000016BKI,Principal Next-G Connectivity GBP Hdg,Equity - Sector Focus
+24,F000016BKE,Principal Next-G Connectivity MYR Hdg,Equity - Sector Focus
+25,F000016BKF,Principal Next-G Connectivity SGD Hdg,Equity - Sector Focus
+26,F000016BKG,Principal Next-G Connectivity USD,Equity - Sector Focus
+27,F00001EHFB,Principal RetireEasy 2030 A,Other - Target Date
+28,F00001EHFJ,Principal RetireEasy 2030 C,Other - Target Date
+29,F00001EHFR,Principal RetireEasy 2030 X,Other - Target Date
+30,F00001EHFA,Principal RetireEasy 2040 A,Other - Target Date
+31,F00001EHFI,Principal RetireEasy 2040 C,Other - Target Date
+32,F00001EHFQ,Principal RetireEasy 2040 X,Other - Target Date
+33,F00001EHF9,Principal RetireEasy 2050 A,Other - Target Date
+34,F00001EHFH,Principal RetireEasy 2050 C,Other - Target Date
+35,F00001EHFP,Principal RetireEasy 2050 X,Other - Target Date
+36,F00001EHF8,Principal RetireEasy 2060 A,Other - Target Date
+37,F00001EHFG,Principal RetireEasy 2060 C,Other - Target Date
+38,F00001EHFO,Principal RetireEasy 2060 X,Other - Target Date
+39,F00001DS55,Principal RetireEasy Income A,Blended - Flexible
+40,F00001DS56,Principal RetireEasy Income C,Blended - Flexible
+41,F00001DS57,Principal RetireEasy Income X,Blended - Flexible
+42,F000000AIG,Principal Small Cap Opportunities,Equity - Malaysia Mid/Small-cap
+43,F00001D7WN,Principal Sustainable Dynamic Bond MYR,Bonds - Malaysia
+44,F00001D7WL,Principal Sustainable Dynamic Bond SGDH,Bonds - Malaysia
+45,F00001D7WM,Principal Sustainable Dynamic Bond USDH,Bonds - Malaysia
+46,F000000AP7,Principal Titans Growth & Income,Equity - Asia Pacific ex-Japan
+47,F000000APA,Principal Titans Income Plus,Equity - Asia Pacific ex-Japan
+48,F00001J8KW,Principal Titans Income Plus D,Equity - Asia Pacific ex-Japan
+49,F00001DCDB,Principal US High Conviction Equity MYR,Equity - Country Focus
+0,F00001DCDC,Principal US High Conviction Equity MYRH,Equity - Country Focus
+1,F00001DCDD,Principal US High Conviction Equity SGD,Equity - Country Focus
+2,F00001DCDE,Principal US High Conviction Equity USD,Equity - Country Focus
+3,F00001KZP6,Principal Vietnam Equity MYR Hedged,Equity - Country Focus
+4,F00001KZP5,Principal Vietnam Equity USD,Equity - Country Focus
+5,F000013MSZ,Principal World Selection Agrsv AUD Hdg,Blended - Aggressive
+6,F000013MT0,Principal World Selection Agrsv GBP Hdg,Blended - Aggressive
+7,F000013MF4,Principal World Selection Agrsv MYR Hdg,Blended - Aggressive
+8,F000013MT1,Principal World Selection Agrsv SGD Hdg,Blended - Aggressive
+9,F000013MF5,Principal World Selection Agrsv USD,Blended - Aggressive
+10,F000013MT2,Principal World Selection Cnsrv AUD Hdg,Blended - Conservative
+11,F000013MT3,Principal World Selection Cnsrv GBP Hdg,Blended - Conservative
+12,F000013MF6,Principal World Selection Cnsrv MYR Hdg,Blended - Conservative
+13,F000013MT4,Principal World Selection Cnsrv SGD Hdg,Blended - Conservative
+14,F000013MF7,Principal World Selection Cnsrv USD,Blended - Conservative
+15,F000013MT5,Principal World Selection Mod Agrsv AUDH,Blended - Aggressive
+16,F000013MT6,Principal World Selection Mod Agrsv GBPH,Blended - Aggressive
+17,F000013MF8,Principal World Selection Mod Agrsv MYRH,Blended - Aggressive
+18,F000013MT7,Principal World Selection Mod Agrsv SGDH,Blended - Aggressive
+19,F000013MF9,Principal World Selection Mod Agrsv USD,Blended - Aggressive
+20,F000013MT8,Principal World Selection Mod Cnsrv AUDH,Blended - Balanced
+21,F000013MT9,Principal World Selection Mod Cnsrv GBPH,Blended - Balanced
+22,F000013MFA,Principal World Selection Mod Cnsrv MYRH,Blended - Balanced
+23,F000013MTA,Principal World Selection Mod Cnsrv SGDH,Blended - Balanced
+24,F000013MFB,Principal World Selection Mod Cnsrv USD,Blended - Balanced
+25,F000013MTB,Principal World Selection Moderate AUD H,Blended - Balanced
+26,F000013MTC,Principal World Selection Moderate GBP H,Blended - Balanced
+27,F000013MFC,Principal World Selection Moderate MYR H,Blended - Balanced
+28,F000013MTD,Principal World Selection Moderate SGD H,Blended - Balanced
+29,F000013MFD,Principal World Selection Moderate USD,Blended - Balanced
+30,F00001DN7M,PRULink Asia Pacific Dynamic Income,Equity - Asia Pacific ex-Japan
+31,F00001CNO0,PRULink Dynamic Equity,Equity - Malaysia Large-cap
+32,F000015RK9,PRULink Equity Plus,Equity - Malaysia Large-cap
+33,F000014JPT,PRULink Global Growth,Equity - Global
+34,F000015RK7,PRULink Global Strategic Fund (with Hdg),Equity - Global
+35,F000010ZPF,Prulink Income Plus,Blended - Conservative
+36,F000015RKA,PRULink Managed Plus,Equity - Malaysia Large-cap
+37,F000015RK8,PRULink Strategic,Equity - Malaysia Large-cap
+38,F00001DN7L,PRULink US Equity,Equity - Country Focus
+39,F00000Y8F2,Public Advantage Growth Equity,Equity - Malaysia Large-cap
+40,F000000ANM,Public Aggressive Growth,Equity - Malaysia Large-cap
+41,F00000ZORL,Public Asean Growth,Equity - ASEAN
+42,F000000ANN,Public Asia Ittikal,Equity - Asia Pacific
+43,F00001D7JT,Public Asia Pacific Alpha-40,Equity - Asia Pacific ex-Japan
+44,F00001D3US,Public Asia Pacific Focus,Equity - Asia Pacific ex-Japan
+45,F0000043P5,Public Australia Equity,Equity - Country Focus
+46,F000000ANO,Public Balanced,Blended - Balanced
+47,F000000ANP,Public Bond,Bonds - Malaysia
+48,F00000Y8F3,Public China Access Equity,Equity - Greater China
+49,F000001A3F,Public China Ittikal,Equity - Greater China
+0,F000000PXL,Public China Select,Equity - Greater China
+1,F000001VEV,Public China Titans,Equity - Greater China
+2,F000000ANQ,Public Dividend Select,Equity - Malaysia Income
+3,F00001D44P,Public e-AL-Mutawazan Strategy,Blended - Balanced (Shariah)
+4,F000015M96,Public e-Artificial Intelligence Tech,Equity - Sector Focus
+5,F00001D3UT,Public e-Asia Evolving Growth,Equity - Asia Pacific ex-Japan
+6,F000014W1L,Public e-Asia Pacific REITs Flexi,Property - Indirect Asia
+7,F00001G3NM,Public E-Ataraxia Mixed Asset,Blended - Balanced
+8,F00001F7SF,Public e-AvantGarde Focus Fund,Equity - Malaysia Large-cap
+9,F000016M61,Public e-Carbon Efficient,Equity - Other
+10,F00001D9GU,Public e -Cash Deposit B,Money Market - Malaysia
+11,F00000Y8FL,Public e -Cash Deposit,Money Market - Malaysia
+12,F00001CLYQ,PUBLIC e-EMAS GOLD,Other - Miscellaneous
+13,F00000ZORM,Public E-Flexi Allocation,Blended - Flexible
+14,F000015HPL,Public e-Income,Bonds - Malaysia
+15,F00001D3UU,Public e-Islamic Asia Thematic Growth,Equity - Asia Pacific ex-Japan (Shariah)
+16,F00001D9GT,Public e -Islamic Cash Deposit B,Money Market - Malaysia (Shariah)
+17,F00000Y8FM,Public e -Islamic Cash Deposit,Money Market - Malaysia (Shariah)
+18,F000011D8H,Public e-Islamic Flexi Allocation,Blended - Flexible
+19,F00001D8BX,Public e-Islamic Growth,Equity - Malaysia Large-cap (Shariah)
+20,F000015HPM,Public e-Islamic Income,Bonds - Malaysia (Shariah)
+21,F0000174B6,Public e-Islamic Innovative Technology,Equity - Sector Focus
+22,F000016XKR,Public e-Islamic Pioneer Entrprnr 40,Equity - Global
+23,F000014FIC,Public e-Islamic Sustainable Millennial,Equity - Global
+24,F00001C0ZS,Public e-Pioneer Entrepreneur,Equity - Global
+25,F0000169GE,Public e-Sukuk,Bonds - Malaysia (Shariah)
+26,F00001E4BR,Public e-Wholesale Sustainable 20,Equity - Global
+27,F00001D7JS,Public e-Worldwide Thematic Growth Bal,Blended - Balanced
+28,F00000Y8FH,Public Ehsan Mixed Asset Conservative,Blended - Conservative
+29,F00000Y8F4,Public Ehsan Mixed Asset Growth,Blended - Balanced (Shariah)
+30,F00000Y8F5,Public Emerging Opportunities,Equity - Malaysia Mid/Small-cap
+31,F000000ANR,Public Enhanced Bond,Blended - Conservative
+32,F00000OK2C,Public Enterprises Bond Fund,Bonds - Malaysia
+33,F000000ANS,Public Equity,Equity - Malaysia Large-cap
+34,F00000IRXW,Public Far-East Alpha-30,Equity - Asia Pacific
+35,F000000PXM,Public Far-East Balanced,Blended - Balanced
+36,F000001VF2,Public Far-East Consumer Themes,Equity - Sector Focus
+37,F000000ANT,Public Far-East Dividend,Equity - Asia Pacific ex-Japan
+38,F000000PXK,Public Far-East Property & Resorts,Property - Indirect Asia
+39,F000000ANU,Public Far-East Select,Equity - Asia Pacific ex-Japan
+40,F00000257Z,Public Far-East Telco & Infrastructure,Equity - Sector Focus
+41,F000000ANV,Public Focus Select,Equity - Malaysia Mid/Small-cap
+42,F000000ANW,Public Global Select,Equity - Global
+43,F00000ZORN,Public Greater China,Equity - Greater China
+44,F000000ANX,Public Growth,Equity - Malaysia Large-cap
+45,F00000Y8F6,Public Growth Balanced,Blended - Balanced
+46,F0000169GF,Public Healthcare-Global Equity,Equity - Sector Focus
+47,F000000ANY,Public Index,Equity - Malaysia Large-cap
+48,F000010BQ8,Public India-Global Equity,Equity - Global
+49,F00000JSAZ,Public Indonesia Select,Equity - Country Focus
+0,F000000ANZ,Public Industry Growth,Equity - Malaysia Large-cap
+1,F000000AO0,Public Institutional Bond,Bonds - Malaysia
+2,F00000Y8FJ,Public Islamic Advantage Growth Equity,Equity - Malaysia Large-cap (Shariah)
+3,F00000LNPK,Public Islamic Alpha-40 Growth,Equity - Malaysia Large-cap (Shariah)
+4,F000010QMC,Public Islamic ASEAN Growth,Equity - ASEAN
+5,F000000P53,Public Islamic Asia Dividend,Equity - Asia Pacific ex-Japan (Shariah)
+6,F00000GYTB,Public Islamic Asia Leaders Equity,Equity - Asia Pacific ex-Japan (Shariah)
+7,F000000QT9,Public Islamic Asia Tactical Allocation,Blended - Flexible
+8,F000000AO2,Public Islamic Bond,Bonds - Malaysia (Shariah)
+9,F000000AO3,Public Islamic Dividend,Equity - Malaysia Income
+10,F00000Y8FK,Public Islamic Emerging Opportunities,Equity - Malaysia Mid/Small-cap (Shariah)
+11,F000000AO4,Public Islamic Enhanced Bond,Blended - Conservative
+12,F00000Y8F7,Public Islamic Enterprises Equity,Equity - Malaysia Large-cap (Shariah)
+13,F000000AO5,Public Islamic Equity,Equity - Malaysia Large-cap (Shariah)
+14,F000014JQ0,Public Islamic Global Balanced,Blended - Balanced (Shariah)
+15,F00000ZORO,Public Islamic Global Equity,Equity - Global
+16,F00001JXB7,Public Islamic Global Sustainable Gr,Blended - Aggressive
+17,F00000T2LN,Public Islamic Growth & Income,Equity - Malaysia Large-cap (Shariah)
+18,F00000Y8F8,Public Islamic Growth Balanced,Blended - Balanced (Shariah)
+19,F00000257W,Public Islamic Income,Bonds - Malaysia (Shariah)
+20,F00000LNPJ,Public Islamic Infrastructure Bond,Bonds - Other
+21,F000000AO1,Public Islamic Mixed Asset,Blended - Balanced (Shariah)
+22,F00001D9GX,Public Islamic Money Market B,Money Market - Malaysia (Shariah)
+23,F000000P52,Public Islamic Money Market,Money Market - Malaysia (Shariah)
+24,F000000AO6,Public Islamic Opportunities,Equity - Malaysia Mid/Small-cap (Shariah)
+25,F00000Y8F9,Public Islamic Optimal Equity,Equity - Asia Pacific ex-Japan (Shariah)
+26,F000001VEW,Public Islamic Optimal Growth,Equity - Malaysia Large-cap (Shariah)
+27,F00001IFDF,Public Islamic Regional ESG,Equity - Asia Pacific
+28,F00000NQHS,Public Islamic Savings,Equity - Malaysia Income
+29,F000000QT8,Public Islamic Sector Select,Equity - Malaysia Large-cap (Shariah)
+30,F000000PXJ,Public Islamic Select Bond,Bonds - Malaysia (Shariah)
+31,F00000257V,Public Islamic Select Enterprises,Equity - Malaysia Large-cap (Shariah)
+32,F000001VEU,Public Islamic Select Treasures,Equity - Malaysia Mid/Small-cap (Shariah)
+33,F00000LZ2A,Public Islamic Strategic Bond,Bonds - Malaysia (Shariah)
+34,F00000MVDL,Public Islamic Treasures Growth,Equity - Malaysia Mid/Small-cap (Shariah)
+35,F000013HO6,Public Islamic U.S. Equity,Equity - Country Focus
+36,F000000AO7,Public Ittikal,Equity - Malaysia Large-cap (Shariah)
+37,F00000NBZ3,Public Ittikal Sequel,Equity - Malaysia Large-cap (Shariah)
+38,F000014JQ1,Public Japan Global Equity,Equity - Global
+39,F0000110DL,Public Lifestyle & Technology,Equity - Sector Focus
+40,F00001D9GY,Public Money Market B,Money Market - Malaysia
+41,F000000AO8,Public Money Market,Money Market - Malaysia
+42,F00000YJC4,Public Navigator Growth,Blended - Flexible
+43,F00000Y8FA,Public Optimal Equity,Equity - Asia Pacific ex-Japan
+44,F00000J811,Public Optimal Growth Fund,Equity - Malaysia Income
+45,F000000AO9,Public Regional Sector,Equity - Asia Pacific ex-Japan
+46,F000000AOA,Public Regular Savings,Equity - Malaysia Large-cap
+47,F00000YEYJ,Public Regular Savings Sequel Fund,Equity - Malaysia Large-cap
+48,F000000AOB,Public Savings,Equity - Malaysia Large-cap
+49,F000000QT6,Public Sector Select,Equity - Malaysia Large-cap
+0,F000003WCP,Public Select Alpha-30 Fund,Equity - Malaysia Large-cap
+1,F000000AOC,Public Select Bond,Bonds - Malaysia
+2,F000010D74,Public Select Mixed Asset Conservative,Blended - Conservative
+3,F00000Y8FB,Public Select Mixed Asset Growth,Blended - Balanced
+4,F00000Y8FC,Public Select Treasures Equity,Equity - Malaysia Mid/Small-cap
+5,F00000MS4R,Public Singapore Equity,Equity - Country Focus
+6,F000000AOD,Public SmallCap,Equity - Malaysia Mid/Small-cap
+7,F000000QT7,Public South-East Asia Select,Equity - ASEAN
+8,F00000Y8FE,Public Strategic Balanced,Blended - Balanced
+9,F00000LZ29,Public Strategic Bond,Bonds - Malaysia
+10,F00000Y8FF,Public Strategic Growth,Equity - Malaysia Large-cap
+11,F00000OK2D,Public Strategic SmallCap Fund,Equity - Malaysia Mid/Small-cap
+12,F00000MVDM,Public Sukuk,Bonds - Malaysia (Shariah)
+13,F000000P54,Public Tactical Allocation,Blended - Flexible
+14,F000011VNK,Public US Equity,Equity - Country Focus
+15,F000014A4O,Public Vietnam-Global Equity,Equity - Other
+16,F0000040IE,Public Worldwide Equity,Equity - Sector Focus
+17,F000014ROK,RHB American Income B AUD Hdg,Bonds - Other
+18,F000014ROM,RHB American Income B GBP Hdg,Bonds - Other
+19,F000014RON,RHB American Income B MYR,Bonds - Other
+20,F000014ROO,RHB American Income B MYR Hdg,Bonds - Other
+21,F000014ROQ,RHB American Income B SGD Hdg,Bonds - Other
+22,F000014ROR,RHB American Income B USD,Bonds - Other
+23,F00000EXOI,RHB ASEAN,Equity - ASEAN
+24,F000015R8K,RHB Asia Dynamic AUD Hdg,Blended - Aggressive
+25,F000015R8L,RHB Asia Dynamic GBP Hdg,Blended - Aggressive
+26,F000015R8N,RHB Asia Dynamic MYR,Blended - Aggressive
+27,F000015R8M,RHB Asia Dynamic MYR Hdg,Blended - Aggressive
+28,F000015R8O,RHB Asia Dynamic RMB Hdg,Blended - Aggressive
+29,F000015R8P,RHB Asia Dynamic SGD Hdg,Blended - Aggressive
+30,F000015R8Q,RHB Asia Dynamic USD,Blended - Aggressive
+31,F000010RQ2,RHB Asia High Income Bond AUD Hdg,Bonds - Asia
+32,F000010RQ3,RHB Asia High Income Bond GBP Hdg,Bonds - Asia
+33,F000010RQ4,RHB Asia High Income Bond RM Hdg,Bonds - Asia
+34,F000010RQ5,RHB Asia High Income Bond SGD Hdg,Bonds - Asia
+35,F000010RQ6,RHB Asia High Income Bond USD,Bonds - Asia
+36,F00001EWQ5,RHB Asia Pacific Equity Dividend USD,Equity - Asia Pacific ex-Japan
+37,F00001EWQ8,RHB Asia Pacific Equity Dividend AUD H,Equity - Asia Pacific ex-Japan
+38,F00001EWQ6,RHB Asia Pacific Equity Dividend RM H,Equity - Asia Pacific ex-Japan
+39,F00001EWQ7,RHB Asia Pacific Equity Dividend SGD H,Equity - Asia Pacific ex-Japan
+40,F000016BVJ,RHB Asia Pacific Growth & Income AUD Hdg,Blended - Flexible
+41,F000016BVM,RHB Asia Pacific Growth & Income MYR,Blended - Flexible
+42,F000016BVO,RHB Asia Pacific Growth & Income MYR Hdg,Blended - Flexible
+43,F000016BVP,RHB Asia Pacific Growth & Income SGD Hdg,Blended - Flexible
+44,F000016BVQ,RHB Asia Pacific Growth & Income USD,Blended - Flexible
+45,F00001CPAK,RHB Asia Sustainable Leaders RM Hedged,Equity - Asia Pacific
+46,F00001CPAJ,RHB Asia Sustainable Leaders USD,Equity - Asia Pacific
+47,F00000WALR,RHB Asian High Yield AUD,Bonds - Asia
+48,F00000WALS,RHB Asian High Yield RM,Bonds - Asia
+49,F00000WALU,RHB Asian High Yield USD,Bonds - Asia
+0,F00000OK13,RHB Asian Income,Blended - Balanced
+1,F000010UP5,RHB Asian Income Multi Currencies AUD H,Blended - Balanced
+2,F000010UP7,RHB Asian Income Multi Currencies EUR H,Blended - Balanced
+3,F000010UP9,RHB Asian Income Multi Currencies GBP H,Blended - Balanced
+4,F000010UPB,RHB Asian Income Multi Currencies RM H,Blended - Balanced
+5,F000010UPC,RHB Asian Income Multi Currencies RMB H,Blended - Balanced
+6,F000010UPE,RHB Asian Income Multi Currencies USD H,Blended - Balanced
+7,F00000WK5B,RHB Asian Income SGD,Blended - Balanced
+8,F0000019SS,RHB Big Cap China Enterprise,Equity - Greater China
+9,F000000AOF,RHB Bond,Bonds - Malaysia
+10,F000000FO2,RHB Capital,Equity - Malaysia Mid/Small-cap
+11,F0000021LB,RHB Cash Management 1,Money Market - Malaysia
+12,F0000025HR,RHB Cash Management 2,Money Market - Malaysia
+13,F000016TRK,RHB China A AUD Hdg,Equity - Greater China
+14,F000016TRL,RHB China A GBP Hdg,Equity - Greater China
+15,F000016TRI,RHB China A MYR Hdg,Equity - Greater China
+16,F000016TRJ,RHB China A SGD Hdg,Equity - Greater China
+17,F000016TRH,RHB China A USD,Equity - Greater China
+18,F000013N6S,RHB China Bond AUD Hdg,Bonds - Other
+19,F000014FTU,RHB China Bond GBP Hdg,Bonds - Other
+20,F000013N6T,RHB China Bond MYR,Bonds - Other
+21,F000013N6U,RHB China Bond MYR Hdg,Bonds - Other
+22,F000013N6V,RHB China Bond RMB,Bonds - Other
+23,F000014FTV,RHB China Bond SGD Hdg,Bonds - Other
+24,F000013N6W,RHB China Bond USD Hdg,Bonds - Other
+25,F000016ALS,RHB China High Yield AUD Hdg,Bonds - Other
+26,F000016ALU,RHB China High Yield GBP Hdg,Bonds - Other
+27,F000016ALX,RHB China High Yield MYR Hdg,Bonds - Other
+28,F000016ALZ,RHB China High Yield USD,Bonds - Other
+29,F00001DC4P,RHB Climate Change Solutions RM Hdg,Equity - Global
+30,F00001DC4O,RHB Climate Change Solutions USD,Equity - Global
+31,F00000PR16,RHB Dana Hazeem,Blended - Balanced (Shariah)
+32,F000011E15,RHB Dana Hikmah,Equity - Asia Pacific
+33,F000000ALP,RHB Dana Islam,Equity - Malaysia Mid/Small-cap (Shariah)
+34,F000000AOG,RHB Dividend Valued Equity,Equity - Asia Pacific ex-Japan
+35,F000013UU6,RHB Dynamic Bond Mandate,Bonds - Malaysia
+36,F000000AOH,RHB Dynamic,Equity - Malaysia Mid/Small-cap
+37,F00000Z6JC,RHB Emerging Income RM,Blended - Flexible
+38,F00000Z6JD,RHB Emerging Income USD,Blended - Flexible
+39,F00000O2HI,RHB Emerging Markets Bond,Bonds - Emerging Markets
+40,F000000ALQ,RHB Emerging Opportunity Unit Trust,Equity - Malaysia Mid/Small-cap
+41,F000002QLC,RHB Energy,Equity - Sector Focus
+42,F00000VP6O,RHB Entrepreneur,Equity - Asia Pacific
+43,F000000ALR,RHB Equity Trust,Equity - Asia Pacific ex-Japan
+44,F00001EITZ,RHB ESG Multi-Asset RM Hedged,Blended - Balanced
+45,F00001EIU0,RHB ESG Multi-Asset USD Hedged,Blended - Balanced
+46,F00000VQ2D,RHB European Select,Equity - Country Focus
+47,F000000ALK,RHB Global Allocation,Blended - Balanced
+48,F000011I7Z,RHB Global Artificial Intelligence MYR H,Equity - Sector Focus
+49,F00001JNSE,RHB Global Artificial Intelligence RM,Equity - Sector Focus
+0,F000011I7Y,RHB Global Artificial Intelligence USD,Equity - Sector Focus
+1,F00001KJK2,RHB Global Equity Premium Income B RM H,Equity - Global
+2,F00001KJK1,RHB Global Equity Premium Income B RM,Equity - Global
+3,F00001KJK0,RHB Global Equity Premium Income B USD,Equity - Global
+4,F000000ALS,RHB Global Equity Yield,Equity - Global
+5,F000011E1Q,RHB Global Extended Alpha MYR Hdg,Equity - Global
+6,F000011E1P,RHB Global Extended Alpha USD,Equity - Global
+7,F000016KBW,RHB Global Impact AUD Hedged,Equity - Global
+8,F000016KBU,RHB Global Impact RM Hedged,Equity - Global
+9,F000016KBV,RHB Global Impact SGD Hedged,Equity - Global
+10,F000016KBT,RHB Global Impact USD,Equity - Global
+11,F00000XD17,RHB Global Macro Opportunities RM,Other - Miscellaneous
+12,F00000XD18,RHB Global Macro Opportunities USD,Other - Miscellaneous
+13,F000014Q7A,RHB Global Shariah Dynamic Inc MYR Hdg,Blended - Flexible
+14,F000015SEM,RHB Global Shariah Equity Index MYR Hdg,Equity - Global
+15,F00001JNSF,RHB Global Shariah Equity Index RM,Equity - Global
+16,F000015SEO,RHB Global Shariah Equity Index USD,Equity - Global
+17,F00000ZP2N,RHB Global Sukuk RM A,Bonds - Global
+18,F00000ZP2O,RHB Global Sukuk RM B,Bonds - Global
+19,F00001106E,RHB Global Sukuk Fund - Series 2,Bonds - Global
+20,F00000ZP2R,RHB Global Sukuk SGD A,Bonds - Global
+21,F00000ZP2S,RHB Global Sukuk SGD B,Bonds - Global
+22,F00000ZP2P,RHB Global Sukuk USD A,Bonds - Global
+23,F00000ZP2Q,RHB Global Sukuk USD B,Bonds - Global
+24,F0000040IG,RHB Gold and General,Equity - Sector Focus
+25,F0000112PU,RHB Gold,Other - Miscellaneous
+26,F0000019SL,RHB Golden Dragon,Blended - Other
+27,F000000AOK,RHB Goldenlife 2030,Other - Target Date
+28,F000000AOL,RHB Goldenlife Today,Blended - Conservative
+29,F000000ALT,RHB Growth and Income Focus Trust,Blended - Balanced
+30,F000016AMK,RHB i-Global Sustainable Disruptors MYRH,Equity - Global
+31,F000016AMJ,RHB i-Global Sustainable Disruptors USD,Equity - Global
+32,F00001G0Y8,RHB i-Sustainable Future Technology RM H,Equity - Sector Focus
+33,F00001G0Y7,RHB i-Sustainable Future Technology USD,Equity - Sector Focus
+34,F00000NDH1,RHB iCash,Money Market - Malaysia (Shariah)
+35,F000000ALX,RHB Income 2,Bonds - Malaysia
+36,F00000Y9ST,RHB Islamic Asean Megatrend A1 USD,Equity - ASEAN
+37,F00000YFRZ,RHB Islamic Asean Megatrend B USD,Equity - ASEAN
+38,F00000Y9SR,RHB Islamic Asean Megatrend MYR,Equity - ASEAN
+39,F000000AOO,RHB Islamic Bond,Bonds - Malaysia (Shariah)
+40,F0000021LM,RHB Islamic Cash Management,Money Market - Malaysia (Shariah)
+41,F00000Y9SS,RHB Islamic Emerging Opportunity,Equity - Malaysia Mid/Small-cap (Shariah)
+42,F00000XPQE,RHB Islamic Global Developed Mkts MYR,Equity - Global
+43,F00000XPQG,RHB Islamic Global Developed Mkts SGD,Equity - Global
+44,F00000H17M,RHB Islamic Income Plus 1,Money Market - Malaysia (Shariah)
+45,F00000X6SJ,RHB Islamic Regional Balanced MYR,Blended - Balanced (Shariah)
+46,F00000X6SK,RHB Islamic Regional Balanced USD,Blended - Balanced (Shariah)
+47,F000000ALY,RHB Kidsave Trust,Blended - Balanced
+48,F000000AKJ,RHB KLCI Tracker,Equity - Malaysia Large-cap
+49,F00000W4ME,"RHB Leisure, Lifestyle & Luxury",Equity - Sector Focus
+0,F000000AOQ,RHB Malaysia DIVA,Equity - Malaysia Income
+1,F000001FQX,RHB Malaysia Dividend,Equity - Malaysia Income
+2,F000014BZN,RHB Malaysia Income,Bonds - Malaysia
+3,F000014WHI,RHB Asia Focused Conservative AUD Hdg,Blended - Conservative
+4,F000014WHJ,RHB Asia Focused Conservative EUR Hdg,Blended - Conservative
+5,F000014WHK,RHB Asia Focused Conservative GBP Hdg,Blended - Conservative
+6,F000014WHN,RHB Asia Focused Conservative MYR Hdg,Blended - Conservative
+7,F000014WHM,RHB Asia Focused Conservative RMB Hdg,Blended - Conservative
+8,F000014WHO,RHB Asia Focused Conservative SGD Hdg,Blended - Conservative
+9,F000014WHP,RHB Asia Focused Conservative USD,Blended - Conservative
+10,F000014WHQ,RHB Asia Focused Growth AUD Hdg,Blended - Aggressive
+11,F000014WHR,RHB Asia Focused Growth EUR Hdg,Blended - Aggressive
+12,F000014WHS,RHB Asia Focused Growth GBP Hdg,Blended - Aggressive
+13,F000014WHV,RHB Asia Focused Growth MYR Hdg,Blended - Aggressive
+14,F000014WHU,RHB Asia Focused Growth RMB Hdg,Blended - Aggressive
+15,F000014WHW,RHB Asia Focused Growth SGD Hdg,Blended - Aggressive
+16,F000014WHX,RHB Asia Focused Growth USD,Blended - Aggressive
+17,F000014WHY,RHB Asia Focused Income AUD Hdg,Blended - Balanced
+18,F000014WHZ,RHB Asia Focused Income EUR Hdg,Blended - Balanced
+19,F000014WI0,RHB Asia Focused Income GBP Hdg,Blended - Balanced
+20,F000014WI3,RHB Asia Focused Income MYR Hdg,Blended - Balanced
+21,F000014WI2,RHB Asia Focused Income RMB Hdg,Blended - Balanced
+22,F000014WI4,RHB Asia Focused Income SGD Hdg,Blended - Balanced
+23,F000014WI5,RHB Asia Focused Income USD,Blended - Balanced
+24,F000000ALL,RHB Money Market,Money Market - Malaysia
+25,F000000AOR,RHB Mudharabah,Blended - Balanced (Shariah)
+26,F00000PK8B,RHB Multi Asset Regular Income,Blended - Balanced
+27,F000016PC6,RHB Pacific Technology AUD H,Equity - Sector Focus
+28,F000016PC7,RHB Pacific Technology GBP H,Equity - Sector Focus
+29,F000016PC3,RHB Pacific Technology RM,Equity - Sector Focus
+30,F000016PC4,RHB Pacific Technology RM H,Equity - Sector Focus
+31,F000016PC8,RHB Pacific Technology RMB H,Equity - Sector Focus
+32,F000016PC5,RHB Pacific Technology SGD H,Equity - Sector Focus
+33,F000016PC2,RHB Pacific Technology USD,Equity - Sector Focus
+34,F000000ALZ,RHB Resources,Equity - Sector Focus
+35,F0000112N8,RHB Shariah Asia Ex-Japan Growth MYR,Equity - Asia Pacific ex-Japan (Shariah)
+36,F000011W8N,RHB Shariah China Focus RM,Equity - Greater China
+37,F000016OJ4,RHB Shariah China Focus USD,Equity - Greater China
+38,F000014L1L,RHB Shariah Income,Bonds - Malaysia (Shariah)
+39,F000000AM0,RHB Small Cap Opportunity Unit Trust,Equity - Malaysia Mid/Small-cap
+40,F000000AM1,RHB Smart Balanced,Blended - Balanced
+41,F000000AM2,RHB Smart Income,Blended - Conservative
+42,F000000AM3,RHB Smart Treasure,Equity - Malaysia Mid/Small-cap
+43,F00001EE3Y,RHB SRI Income Plus 2,Bonds - Malaysia
+44,F00001H9QB,RHB Sukuk Dana Haneef - Series 2,Bonds - Malaysia (Shariah)
+45,F00001JNSD,RHB Sukuk Dana Haneef - Series 3,Bonds - Malaysia (Shariah)
+46,F000016OIW,RHB Sustainable Global Thematic AUD H,Equity - Global
+47,F000016OIY,RHB Sustainable Global Thematic RM H,Equity - Global
+48,F000016OIX,RHB Sustainable Global Thematic SGD H,Equity - Global
+49,F000016OIZ,RHB Sustainable Global Thematic USD,Equity - Global
+0,F0000019SP,RHB Thematic Growth,Equity - Malaysia Large-cap
+1,F00000LIP9,RHB US Focus Equity,Equity - Country Focus
+2,F00001IDY4,RHB US Growth AUD,Equity - Country Focus
+3,F00001IDY1,RHB US Growth RM,Equity - Country Focus
+4,F00001IDY2,RHB US Growth RM Hdg,Equity - Country Focus
+5,F00001IDY3,RHB US Growth SGD,Equity - Country Focus
+6,F00001IDY0,RHB US Growth USD,Equity - Country Focus
+7,F00001CK3G,RHB US Value AUD Hdg,Equity - Country Focus
+8,F00001CK3H,RHB US Value MYR Hdg,Equity - Country Focus
+9,F00001JNSG,RHB US Value RM,Equity - Country Focus
+10,F00001CK3I,RHB US Value SGD Hdg,Equity - Country Focus
+11,F00001CK3J,RHB US Value USD,Equity - Country Focus
+12,F0000110DM,Robotech RM Hdg,Equity - Sector Focus
+13,F0000110DN,Robotech USD,Equity - Sector Focus
+14,F00001GGFF,Signature CIO Balanced AUD,Blended - Balanced
+15,F00001GGFG,Signature CIO Balanced GBP,Blended - Balanced
+16,F00001GGFC,Signature CIO Balanced MYR,Blended - Balanced
+17,F00001GGFE,Signature CIO Balanced SGD,Blended - Balanced
+18,F00001GGFD,Signature CIO Balanced USD,Blended - Balanced
+19,F00001GGFM,Signature CIO Conservative AUD,Blended - Balanced
+20,F00001GGFB,Signature CIO Conservative GBP,Blended - Balanced
+21,F00001GGF8,Signature CIO Conservative MYR,Blended - Balanced
+22,F00001GGFA,Signature CIO Conservative SGD,Blended - Balanced
+23,F00001GGF9,Signature CIO Conservative USD,Blended - Balanced
+24,F00001GGFK,Signature CIO Growth AUD,Blended - Aggressive
+25,F00001GGFL,Signature CIO Growth GBP,Blended - Aggressive
+26,F00001GGFH,Signature CIO Growth MYR,Blended - Aggressive
+27,F00001GGFJ,Signature CIO Growth SGD,Blended - Aggressive
+28,F00001GGFI,Signature CIO Growth USD,Blended - Aggressive
+29,F00001GGF6,Signature CIO Income AUD,Blended - Balanced
+30,F00001GGF7,Signature CIO Income GBP,Blended - Balanced
+31,F00001GGF3,Signature CIO Income MYR,Blended - Balanced
+32,F00001GGF5,Signature CIO Income SGD,Blended - Balanced
+33,F00001GGF4,Signature CIO Income USD,Blended - Balanced
+34,F000001ZUM,Singular Asia Flexible,Equity - Asia Pacific ex-Japan
+35,F000001ZUL,Singular Value,Equity - Malaysia Mid/Small-cap
+36,F00001CQYL,Sustainable Series Climate Tech RM,Equity - Sector Focus
+37,F00001CQYM,Sustainable Series Climate Tech RM Hedge,Equity - Sector Focus
+38,F00001CQYN,Sustainable Series Climate Tech USD,Equity - Sector Focus
+39,F00001G409,Sustainable Series Glbl Lwr Carb Eq RM,Equity - Global
+40,F00001G40A,Sustainable Series Glbl Lwr Carb Eq RMH,Equity - Global
+41,F00001G40B,Sustainable Series Glbl Lwr Carb Eq USD,Equity - Global
+42,F00001E3OR,Sustainable Series - Health RM,Equity - Sector Focus
+43,F00001E3OQ,Sustainable Series - Health RM Hedged,Equity - Sector Focus
+44,F00001E3OP,Sustainable Series - Health USD,Equity - Sector Focus
+45,F00001DO91,Sustainable Series - Nutrition RM,Equity - Sector Focus
+46,F00001DO90,Sustainable Series - Nutrition RM Hdg,Equity - Sector Focus
+47,F00001DO8Z,Sustainable Series - Nutrition USD,Equity - Sector Focus
+48,F00001ERFD,Sustainable Series Sust Otcms Glb Eq RM,Equity - Global
+49,F00001ERFE,Sustainable Series Sust Otcms Glb Eq RMH,Equity - Global
+0,F00001ERFF,Sustainable Series Sust Otcms Glb Eq USD,Equity - Global
+1,F000011E2C,TA All China Equity AUD Hdg,Equity - Greater China
+2,F00001DS2G,TA All China Equity EUR Hdg,Equity - Greater China
+3,F000011E2D,TA All China Equity MYR,Equity - Greater China
+4,F000011E2E,TA All China Equity MYR Hdg,Equity - Greater China
+5,F000014HJK,TA All China Equity RMB Hdg,Equity - Greater China
+6,F000011E2F,TA All China Equity SGD Hdg,Equity - Greater China
+7,F000011E2G,TA All China Equity USD,Equity - Greater China
+8,F00001EGVK,TA All Weather Income AUD Hedged,Blended - Aggressive
+9,F00001EGVO,TA All Weather Income EUR Hedged,Blended - Aggressive
+10,F00001EGVM,TA All Weather Income GBP Hedged,Blended - Aggressive
+11,F00001EGVJ,TA All Weather Income MYR,Blended - Aggressive
+12,F00001EGVP,TA All Weather Income MYR Hedged,Blended - Aggressive
+13,F00001EGVN,TA All Weather Income RMB Hedged,Blended - Aggressive
+14,F00001EGVL,TA All Weather Income SGD Hedged,Blended - Aggressive
+15,F00001EGVI,TA All Weather Income USD,Blended - Aggressive
+16,F00001GGT5,TA Alternative Absolute Return AUD H,Other - Miscellaneous
+17,F00001GGT4,TA Alternative Absolute Return MYR,Other - Miscellaneous
+18,F00001GGT7,TA Alternative Absolute Return MYR H,Other - Miscellaneous
+19,F00001GGT6,TA Alternative Absolute Return SGD H,Other - Miscellaneous
+20,F00001GGT3,TA Alternative Absolute Return USD,Other - Miscellaneous
+21,F0000155GK,TA Asia Absolute Alpha AUD Hdg,Equity - Asia Pacific
+22,F00001E0RB,TA Asia Absolute Alpha EUR Hdg,Equity - Asia Pacific
+23,F0000155GL,TA Asia Absolute Alpha GBP Hdg,Equity - Asia Pacific
+24,F0000155GM,TA Asia Absolute Alpha MYR,Equity - Asia Pacific
+25,F0000155GN,TA Asia Absolute Alpha MYR Hdg,Equity - Asia Pacific
+26,F0000155GO,TA Asia Absolute Alpha RMB Hdg,Equity - Asia Pacific
+27,F0000155GP,TA Asia Absolute Alpha SGD Hdg,Equity - Asia Pacific
+28,F0000155GQ,TA Asia Absolute Alpha USD,Equity - Asia Pacific
+29,F0000149HM,TA Asia High Conviction Mandate AUD,Equity - Asia Pacific ex-Japan
+30,F0000149HN,TA Asia High Conviction Mandate MYR Hdg,Equity - Asia Pacific ex-Japan
+31,F0000149HO,TA Asia High Conviction Mandate SGD,Equity - Asia Pacific ex-Japan
+32,F0000149HP,TA Asia High Conviction Mandate USD,Equity - Asia Pacific ex-Japan
+33,F000000APO,TA Asia Pacific Islamic Balanced,Blended - Balanced (Shariah)
+34,F00000V96A,TA Asia Pacific REITs Income Fund,Property - Indirect Asia
+35,F000014U4L,TA Asian Bond AUD Hdg,Bonds - Asia
+36,F000014U4N,TA Asian Bond GBP Hdg,Bonds - Asia
+37,F000014U4O,TA Asian Bond MYR Hdg,Bonds - Asia
+38,F000014U4M,TA Asian Bond SGD Hdg,Bonds - Asia
+39,F000014U4K,TA Asian Bond USD,Bonds - Asia
+40,F000001ZYD,TA Asian Dividend Income,Equity - Asia Pacific ex-Japan
+41,F000000APQ,TA Comet,Equity - Malaysia Large-cap
+42,F00000XGMC,TA Dana Afif,Bonds - Malaysia (Shariah)
+43,F00000214U,TA Dana Fokus,Equity - Malaysia Mid/Small-cap (Shariah)
+44,F00001DU8Q,TA Dana Income PLUS,Bonds - Malaysia (Shariah)
+45,F000000APR,TA Dana Optimix,Blended - Flexible
+46,F000013CVL,TA Dynamic Absolute Mandate,Blended - Flexible
+47,F000000NYE,TA European Equity,Equity - Country Focus
+48,F000014XZE,TA Flexible Asian Bond AUD Hdg,Bonds - Asia
+49,F00001DS2H,TA Flexible Asian Bond EUR Hdg,Bonds - Asia
+0,F000014XZF,TA Flexible Asian Bond GBP Hdg,Bonds - Asia
+1,F000014XZG,TA Flexible Asian Bond MYR,Bonds - Asia
+2,F000014XZH,TA Flexible Asian Bond MYR Hdg,Bonds - Asia
+3,F000014XZI,TA Flexible Asian Bond RMB Hdg,Bonds - Asia
+4,F000014XZJ,TA Flexible Asian Bond SGD Hdg,Bonds - Asia
+5,F000014XZK,TA Flexible Asian Bond USD,Bonds - Asia
+6,F000013TU7,TA Global Absolute Alpha A MYR,Equity - Global
+7,F000013TUA,TA Global Absolute Alpha A SGD,Equity - Global
+8,F000013TUB,TA Global Absolute Alpha A USD,Equity - Global
+9,F000013TU8,TA Global Absolute Alpha B MYR,Equity - Global
+10,F000013TU9,TA Global Absolute Alpha C MYR,Equity - Global
+11,F00001DMI3,TA Global Absolute Alpha-i AUD H,Equity - Global
+12,F00001DMI1,TA Global Absolute Alpha-i GBP H,Equity - Global
+13,F00001DMI4,TA Global Absolute Alpha-i MYR,Equity - Global
+14,F00001DMI0,TA Global Absolute Alpha-i MYR H,Equity - Global
+15,F00001DMI5,TA Global Absolute Alpha-i RMB H,Equity - Global
+16,F00001DMI2,TA Global Absolute Alpha-i SGD H,Equity - Global
+17,F00001DMI6,TA Global Absolute Alpha-i USD,Equity - Global
+18,F000016MJ8,TA Global Absolute ESG Alpha AUD H,Equity - Global
+19,F00001E0RC,TA Global Absolute ESG Alpha EUR H,Equity - Global
+20,F000016MJA,TA Global Absolute ESG Alpha GBP H,Equity - Global
+21,F000016MJ6,TA Global Absolute ESG Alpha MYR,Equity - Global
+22,F000016MJ7,TA Global Absolute ESG Alpha MYR H,Equity - Global
+23,F000016MJB,TA Global Absolute ESG Alpha RMB H,Equity - Global
+24,F000016MJ9,TA Global Absolute ESG Alpha SGD H,Equity - Global
+25,F000016MJ5,TA Global Absolute ESG Alpha USD,Equity - Global
+26,F000016LOF,TA Global Absolute Growth AUD,Equity - Global
+27,F000016LOH,TA Global Absolute Growth MYR,Equity - Global
+28,F000016LOI,TA Global Absolute Growth MYR Hedged,Equity - Global
+29,F000016LOG,TA Global Absolute Growth SGD,Equity - Global
+30,F000016LOE,TA Global Absolute Growth USD,Equity - Global
+31,F000016YFY,TA Global Focus Mandate AUD,Equity - Global
+32,F000016YFX,TA Global Focus Mandate MYR,Equity - Global
+33,F000016YG0,TA Global Focus Mandate MYR H,Equity - Global
+34,F000016YFZ,TA Global Focus Mandate SGD,Equity - Global
+35,F000016YFW,TA Global Focus Mandate USD,Equity - Global
+36,F00001F5LM,TA Global Select Equity AUD Inc Hdg,Equity - Global
+37,F00001F5LQ,TA Global Select Equity EUR Inc Hdg,Equity - Global
+38,F00001F5LO,TA Global Select Equity GBP Inc Hdg,Equity - Global
+39,F00001F5LL,TA Global Select Equity MYR Inc,Equity - Global
+40,F00001F5LR,TA Global Select Equity MYR Inc Hdg,Equity - Global
+41,F00001F5LP,TA Global Select Equity RMB Inc Hdg,Equity - Global
+42,F00001F5LN,TA Global Select Equity SGD Inc Hdg,Equity - Global
+43,F00001F5LK,TA Global Select Equity USD Inc,Equity - Global
+44,F000015AQX,TA Global Technology AUD Hdg,Equity - Sector Focus
+45,F000015AQY,TA Global Technology EUR Hdg,Equity - Sector Focus
+46,F00000MM9Q,TA Global Technology MYR,Equity - Sector Focus
+47,F000015AQZ,TA Global Technology MYR Hdg,Equity - Sector Focus
+48,F000015AR0,TA Global Technology RMB Hdg,Equity - Sector Focus
+49,F000015AR1,TA Global Technology SGD Hdg,Equity - Sector Focus
+0,F000015AR2,TA Global Technology USD,Equity - Sector Focus
+1,F000014GIC,TA Gold & Silver AUD Hdg,Equity - Sector Focus
+2,F00001DS2I,TA Gold & Silver EUR Hdg,Equity - Sector Focus
+3,F000014GID,TA Gold & Silver MYR,Equity - Sector Focus
+4,F000014GIE,TA Gold & Silver MYR Hdg,Equity - Sector Focus
+5,F000014GIF,TA Gold & Silver RMB Hdg,Equity - Sector Focus
+6,F000014GIG,TA Gold & Silver SGD Hdg,Equity - Sector Focus
+7,F000014GIH,TA Gold & Silver USD,Equity - Sector Focus
+8,F000000APT,TA Growth,Equity - Malaysia Large-cap
+9,F000000APV,TA Income,Blended - Balanced
+10,F00001EFT8,TA Inflation Multi-Asset AUD Hedged,Blended - Balanced
+11,F00001EFTC,TA Inflation Multi-Asset EUR Hedged,Blended - Balanced
+12,F00001EFTA,TA Inflation Multi-Asset GBP Hedged,Blended - Balanced
+13,F00001EFT7,TA Inflation Multi-Asset MYR,Blended - Balanced
+14,F00001EFTD,TA Inflation Multi-Asset MYR Hedged,Blended - Balanced
+15,F00001EFTB,TA Inflation Multi-Asset RMB Hedged,Blended - Balanced
+16,F00001EFT9,TA Inflation Multi-Asset SGD Hedged,Blended - Balanced
+17,F00001EFT6,TA Inflation Multi-Asset USD,Blended - Balanced
+18,F00001EU12,TA Islamic CashPLUS B,Money Market - Malaysia (Shariah)
+19,F000000APX,TA Islamic CashPLUS - Class A,Money Market - Malaysia (Shariah)
+20,F000000APW,TA Islamic,Equity - Malaysia Large-cap (Shariah)
+21,F00001HLY2,TA Islamic Private Investment,Blended - Flexible
+22,F000000APY,TA Small Cap,Equity - Malaysia Mid/Small-cap
+23,F000000APZ,TA South East Asia Equity,Equity - ASEAN
+24,F00001DI1K,TA Sustainable Water & Waste AUD Hdg,Equity - Sector Focus
+25,F00001DI1M,TA Sustainable Water & Waste GBP Hdg,Equity - Sector Focus
+26,F00001DI1J,TA Sustainable Water & Waste MYR,Equity - Sector Focus
+27,F00001DI1N,TA Sustainable Water & Waste MYR Hdg,Equity - Sector Focus
+28,F00001DI1O,TA Sustainable Water & Waste RMB Hdg,Equity - Sector Focus
+29,F00001DI1L,TA Sustainable Water & Waste SGD Hdg,Equity - Sector Focus
+30,F00001DI1I,TA Sustainable Water & Waste USD,Equity - Sector Focus
+31,F00001EYGU,TA Total Return Income A AUD Acc Hedged,Blended - Flexible
+32,F00001EYGR,TA Total Return Income A MYR Acc,Blended - Flexible
+33,F00001EYGS,TA Total Return Income A MYR Acc Hedged,Blended - Flexible
+34,F00001EYGT,TA Total Return Income A SGD Acc Hedged,Blended - Flexible
+35,F00001EYGQ,TA Total Return Income A USD Acc,Blended - Flexible
+36,F00001EYGZ,TA Total Return Income B AUD Inc Hedged,Blended - Flexible
+37,F00001EYGW,TA Total Return Income B MYR Inc,Blended - Flexible
+38,F00001EYGX,TA Total Return Income B MYR Inc Hedged,Blended - Flexible
+39,F00001EYGY,TA Total Return Income B SGD Inc Hedged,Blended - Flexible
+40,F00001EYGV,TA Total Return Income B USD Inc,Blended - Flexible
+41,F00001EYH4,TA Total Return Income C AUD Inc Hedged,Blended - Flexible
+42,F00001EYH1,TA Total Return Income C MYR Inc,Blended - Flexible
+43,F00001EYH2,TA Total Return Income C MYR Inc Hedged,Blended - Flexible
+44,F00001EYH3,TA Total Return Income C SGD Inc Hedged,Blended - Flexible
+45,F00001EYH0,TA Total Return Income C USD Inc,Blended - Flexible
+46,F00001IT9S,TA Total Return Income S MYR Inc,Blended - Flexible
+47,F00000WDZ0,Templeton Asian Smlr Coms A (MYR),Equity - Asia Pacific ex-Japan
+48,F00000WDZ1,Templeton Asian Smlr Coms A (USD),Equity - Asia Pacific ex-Japan
+49,F00001ESUM,Tradeview Sustainability Fund,Equity - Global
+0,F00000V33X,United ASEAN Discovery Fund,Equity - ASEAN
+1,F00001K5T1,United Bharat Fixed Income AUD H Acc,Other Bond
+2,F00001K5T2,United Bharat Fixed Income AUD H Inc,Other Bond
+3,F00001K5T3,United Bharat Fixed Income GBP H Acc,Other Bond
+4,F00001K5T4,United Bharat Fixed Income GBP H Inc,Other Bond
+5,F00001K5T9,United Bharat Fixed Income MYR Acc,Other Bond
+6,F00001K5T5,United Bharat Fixed Income MYR H Acc,Other Bond
+7,F00001K5T6,United Bharat Fixed Income MYR H Inc,Other Bond
+8,F00001K5TA,United Bharat Fixed Income MYR Inc,Other Bond
+9,F00001K5T7,United Bharat Fixed Income SGD H Acc,Other Bond
+10,F00001K5T8,United Bharat Fixed Income SGD H Inc,Other Bond
+11,F00001K5TB,United Bharat Fixed Income USD Acc,Other Bond
+12,F00001K5TC,United Bharat Fixed Income USD Inc,Other Bond
+13,F00000UDTN,United Bond & Equity Strategic Trust,Blended - Balanced
+14,F000013EPI,United ESG Series - Conservative Bd EURH,Bonds - Malaysia
+15,F000013EPJ,United ESG Series - Conservative Bd GBPH,Bonds - Malaysia
+16,F000013EPF,United ESG Series - Conservative Bd MYR,Bonds - Malaysia
+17,F000013EPK,United ESG Series - Conservative Bd RMBH,Bonds - Malaysia
+18,F000013EPG,United ESG Series - Conservative Bd SGDH,Bonds - Malaysia
+19,F000013EPH,United ESG Series - Conservative Bd USDH,Bonds - Malaysia
+20,F00000ZK33,United Global Durable Equity AUD Hedged,Equity - Global
+21,F00000ZK35,United Global Durable Equity GBP Hedged,Equity - Global
+22,F00000W2TN,United Global Durable Equity MYR,Equity - Global
+23,F00000W2TO,United Global Durable Equity MYR hedged,Equity - Global
+24,F00000ZK34,United Global Durable Equity SGD Hedged,Equity - Global
+25,F00000W2TP,United Global Durable Equity USD,Equity - Global
+26,F000010Y7P,United Global Emerging Markets Opp AUD H,Equity - Emerging Markets
+27,F000010Y7Q,United Global Emerging Markets Opp GBP H,Equity - Emerging Markets
+28,F000010Y7R,United Global Emerging Markets Opp MYR,Equity - Emerging Markets
+29,F000010Y7S,United Global Emerging Markets Opp MYR H,Equity - Emerging Markets
+30,F000010Y7T,United Global Emerging Markets Opp RMB H,Equity - Emerging Markets
+31,F000010Y7U,United Global Emerging Markets Opp SGD H,Equity - Emerging Markets
+32,F000010Y7V,United Global Emerging Markets Opp USD,Equity - Emerging Markets
+33,F000011EX3,United Global Healthcare A MYR Acc,Sector Equity Healthcare
+34,F000011EX4,United Global Healthcare A MYR Acc H,Other Equity
+35,F000011EX1,United Global Healthcare A SGD Acc H,Other Equity
+36,F000011EX2,United Global Healthcare A USD Acc,Sector Equity Healthcare
+37,F0HKG062UD,United Global Healthcare SGD Acc,Sector Equity Healthcare
+38,0P0000J2L9,United Global Healthcare SGD Acc USD,Sector Equity Healthcare
+39,F00000WAN8,United Global Healthcare USD Dist,Sector Equity Healthcare
+40,F00000ZNXI,United Global Income Focus AUD H,Blended - Balanced
+41,F00000ZNXJ,United Global Income Focus GBP H,Blended - Balanced
+42,F00000ZNXK,United Global Income Focus MYR,Blended - Balanced
+43,F00000ZNXL,United Global Income Focus MYR H,Blended - Balanced
+44,F00000ZNXM,United Global Income Focus SGD H,Blended - Balanced
+45,F00000ZNXN,United Global Income Focus USD,Blended - Balanced
+46,F00000XRU0,United Global Quality Equity AUD hedged,Equity - Global
+47,F00000XRU1,United Global Quality Equity MYR hedged,Equity - Global
+48,F00000XRU2,United Global Quality Equity SGD hedged,Equity - Global
+49,F00000XRU3,United Global Quality Equity USD,Equity - Global
+0,F00000ZMFV,United Global Technology Fund AUD H,Equity - Sector Focus
+1,F00000ZMFW,United Global Technology Fund GBP H,Equity - Sector Focus
+2,F00000ZMFX,United Global Technology Fund MYR,Equity - Sector Focus
+3,F00000ZMFY,United Global Technology Fund MYR H,Equity - Sector Focus
+4,F00000ZMFZ,United Global Technology Fund SGD H,Equity - Sector Focus
+5,F00000ZMG0,United Global Technology Fund USD,Equity - Sector Focus
+6,F00001JCJI,United Global Transformation AUD Hedged,Equity - Sector Focus
+7,F00001JCJJ,United Global Transformation GBP Hedged,Equity - Sector Focus
+8,F00001JCJN,United Global Transformation MYR,Equity - Sector Focus
+9,F00001JCJK,United Global Transformation MYR Hedged,Equity - Sector Focus
+10,F00001JCJL,United Global Transformation RMB Hedged,Equity - Sector Focus
+11,F00001JCJM,United Global Transformation SGD Hedged,Equity - Sector Focus
+12,F00001JCJO,United Global Transformation USD,Equity - Sector Focus
+13,F00000Y44P,United Golden Opportunity AUD hedged,Other - Miscellaneous
+14,F00000Y44Q,United Golden Opportunity GBP hedged,Other - Miscellaneous
+15,F00000Y44R,United Golden Opportunity MYR,Other - Miscellaneous
+16,F00000Y44S,United Golden Opportunity MYR hedged,Other - Miscellaneous
+17,F00000Y44T,United Golden Opportunity SGD hedged,Other - Miscellaneous
+18,F00000Y44U,United Golden Opportunity USD,Other - Miscellaneous
+19,F000016AHY,United Great Dragon MYR Hdg,Equity - Greater China
+20,F000016AI0,United Great Dragon RMB Hdg,Equity - Greater China
+21,F000016AHZ,United Great Dragon USD,Equity - Greater China
+22,F00001DDUJ,United Growth fund MY AUD Hedged,Equity - Global
+23,F00001DDUI,United Growth fund MY MYR Hedged,Equity - Global
+24,F00001DDUK,United Growth fund MY SGD Hedged,Equity - Global
+25,F00001DDUL,United Growth fund MYUSD,Equity - Global
+26,F000016ABH,United-i Asia ESG Income AUD,Blended - Flexible
+27,F000016ABI,United-i Asia ESG Income MYR,Blended - Flexible
+28,F000016ABJ,United-i Asia ESG Income USD,Blended - Flexible
+29,F000014VYH,United-i Conservative Income,Bonds - Malaysia (Shariah)
+30,F00001IIZ3,United-i ESG Series-Hg Qlty Sukuk M MYR,Bonds - Malaysia (Shariah)
+31,F0000144W7,United-i ESG Series–Hg Qlty Sukuk MYR,Bonds - Malaysia (Shariah)
+32,F00001IIZ2,United-i ESG Series-Hg Qlty Sukuk Q MYR,Bonds - Malaysia (Shariah)
+33,F0000144W8,United-i ESG Series–Hg Qlty Sukuk SGDHdg,Bonds - Malaysia (Shariah)
+34,F000013BU0,United-i Global Balanced AUD Hedged,Blended - Balanced (Shariah)
+35,F000013BU1,United-i Global Balanced GBP Hedged,Blended - Balanced (Shariah)
+36,F000013BTV,United-i Global Balanced MYR,Blended - Balanced (Shariah)
+37,F000013BTX,United-i Global Balanced MYR Hedged,Blended - Balanced (Shariah)
+38,F000013BU2,United-i Global Balanced RMB Hedged,Blended - Balanced (Shariah)
+39,F000013BTY,United-i Global Balanced SGD Hedged,Blended - Balanced (Shariah)
+40,F000013BTZ,United-i Global Balanced USD,Blended - Balanced (Shariah)
+41,F00001DENB,United Income fund MY AUD Hedged,Blended - Balanced
+42,F00001DENA,United Income fund MY MYR Hedged,Blended - Balanced
+43,F00001DENC,United Income fund MY SGD Hedged,Blended - Balanced
+44,F00001DEND,United Income fund MY USD,Blended - Balanced
+45,F00001CSE3,United Income Plus AUD Hedged,Blended - Conservative
+46,F00000VBQ4,United Income Plus MYR,Blended - Conservative
+47,F00001CSE4,United Income Plus RMB Hedged,Blended - Conservative
+48,F00001CSE2,United Income Plus SGD Hedged,Blended - Conservative
+49,F00001CSE1,United Income Plus USD Hedged,Blended - Conservative
+0,F00001GGAL,United Islamic Cash Management B,Money Market - Malaysia (Shariah)
+1,F00001D7W4,United Islamic Cash Management C,Money Market - Malaysia (Shariah)
+2,F00000ZP2M,United Islamic Cash Management R,Money Market - Malaysia (Shariah)
+3,F00000WX4W,United Japan Discovery MYR,Equity - Country Focus
+4,F00000WX4X,United Japan Discovery MYR hedged,Equity - Country Focus
+5,F000013SW8,United Malaysia A,Blended - Balanced
+6,F000013SW9,United Malaysia B,Blended - Balanced
+7,F00001D7W5,United Money Market C,Money Market - Malaysia
+8,F00000VJS3,United Money Market R,Money Market - Malaysia
+9,F00001CWJG,United Sustainable Series Glbl Crdt AUDH,Bonds - Global Hedged
+10,F00001CWJH,United Sustainable Series Glbl Crdt GBPH,Bonds - Global Hedged
+11,F00001CWJI,United Sustainable Series Glbl Crdt MYRH,Bonds - Global Hedged
+12,F00001CWJJ,United Sustainable Series Glbl Crdt RMBH,Bonds - Global Hedged
+13,F00001CWJK,United Sustainable Series Glbl Crdt SGDH,Bonds - Global Hedged
+14,F00001CWJL,United Sustainable Series Glbl Crdt USD,Bonds - Global Hedged
+15,F000010YT3,United USD Cash USD,Money Market - Malaysia
+16,F00001FWJE,United Vietnam Equities AUD Hedged,Equity - Country Focus
+17,F00001FWJF,United Vietnam Equities GBP Hedged,Equity - Country Focus
+18,F00001FWJG,United Vietnam Equities MYR Hedged,Equity - Country Focus
+19,F00001FWJH,United Vietnam Equities RMB Hedged,Equity - Country Focus
+20,F00001FWJI,United Vietnam Equities SGD Hedged,Equity - Country Focus
+21,F00001FWJJ,United Vietnam Equities USD,Equity - Country Focus
+22,F00000TW8V,US-Canada Income and Growth,Blended - Other
+23,F0000160FM,Vantage Performance Fund,Canadian Focused Equity
