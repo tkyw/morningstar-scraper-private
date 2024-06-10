@@ -108,11 +108,11 @@ if __name__ == "__main__":
         scraped_fund = pd.DataFrame()  ## create a file to store all funds scraped
     scraped_fund_names = scraped_fund.columns
     authentication = authentication_scraper() ## scrape the bearer token to bypass the authentication validator
-    # with concurrent.futures.ThreadPoolExecutor(5) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
-    for ticker in list(df.keys())[:20]:
-        if  (df[ticker] not in scraped_fund_names): ## only send request to the fund that has not in the scraped fund's list and error data list
-            # executor.submit(clean_data, ticker)
-            clean_data(ticker)
+    with concurrent.futures.ThreadPoolExecutor(5) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
+        for ticker in list(df.keys())[:20]:
+            if  (df[ticker] not in scraped_fund_names): ## only send request to the fund that has not in the scraped fund's list and error data list
+                executor.submit(clean_data, ticker)
+                # clean_data(ticker)
     # fund_df = pd.concat([fund_df, scraped_fund], axis=1)  ## merge the previously scraped fund and new scraped funds
     fund_df.T.to_clipboard(excel=True)
     fund_df.T.to_csv(destination) ## ultimately, store the funds nav into a file caled output.csv, consider changing this based on user preferen
