@@ -125,8 +125,12 @@ if __name__ == "__main__":
         scraped_fund = pd.read_csv(destination, index_col=[0], encoding="ISO-8859-1", parse_dates=True)
     else:
         scraped_fund = pd.DataFrame()  ## create a file to store all funds scraped
-    with open("error.txt") as rf:
-        error_data = [item.strip() for item in rf.readlines()]
+    try:
+        with open("error.txt") as rf:
+            error_data = [item.strip() for item in rf.readlines()]
+    except:
+        with open("error.txt", mode='w') as wf:
+            pass
     scraped_fund_names = scraped_fund.columns
     authentication = authentication_scraper() ## scrape the bearer token to bypass the authentication validator
     with concurrent.futures.ThreadPoolExecutor(2) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
