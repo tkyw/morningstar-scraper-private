@@ -130,7 +130,7 @@ if __name__ == "__main__":
             error_data = [item.strip() for item in rf.readlines()]
     except:
         with open("error.txt", mode='w') as wf:
-            pass
+            error_data = []
     scraped_fund_names = scraped_fund.columns
     authentication = authentication_scraper() ## scrape the bearer token to bypass the authentication validator
     with concurrent.futures.ThreadPoolExecutor(2) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
