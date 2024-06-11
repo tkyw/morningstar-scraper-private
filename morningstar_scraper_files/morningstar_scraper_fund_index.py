@@ -135,9 +135,10 @@ if __name__ == "__main__":
     scraped_fund_names = scraped_fund.columns
     authentication = authentication_scraper() ## scrape the bearer token to bypass the authentication validator
     with concurrent.futures.ThreadPoolExecutor(2) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
-        for ticker in list(df.keys())[:]:
+        for ticker in list(df.keys())[:1]:
             if  (df[ticker] not in scraped_fund_names) and (df[ticker] not in error_data): ## only send request to the fund that has not in the scraped fund's list and error data list
-                executor.submit(clean_data, ticker)
+                executor.submit(clean_data, "F00000XPQE")
+
     df_metrics = compute_financial_metrics(fund_df).T
     df_metrics = pd.concat([df_metrics, scraped_fund], axis=1)  ## merge the previously scraped fund and new scraped funds
     df_metrics.to_clipboard(excel=True)
