@@ -11,6 +11,7 @@ import concurrent.futures
 import os.path
 
 
+
 class Financial_metrics_calculation:
 
     YTD_RISK_FREE_RATE =0.0067

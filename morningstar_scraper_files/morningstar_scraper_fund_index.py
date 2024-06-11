@@ -9,6 +9,7 @@ import os.path
 import sys
 from time import sleep
 from playwright.sync_api import sync_playwright
+from metrics_calculation import compute_financial_metrics
 
 def track_exposure_links(response):
     url = response.url
@@ -133,14 +134,12 @@ if __name__ == "__main__":
             error_data = []
     scraped_fund_names = scraped_fund.columns
     authentication = authentication_scraper() ## scrape the bearer token to bypass the authentication validator
-    # with concurrent.futures.ThreadPoolExecutor(2) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
-    for ticker in list(df.keys())[:1]:
-        if  (df[ticker] not in scraped_fund_names) and (df[ticker] not in error_data): ## only send request to the fund that has not in the scraped fund's list and error data list
-            print(df[ticker] not in scraped_fund_names)
-            print(clean_data("F00000XPQE"))
-                # executor.submit(clean_data, ticker)
+    with concurrent.futures.ThreadPoolExecutor(2) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
+        for ticker in list(df.keys())[:10]:
+            if  (df[ticker] not in scraped_fund_names) and (df[ticker] not in error_data): ## only send request to the fund that has not in the scraped fund's list and error data list
+                executor.submit(clean_data, ticker)
+    df_metrics = compute_financial_metrics(fund_df).T
+    df_metrics = pd.concat([df_metrics, scraped_fund], axis=1)  ## merge the previously scraped fund and new scraped funds
+    df_metrics.to_clipboard(excel=True)
 
-    fund_df = pd.concat([fund_df, scraped_fund], axis=1)  ## merge the previously scraped fund and new scraped funds
-    fund_df.to_clipboard(excel=True)
-
-    fund_df.to_csv(destination)
+    df_metrics.to_csv(destination)

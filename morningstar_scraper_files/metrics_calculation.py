@@ -94,6 +94,7 @@ class Financial_metrics:
     return m2_alpha
 
 def compute_financial_metrics(df):
+    df = df.resample("M").last() ## remove the last row
     periods = [12, 36, 60]
     years = df.index.year.unique()
     start_dates = [years[-1], years[-3], years[-5]]
@@ -101,22 +102,25 @@ def compute_financial_metrics(df):
     metrics = ["Return", "Downside Risk", "Information Ratio", "M2 Alpha"]
     for start_date, period in zip(start_dates, periods):
         periodic_year_financial_metrics = Financial_metrics(df, risk_free_rate=0.027, periods=period)
-        periodic_year_return = periodic_year_financial_metrics.compute_return().loc[f"{start_date}":].mean()
-        periodic_year_downside_risk = periodic_year_financial_metrics.compute_downside_risk().loc[f"{start_date}":].mean()
+        periodic_year_return = periodic_year_financial_metrics.compute_return().loc[f"{start_date}":].mean().loc[::2]
+        periodic_year_downside_risk = periodic_year_financial_metrics.compute_downside_risk().loc[f"{start_date}":].mean().loc[::2]
         periodic_year_information_ratio = periodic_year_financial_metrics.compute_infortmation_ratio().loc[f"{start_date}":].mean()
         periodic_year_m2_alpha = periodic_year_financial_metrics.compute_m2_alpha().loc[f"{start_date}":].mean()
+        print(periodic_year_return)
+        print(periodic_year_downside_risk)
+        print(periodic_year_m2_alpha)
+        print(periodic_year_information_ratio)
         df_metrics[[f"{period // 12 }Y {metric}" for metric in metrics]] = pd.concat([periodic_year_return, periodic_year_downside_risk, periodic_year_information_ratio, periodic_year_m2_alpha], axis=1)
 
     periodic_year_financial_metrics = Financial_metrics(df, risk_free_rate=0.027)
     periodic_year_max_drawdown = periodic_year_financial_metrics.compute_max_drawdown()
-    df_metrics["Max Drawdown"] = periodic_year_max_drawdown
+    df_metrics["Max Drawdown"] = periodic_year_max_drawdown.loc[::2]
     return df_metrics
 
 
 if __name__ == "__main__":
     ## Load Dataset
     df = pd.read_csv('output.csv', index_col=0, parse_dates=True).astype(float)
-    df = df.resample("M").last() ## remove the last row
     ## Compute financial metrics
     metrics = compute_financial_metrics(df)
     metrics.to_excel(r'metrics.xlsx') ## export to csv
