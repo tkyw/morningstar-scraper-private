@@ -121,9 +121,9 @@ if __name__ == "__main__":
     df = temp_df.set_index("SecId")["Name"].to_dict()
     category_name = temp_df.set_index("SecId")["CategoryName"].to_dict()
     fund_df = pd.DataFrame() ## a dataframe which have the function of fetching funds' details.
-    destination = "output.csv"
+    destination = "new_metrics.csv"
     if os.path.exists(destination):
-        scraped_fund = pd.read_csv(destination, index_col=[0], encoding="ISO-8859-1", parse_dates=True)
+        scraped_fund = pd.read_csv(destination, encoding="utf-8", index_col=[0], parse_dates=True)
     else:
         scraped_fund = pd.DataFrame()  ## create a file to store all funds scraped
     try:
@@ -134,8 +134,8 @@ if __name__ == "__main__":
             error_data = []
     scraped_fund_names = scraped_fund.columns
     authentication = authentication_scraper() ## scrape the bearer token to bypass the authentication validator
-    with concurrent.futures.ThreadPoolExecutor(2) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
-        for ticker in list(df.keys())[:1]:
+    with concurrent.futures.ThreadPoolExecutor(4) as executor: ## use 5 threads to allow 5 multithreading scraping process to be executing concurrently.
+        for ticker in list(df.keys())[:10]:
             if  (df[ticker] not in scraped_fund_names) and (df[ticker] not in error_data): ## only send request to the fund that has not in the scraped fund's list and error data list
                 executor.submit(clean_data, ticker)
 

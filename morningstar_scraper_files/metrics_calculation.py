@@ -99,18 +99,15 @@ def compute_financial_metrics(df):
     years = df.index.year.unique()
     start_dates = [years[-1], years[-3], years[-5]]
     df_metrics = pd.DataFrame()
-    metrics = ["Return", "Downside Risk", "Information Ratio", "M2 Alpha"]
+    metrics = ["Return", "Downside Risk", "Sharpe Ratio", "Information Ratio", "M2 Alpha"]
     for start_date, period in zip(start_dates, periods):
         periodic_year_financial_metrics = Financial_metrics(df, risk_free_rate=0.027, periods=period)
         periodic_year_return = periodic_year_financial_metrics.compute_return().loc[f"{start_date}":].mean().loc[::2]
         periodic_year_downside_risk = periodic_year_financial_metrics.compute_downside_risk().loc[f"{start_date}":].mean().loc[::2]
+        periodic_year_sharpe = periodic_year_financial_metrics.compute_sharpe_ratio().loc[f"{start_date}":].mean().loc[::2]
         periodic_year_information_ratio = periodic_year_financial_metrics.compute_infortmation_ratio().loc[f"{start_date}":].mean()
         periodic_year_m2_alpha = periodic_year_financial_metrics.compute_m2_alpha().loc[f"{start_date}":].mean()
-        print(periodic_year_return)
-        print(periodic_year_downside_risk)
-        print(periodic_year_m2_alpha)
-        print(periodic_year_information_ratio)
-        df_metrics[[f"{period // 12 }Y {metric}" for metric in metrics]] = pd.concat([periodic_year_return, periodic_year_downside_risk, periodic_year_information_ratio, periodic_year_m2_alpha], axis=1)
+        df_metrics[[f"{period // 12 }Y {metric}" for metric in metrics]] = pd.concat([periodic_year_return, periodic_year_downside_risk, periodic_year_sharpe, periodic_year_information_ratio, periodic_year_m2_alpha], axis=1)
 
     periodic_year_financial_metrics = Financial_metrics(df, risk_free_rate=0.027)
     periodic_year_max_drawdown = periodic_year_financial_metrics.compute_max_drawdown()

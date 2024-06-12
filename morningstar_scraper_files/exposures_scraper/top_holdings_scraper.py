@@ -31,6 +31,7 @@ def combined_data(exposures, fund):
     except Exception as e:
         print(e)
         export_to_excel(scraped_fund, df, file, sheet_name)
+
 def scrape_funds(page, max_page, page_size, user_agent, scraped_fund, file, sheet_name):
     global df
     try:
